@@ -14,4 +14,4 @@ test: venv
 
 .PHONY: format
 format:
-	./venv/bin/black main.py manage.py project/ web/
+	./venv/bin/black manage.py digimontcg/ project/

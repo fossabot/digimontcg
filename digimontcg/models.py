@@ -2,14 +2,15 @@ from django.db import models
 
 
 class Set(models.Model):
+    number = models.TextField(unique=True)
     name = models.TextField()
-    code = models.TextField()
 
 
 class Card(models.Model):
     set = models.ForeignKey(Set, on_delete=models.CASCADE)
+    number = models.TextField(unique=True)
     name = models.TextField()
-    number = models.TextField()
     rarity = models.TextField()
     type = models.TextField()
     color = models.TextField()
+    images = models.JSONField(default=list)
