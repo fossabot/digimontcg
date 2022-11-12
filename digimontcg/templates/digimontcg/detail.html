@@ -1,4 +1,15 @@
-{{ card }}
-{% for image in card.images %}
-<img src="{{ image }}"></img>
-{% endfor %}
+{% extends 'digimontcg/base.html' %}
+
+{% block content %}
+
+{% if card.images %}
+<div class="grid">
+    {% for image in card.images %}
+    <div class="cell">
+        <img class="card-image" src="{{ image }}" />
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% endblock %}
