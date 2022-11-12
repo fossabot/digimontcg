@@ -2,6 +2,7 @@
 <html>
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
 <style>
     html, body {
@@ -11,52 +12,43 @@
         background-attachment: fixed;
         background-size: cover;
     }
-    .container {
-        max-width: 840px;
-        margin: 0 auto;
-    }
-    .search {
+    header {
+        width: 100%;
+        background-color: #fff;
         padding: 1rem;
+        box-shadow: 0 2px 2px rgb(128, 128, 128);
     }
-    .image-gallery {
+    header .container {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+        justify-content: flex-end;
     }
-    .image-gallery > li {
-        flex-basis: 200px;
+    .container {
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 0 1rem;
     }
-    .image-gallery li img {
-        object-fit: cover;
-        max-width: 100%%;
-        height: auto;
-        vertical-align: middle;
-        border-radius: 5px;
+    .responsive-image {
+        width: 800px;
     }
-
-    img:hover {
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-        transform: translate3d(0, 0, 0);
-        backface-visibility: hidden;
-        perspective: 1000px;
+    .cell {
+        margin: 1rem;
     }
-      
-    @keyframes shake {
-        10%, 90% {
-          transform: translate3d(-1px, 0, 0);
+    .cell img {
+        display: block;
+    }
+    @media screen and (min-width: 600px) {
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
         }
-        
-        20%, 80% {
-          transform: translate3d(2px, 0, 0);
+        .cell {
+            width: calc(50% - 2rem);
         }
-      
-        30%, 50%, 70% {
-          transform: translate3d(-4px, 0, 0);
-        }
-      
-        40%, 60% {
-          transform: translate3d(4px, 0, 0);
+    }
+    @media screen and (min-width: 1000px) {
+        .cell {
+            width: calc(25% - 2rem);
         }
     }
 </style>
@@ -64,19 +56,26 @@
 
 <body>
 
+<header>
+    <div class="container">
+        <form class="search" method="GET" action="/cards">
+            <input name="q"></input>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</header>
+
 <div class="container">
-    <form class="search" method="GET" action="/cards">
-        <input name="q"></input>
-        <button type="submit">Search</button>
-    </form>
     {% if cards %}
-    <ul class="image-gallery">
+    <div class="grid">
         {% for card in cards %}
-        <li><a href="{% url 'card_detail' card.number %}">
-            <img class="wobble" src="{{ card.images.0 }}" />
-        </a></li>
+        <div class="cell">
+            <a href="{% url 'card_detail' card.number %}">
+                <img class="responsive-image" src="{{ card.images.0 }}" />
+            </a>
+        </div>
         {% endfor %}
-    </ul>
+    </div>
     {% endif %}
 </div>
 
