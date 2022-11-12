@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+<style>
+    html, body {
+        background-color: #afafaf;
+    }
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .image-gallery > li {
+        flex-basis: 200px;
+    }
+    .image-gallery li img {
+        object-fit: cover;
+        max-width: 100%%;
+        height: auto;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+
+    .card:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+      
+    @keyframes shake {
+        10%, 90% {
+          transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+          transform: translate3d(2px, 0, 0);
+        }
+      
+        30%, 50%, 70% {
+          transform: translate3d(-4px, 0, 0);
+        }
+      
+        40%, 60% {
+          transform: translate3d(4px, 0, 0);
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <form method="GET" action="/cards">
+        <input name="q"></input>
+        <button type="submit">Search</button>
+    </form>
+    {% if cards %}
+    <ul class="image-gallery">
+        {% for card in cards %}
+        <li><a href="{% url 'card_detail' card.number %}">
+            <img class="wobble" src="{{ card.images.0 }}" />
+        </a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
+
+</body>
+</html>
