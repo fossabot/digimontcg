@@ -1,4 +1,6 @@
 -r requirements.txt
 black
+boto3
+pillow
 pytest
 requests
