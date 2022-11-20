@@ -9,6 +9,5 @@ router.register("sets", views.SetViewSet)
 
 urlpatterns = [
     path("api/v1/", include(router.urls)),
-    path("cards/", views.card_list, name="card_list"),
-    path("cards/<str:card_number>/", views.card_detail, name="card_detail"),
+    path("", views.index, name="index"),
 ]
