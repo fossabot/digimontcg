@@ -20,13 +20,18 @@ img {
     width: 100%;
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section header {
     color: white;
-    padding: 1rem;
+    flex: 1 0 400px;
 }
 
 section div {
     background-color: white;
     color: black;
-    padding: 1rem;
+    flex: 1 0 400px;
 }
