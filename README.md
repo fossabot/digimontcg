@@ -19,3 +19,10 @@ To start the web server:
 ```
 python3 manage.py runserver
 ```
+
+## Design
+The design for this project is heavily inspired by the [Pokémon TCG Developers](https://pokemontcg.io/) website.
+In my opinion, the work they have done sets a standard of quality that all open-source API projects should work toward.
+
+## Legal
+This project is not produced, endorsed, supported, or affiliated with Bandai Co., Ltd.
