@@ -1,0 +1,26 @@
+name: "digimontcg"
+arch: "amd64"
+platform: "linux"
+version: "v0.0.0"
+section: "default"
+priority: "extra"
+depends:
+- python3
+maintainer: "Andrew Dailey <andrew@shallowbrooksoftware.com>"
+description: |
+  They are the champions
+homepage: "https://github.com/theandrew168/digimontcg"
+license: "MIT"
+contents:
+- src: ./digimontcg.pyz
+  dst: /usr/local/digimontcg.pyz
+- src: ./script/digimontcg.service
+  dst: /lib/systemd/system/digimontcg.service
+  type: config
+- src: ./script/digimontcg.conf
+  dst: /etc/digimontcg.conf
+  type: config
+scripts:
+  postinstall: ./script/postinstall.sh
+  preremove: ./script/preremove.sh
+  postremove: ./script/postremove.sh
