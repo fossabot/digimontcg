@@ -2,7 +2,11 @@
 .SUFFIXES:
 
 .PHONY: default
-default: build
+default: dist
+
+venv:
+	python3 -m venv venv
+	./venv/bin/python3 -m pip install -r requirements-dev.txt
 
 .PHONY: build
 build: clean
@@ -11,15 +15,22 @@ build: clean
 	cp manage.py build/
 	cp -r project build/
 	cp -r digimontcg build/
-	shiv --compressed --extend-pythonpath --site-packages build -p "/usr/bin/env python3" -o digimontcg.pyz -e manage:main
+	shiv --compressed --site-packages build -p "/usr/bin/env python3" -o digimontcg.pyz -e manage:main
+
+.PHONY: static
+static: venv
+	./venv/bin/python3 manage.py collectstatic --no-input
+
+.PHONY: dist
+dist: build static
+	rm -fr dist/
+	mkdir dist/
+	cp *.pyz dist/
+	cp -r static dist/
 
 .PHONY: package
-package: build
+package: dist
 	nfpm package -p deb -t digimontcg.deb
-
-venv:
-	python3 -m venv venv
-	./venv/bin/python3 -m pip install -r requirements-dev.txt
 
 .PHONY: test
 test: venv
@@ -31,4 +42,4 @@ format: venv
 
 .PHONY: clean
 clean:
-	rm -fr *.deb *.pyz build/
+	rm -fr *.deb *.pyz build/ dist/ static/
