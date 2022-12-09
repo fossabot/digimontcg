@@ -10,7 +10,7 @@ Restart=on-failure
 RestartSec=5
 User=digimontcg
 Group=digimontcg
-ExecStart=/usr/local/bin/digimontcg.pyz
+ExecStart=/usr/local/bin/digimontcg.pyz prodserver
 
 [Install]
 WantedBy=multi-user.target
