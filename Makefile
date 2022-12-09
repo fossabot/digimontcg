@@ -23,7 +23,7 @@ venv:
 
 .PHONY: test
 test: venv
-	./venv/bin/pytest
+	./venv/bin/python3 manage.py test
 
 .PHONY: format
 format: venv
