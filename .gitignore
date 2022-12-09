@@ -1,3 +1,4 @@
+*.deb
 *.pyz
 
 # Byte-compiled / optimized / DLL files

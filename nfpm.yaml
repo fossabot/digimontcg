@@ -2,8 +2,6 @@ name: "digimontcg"
 arch: "amd64"
 platform: "linux"
 version: "v0.0.0"
-section: "default"
-priority: "extra"
 depends:
 - python3
 maintainer: "Andrew Dailey <andrew@shallowbrooksoftware.com>"
