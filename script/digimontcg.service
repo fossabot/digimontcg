@@ -10,8 +10,9 @@ Restart=on-failure
 RestartSec=5
 User=digimontcg
 Group=digimontcg
-ExecStartPre=/usr/local/bin/digimontcg.pyz migrate --no-input
-ExecStart=/usr/local/bin/digimontcg.pyz prodserver
+ExecStartPre=/opt/digimontcg/digimontcg.pyz collectstatic --no-input
+ExecStartPre=/opt/digimontcg/digimontcg.pyz migrate --no-input
+ExecStart=/opt/digimontcg/digimontcg.pyz prodserver
 
 [Install]
 WantedBy=multi-user.target

@@ -15,7 +15,7 @@ build: clean
 	cp manage.py build/
 	cp -r project build/
 	cp -r digimontcg build/
-	shiv --compressed --site-packages build -p "/usr/bin/env python3" -o digimontcg.pyz -e manage:main
+	shiv --compressed --site-packages build -p "/usr/bin/env python3" -e manage:main -o digimontcg.pyz
 
 .PHONY: static
 static: venv
