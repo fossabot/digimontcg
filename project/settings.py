@@ -1,20 +1,27 @@
+import os
 from pathlib import Path
+
+import tomli
+
+
+DEBUG = os.getenv('DEBUG', False)
+
+# Config file defaults to current directory
+CONF = os.getenv('CONF', 'digimontcg.conf')
+with open(CONF, 'rb') as f:
+    config = tomli.load(f)
+
+SECRET_KEY = config['secret_key']
+
+ALLOWED_HOSTS = [
+    "localhost",
+    "digimontcg.online",
+]
+USE_X_FORWARDED_HOST = True
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-_)y7@#g==54hi2gkxw7_7l5rk60v2qx)!(o(fws@3wt4o68t$!"
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ["localhost"]
-
 
 # Application definition
 
