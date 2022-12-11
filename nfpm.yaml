@@ -10,8 +10,8 @@ description: |
 homepage: "https://github.com/theandrew168/digimontcg"
 license: "MIT"
 contents:
-- src: ./dist
-  dst: /opt/digimontcg
+- src: ./digimontcg.pyz
+  dst: /usr/bin/digimontcg.pyz
 - src: ./script/digimontcg.service
   dst: /lib/systemd/system/digimontcg.service
   type: config

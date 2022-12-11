@@ -2,7 +2,7 @@
 .SUFFIXES:
 
 .PHONY: default
-default: dist
+default: build
 
 venv:
 	python3 -m venv venv
@@ -17,19 +17,8 @@ build: clean
 	cp -r digimontcg build/
 	shiv --compressed --site-packages build -p "/usr/bin/env python3" -e manage:main -o digimontcg.pyz
 
-.PHONY: static
-static: venv
-	./venv/bin/python3 manage.py collectstatic --no-input
-
-.PHONY: dist
-dist: build static
-	rm -fr dist/
-	mkdir dist/
-	cp *.pyz dist/
-	cp -r static dist/
-
 .PHONY: package
-package: dist
+package: build
 	nfpm package -p deb -t digimontcg.deb
 
 .PHONY: test
@@ -42,4 +31,4 @@ format: venv
 
 .PHONY: clean
 clean:
-	rm -fr *.deb *.pyz build/ dist/ static/
+	rm -fr *.deb *.pyz build/ static/
