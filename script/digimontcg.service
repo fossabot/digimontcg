@@ -8,11 +8,14 @@ Requires=network-online.target
 Type=simple
 Restart=on-failure
 RestartSec=5
+
 User=digimontcg
 Group=digimontcg
-ExecStartPre=/opt/digimontcg/digimontcg.pyz migrate --no-input
-ExecStartPre=/opt/digimontcg/digimontcg.pyz collectstatic --no-input
-ExecStart=/opt/digimontcg/digimontcg.pyz prodserver
+
+Environment=CONF=/etc/digimontcg.conf
+ExecStartPre=/usr/bin/digimontcg.pyz migrate --no-input
+ExecStartPre=/usr/bin/digimontcg.pyz collectstatic --no-input
+ExecStart=/usr/bin/digimontcg.pyz prodserver
 
 [Install]
 WantedBy=multi-user.target

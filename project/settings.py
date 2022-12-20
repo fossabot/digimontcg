@@ -5,18 +5,19 @@ import dj_database_url
 import tomli
 
 
-DEBUG = os.getenv('DEBUG', False)
+DEBUG = os.getenv("DEBUG", False)
 
 # Config file defaults to current directory
-CONF = os.getenv('CONF', 'digimontcg.conf')
-with open(CONF, 'rb') as f:
+CONF = os.getenv("CONF", "digimontcg.conf")
+with open(CONF, "rb") as f:
     config = tomli.load(f)
 
-SECRET_KEY = config['secret_key']
+SECRET_KEY = config["secret_key"]
 
 ALLOWED_HOSTS = [
     "localhost",
     "digimontcg.online",
+    "www.digimontcg.online",
 ]
 USE_X_FORWARDED_HOST = True
 
@@ -74,7 +75,7 @@ WSGI_APPLICATION = "project.wsgi.application"
 
 DATABASES = {
     "default": dj_database_url.parse(
-        config['postgresql_url'],
+        config["postgresql_url"],
         conn_max_age=600,
         conn_health_checks=True,
     ),

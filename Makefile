@@ -10,16 +10,30 @@ venv:
 
 .PHONY: build
 build: clean
-	python3 -m pip install -q -r requirements.txt --only-binary=:all: --platform manylinux2014_x86_64 --target build/
+	python3 -m pip install -q -r requirements.txt  \
+		--platform manylinux2014_x86_64  \
+		--only-binary=:all:  \
+		--target build/
 	rm -fr build/*.dist-info/
 	cp manage.py build/
 	cp -r project build/
 	cp -r digimontcg build/
-	shiv --compressed --site-packages build -p "/usr/bin/env python3" -e manage:main -o digimontcg.pyz
+	./venv/bin/shiv  \
+		--compressed  \
+		--site-packages build  \
+		--root /var/lib/digimontcg  \
+		-p "/usr/bin/env python3"  \
+		-e manage:main  \
+		-o digimontcg.pyz
 
 .PHONY: package
 package: build
 	nfpm package -p deb -t digimontcg.deb
+
+.PHONY: deploy
+deploy: package
+	scp digimontcg.deb derz@digimontcg.online:/tmp
+	ssh -t derz@digimontcg.online sudo dpkg -i /tmp/digimontcg.deb
 
 .PHONY: test
 test: venv
