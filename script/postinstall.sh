@@ -30,11 +30,8 @@ systemctl daemon-reload
 # Start or restart components
 components="digimontcg"
 for component in $components; do
-    if ! systemctl is-enabled $component >/dev/null
+    if systemctl is-enabled $component >/dev/null
     then
-        systemctl enable $component >/dev/null
-        systemctl start $component >/dev/null
-    else
         systemctl restart $component >/dev/null
     fi
 done
