@@ -1,6 +1,17 @@
 version: "3.0"
 
 services:
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: postgres
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+
   s3:
     image: minio/minio
     ports:

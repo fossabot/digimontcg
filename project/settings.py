@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 
+import dj_database_url
 import tomli
 
 
@@ -72,10 +73,11 @@ WSGI_APPLICATION = "project.wsgi.application"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": "db.sqlite3",
-    }
+    "default": dj_database_url.parse(
+        config['postgresql_url'],
+        conn_max_age=600,
+        conn_health_checks=True,
+    ),
 }
 
 

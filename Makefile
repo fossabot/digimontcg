@@ -10,7 +10,7 @@ venv:
 
 .PHONY: build
 build: clean
-	python3 -m pip install -q -r requirements.txt --only-binary=:all: --platform any --target build/
+	python3 -m pip install -q -r requirements.txt --only-binary=:all: --platform manylinux2014_x86_64 --target build/
 	rm -fr build/*.dist-info/
 	cp manage.py build/
 	cp -r project build/
