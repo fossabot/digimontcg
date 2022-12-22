@@ -24,18 +24,39 @@ img {
     width: 100%;
 }
 
+.side-by-side-images {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.side-by-side-images img {
+    max-width: 50%;
+    max-height: 400px;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
 }
 
-section header,
-section div {
+section > header,
+section > div {
     flex: 1 0 400px;
     padding: 6rem 3rem;
 }
 
-section header {
+section > header p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+section > div p {
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+section > header {
     color: white;
     font-weight: bold;
 }
@@ -51,23 +72,23 @@ section header {
     }
 }
 
-section header h1 {
+section > header h1 {
     font-size: 4rem;
     font-weight: 800;
     padding-bottom: 1rem;
 }
 
-section header h2 {
+section > header h2 {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-section header p {
+section > header p {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-section div {
+section > div {
     background-color: white;
     color: black;
 }
