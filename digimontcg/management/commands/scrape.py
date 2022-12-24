@@ -9,6 +9,92 @@ import requests
 
 from digimontcg import models
 
+# Alphamon: Ouryuken
+# http https://api.bandai-tcg-plus.com/api/user/card/36243
+#
+# Custom digivoluion cost / reqs
+# Multiple effects
+
+# Kimeramon
+# http https://api.bandai-tcg-plus.com/api/user/card/35813
+#
+# Custom digivolution cost / reqs
+# Multiple effects
+
+# Greymon (X Antibody)
+# http https://api.bandai-tcg-plus.com/api/user/card/36144
+#
+# Custom digivolution cost / reqs
+# Inheritable effect
+
+# MetalGreymon: Alterous Mode
+# http https://api.bandai-tcg-plus.com/api/user/card/36666
+#
+# Custom digivolution cost / reqs
+# Alternative name
+# Inheritable effect
+
+# All card types
+# --------------
+# Name
+# Set
+# Number
+# Rarity
+# Block
+# Type
+# Color
+# Image(s)
+# Traits
+#   Form
+#   Attribute(s)
+#   Type(s)
+
+# Digi-eggs
+# ---------
+# Level
+# Inherited Effect(s)
+
+# Options
+# -------
+# Cost
+# Effect(s)
+# Security Effect(s)
+# Inherited Effect(s)
+
+# Tamers
+# ------
+# Play Cost
+# Effect(s)
+# Security Effect(s)
+# Inherited Effect(s)
+
+# Digimon
+# -------
+# Level
+# Play Cost
+
+# What is an effect?
+#   List of trigger and effects? Once-per-turn boolean?
+#     [Trigger] -> Plain text effects w/ keywords (like <Security Attack +1>)
+# Are Security Effects a separate type or just a regular effect
+#   with a [Security] trigger? Hybrid tamers infer the latter.
+# Even if so, should they be called out in a separate field? So hybrid
+#   tamers would have both "security_effect" and "inherited_effect"? As
+#   well as their normal effects.
+# Even some options have both security and inherited (X Antibody).
+# Inherited Effects _are_ special.
+# How are static effects (effects without triggers) handled (X Antibody)?
+
+# Triggers
+# --------
+# Main
+# Security?
+# All Turns
+# When Divivolving
+# When Attacking
+# On Play
+# On Deletion
+
 
 BTCGP_SET_IDS = {
     "ST1": [28],
@@ -154,10 +240,12 @@ def norm_color(color):
             return None
 
 
+from pprint import pprint
 def norm_card(card):
     config = card["card_config"]
     config = {conf["config_name"]: conf["value"] for conf in config if "value" in conf}
 
+    pprint(card)
     set = num_to_set(card["card_number"])
     number = card["card_number"]
     name = card["card_name"]
@@ -183,12 +271,14 @@ class Command(BaseCommand):
         sets: list[str] = options["sets"]
         sets = [s.upper() for s in sets]
 
+        # gather list of sets to scrape, error if invalid set is found
         btcgp_set_ids = []
         for s in sets:
             if s not in BTCGP_SET_IDS:
                 raise CommandError(f"Invalid set ID: {s}")
             btcgp_set_ids.extend(BTCGP_SET_IDS[s])
 
+        # get or create each set within the database
         set_cache = {}
         for set in SETS:
             obj, created = models.Set.objects.get_or_create(
@@ -203,6 +293,7 @@ class Command(BaseCommand):
             else:
                 self.stdout.write(f"EXISTS {obj}")
 
+        # exist early if no specific sets were provided
         if not btcgp_set_ids:
             return
 
@@ -216,25 +307,31 @@ class Command(BaseCommand):
         # check for new cards / update card images
         new_card_ids = []
         for number, cards in found_cards.items():
+            # check if card is already known
             obj = known_cards.get(number)
             if not obj:
                 new_card_ids.append(cards[0]["id"])
                 continue
 
+            # check for new images / alt arts
             images = [c["image_url"] for c in cards]
             images = sorted(images, key=len)
             if not images:
                 continue
 
+            # update images / alt arts
             obj.images = images
             obj.save()
+
             self.stdout.write(f"EXISTS {obj}")
 
         # fetch details for new cards
         cards = get_all_details(new_card_ids)
         for card in cards:
+            # normalize card data
             card = norm_card(card)
 
+            # collect and sort images / alt arts
             images = [c["image_url"] for c in found_cards[card.number]]
             images = sorted(images, key=len)
 
