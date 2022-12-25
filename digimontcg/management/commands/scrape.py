@@ -70,12 +70,32 @@ from digimontcg import models
 
 # Digimon
 # -------
+# NameIncludes (Gaiomon)
+# NameTreatedAs (MetalGreymon: Alterous Mode)
 # Level
 # Play Cost
+# DP
+# Effect(s)
+# Security Effect(s)
+# Inherited Effect(s)
+# Digivolution Options
+#   Cost
+#   Color
+#   Level
+#   DNA (multiple)
+#   Custom (0 from specific mon, or from mon w/ specific source)
+#   Tamer (hybrids, or should this be a static effect?)
+
+# Effects
+# -------
+# List of fields:
+#   triggers? (OR logic)
+#   once? (boolean)
+#   text (w/ keywords)
 
 # What is an effect?
-#   List of trigger and effects? Once-per-turn boolean?
-#     [Trigger] -> Plain text effects w/ keywords (like <Security Attack +1>)
+#   List of trigger(s) (OR logic) and effect(s) + OPT bool (modifier / restriction?)?
+#     [Trigger][...] -> Plain text effects w/ keywords (like <Security Attack +1>)
 # Are Security Effects a separate type or just a regular effect
 #   with a [Security] trigger? Hybrid tamers infer the latter.
 # Even if so, should they be called out in a separate field? So hybrid
@@ -84,11 +104,13 @@ from digimontcg import models
 # Even some options have both security and inherited (X Antibody).
 # Inherited Effects _are_ special.
 # How are static effects (effects without triggers) handled (X Antibody)?
+#   Just an effect without a trigger in the JSON?
+#   Can all static effects be represented by other means? Alt names, etc?
 
 # Triggers
 # --------
 # Main
-# Security?
+# Security
 # All Turns
 # When Divivolving
 # When Attacking
