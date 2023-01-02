@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 from itertools import groupby
 import os
+from pprint import pprint
 
 from django.core.management.base import BaseCommand, CommandError
 import requests
@@ -75,6 +76,7 @@ from digimontcg import models
 # Level
 # Play Cost
 # DP
+# Abilities (Rush, Sec+, etc)
 # Effect(s)
 # Security Effect(s)
 # Inherited Effect(s)
@@ -86,7 +88,7 @@ from digimontcg import models
 #   Custom (0 from specific mon, or from mon w/ specific source)
 #   Tamer (hybrids, or should this be a static effect?)
 
-#DigivolveCost = namedtuple('DigivolveCost', 'cost from')
+#DigivolveCost = namedtuple('DigivolveCost', 'cost from_')
 #DigivolveFrom = namedtuple('DigivolveFrom', 'color level name sources tamer')
 
 # Alphamon: Ouryuken
@@ -203,7 +205,7 @@ SETS = [
 ]
 
 Effect = namedtuple("Effect", "trigger text once")
-DigivolveCost = namedtuple('DigivolveCost', 'cost from')
+DigivolveCost = namedtuple('DigivolveCost', 'cost from_')
 DigivolveFrom = namedtuple('DigivolveFrom', 'color level name sources tamer')
 
 # type returned from the scraper
@@ -227,6 +229,7 @@ Card = namedtuple("Card", [
     "cost",
     "play_cost",
     "level",
+    "abilities",
     "digivolution_requirements",
 ])
 
@@ -312,12 +315,10 @@ def norm_color(color):
             return None
 
 
-from pprint import pprint
 def norm_card(card):
     config = card["card_config"]
     config = {conf["config_name"]: conf["value"] for conf in config if "value" in conf}
 
-    pprint(card)
     set = num_to_set(card["card_number"])
     number = card["card_number"]
     name = card["card_name"]
@@ -330,7 +331,29 @@ def norm_card(card):
     if not rarity and set == "P":
         rarity = models.Card.Rarity.PROMO
 
-    return Card(set, number, name, rarity, type, color, images)
+    return Card(
+        name=name,
+        name_includes=[],
+        name_treated_as=[],
+        set=set,
+        number=number,
+        rarity=rarity,
+        type=type,
+        color=color,
+        images=images,
+        form=None,
+        attributes=[],
+        types=[],
+        effects=[],
+        inherited_effects=[],
+        security_effects=[],
+        dp=None,
+        cost=None,
+        play_cost=None,
+        level=None,
+        abilities=[],
+        digivolution_requirements=[],
+    )
 
 
 class Command(BaseCommand):
@@ -338,6 +361,7 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         parser.add_argument("sets", nargs="*")
+        parser.add_argument("--dry-run", dest="dry_run", action="store_true")
 
     def handle(self, *args, **options):
         sets: list[str] = options["sets"]
@@ -353,6 +377,10 @@ class Command(BaseCommand):
         # get or create each set within the database
         set_cache = {}
         for set in SETS:
+            # skip set creation if doing a dry run
+            if options["dry_run"]:
+                break
+
             obj, created = models.Set.objects.get_or_create(
                 number=set.number,
                 name=set.name,
@@ -379,9 +407,9 @@ class Command(BaseCommand):
         # check for new cards / update card images
         new_card_ids = []
         for number, cards in found_cards.items():
-            # check if card is already known
+            # check if card is already known (or doing a dry run)
             obj = known_cards.get(number)
-            if not obj:
+            if not obj or options["dry_run"]:
                 new_card_ids.append(cards[0]["id"])
                 continue
 
@@ -402,6 +430,11 @@ class Command(BaseCommand):
         for card in cards:
             # normalize card data
             card = norm_card(card)
+
+            # print and continue if doing a dry run
+            if options["dry_run"]:
+                pprint(card._asdict())
+                continue
 
             # collect and sort images / alt arts
             images = [c["image_url"] for c in found_cards[card.number]]
