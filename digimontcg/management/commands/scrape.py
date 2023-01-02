@@ -78,13 +78,35 @@ from digimontcg import models
 # Effect(s)
 # Security Effect(s)
 # Inherited Effect(s)
-# Digivolution Options
+# Digivolution Reqs
 #   Cost
 #   Color
 #   Level
 #   DNA (multiple)
 #   Custom (0 from specific mon, or from mon w/ specific source)
 #   Tamer (hybrids, or should this be a static effect?)
+
+#DigivolveCost = namedtuple('DigivolveCost', 'cost from')
+#DigivolveFrom = namedtuple('DigivolveFrom', 'color level name sources tamer')
+
+# Alphamon: Ouryuken
+# [
+#   {cost: 7, from: [{color: "black", level: 6}]},
+#   {cost: 3, from: [{name: "Alphamon", sources: ["Ouryumon"]}]},
+# ]
+
+# MetalKabuterimon
+# [
+#   {cost: 3, from: [{color: "green", level: 3}]},
+#   {cost: 1, from: [{color: "green", level: 4}]},
+#   {cost: 2, from: [{color: "green", tamer: true}]},
+# ]
+
+# Kimeramon
+# [
+#   {cost: 4, from: [{level: 4}]},
+#   {cost: 0, from: [{level: 4}, {level: 4}]},
+# ]
 
 # Effects
 # -------
@@ -118,6 +140,7 @@ from digimontcg import models
 # On Deletion
 
 
+# mapping of set codes to btcg+ IDs
 BTCGP_SET_IDS = {
     "ST1": [28],
     "ST2": [25],
@@ -148,6 +171,7 @@ BTCGP_SET_IDS = {
 }
 
 
+# type returned from the scraper
 Set = namedtuple("Set", "number name release_date")
 SETS = [
     Set(number="ST1", name="Gaia Red", release_date=date(2021, 1, 29)),
@@ -178,7 +202,33 @@ SETS = [
     Set(number="P", name="Promotion Card", release_date=None),
 ]
 
-Card = namedtuple("Card", "set number name rarity type color images")
+Effect = namedtuple("Effect", "trigger text once")
+DigivolveCost = namedtuple('DigivolveCost', 'cost from')
+DigivolveFrom = namedtuple('DigivolveFrom', 'color level name sources tamer')
+
+# type returned from the scraper
+Card = namedtuple("Card", [
+    "name",
+    "name_includes",
+    "name_treated_as",
+    "set",
+    "number",
+    "rarity",
+    "type",
+    "color",
+    "images",
+    "form",
+    "attributes",
+    "types",
+    "effects",
+    "inherited_effects",
+    "security_effects",
+    "dp",
+    "cost",
+    "play_cost",
+    "level",
+    "digivolution_requirements",
+])
 
 
 def get_card_list(*set_ids):
