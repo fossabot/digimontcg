@@ -1,3 +1,4 @@
+from django.contrib.postgres.fields import ArrayField
 from django.db import models
 
 
@@ -11,36 +12,27 @@ class Set(models.Model):
 
 
 class Card(models.Model):
-    class Rarity(models.IntegerChoices):
-        COMMON = 0
-        UNCOMMON = 1
-        RARE = 2
-        SUPER_RARE = 3
-        SECRET_RARE = 4
-        PROMO = 5
-
-    class Type(models.IntegerChoices):
-        DIGI_EGG = 0, "Digi-Egg"
-        DIGIMON = 1
-        TAMER = 2
-        OPTION = 3
-
-    class Color(models.IntegerChoices):
-        RED = 0
-        BLUE = 1
-        YELLOW = 2
-        GREEN = 3
-        BLACK = 4
-        PURPLE = 5
-        WHITE = 6
-
-    set = models.ForeignKey(Set, on_delete=models.CASCADE)
-    number = models.TextField(unique=True)
     name = models.TextField()
-    rarity = models.IntegerField(choices=Rarity.choices)
-    type = models.IntegerField(choices=Type.choices)
-    color = models.IntegerField(choices=Color.choices)
-    images = models.JSONField(default=list)
+    name_includes = ArrayField(models.TextField())
+    name_treated_as = ArrayField(models.TextField())
+    number = models.TextField(unique=True)
+    set = models.ForeignKey(Set, on_delete=models.CASCADE)
+    rarity = models.TextField()
+    type = models.TextField()
+    colors = ArrayField(models.TextField())
+    images = ArrayField(models.URLField())
+    form = models.TextField()
+    attributes = ArrayField(models.TextField())
+    types = ArrayField(models.TextField())
+    effects = ArrayField(models.TextField())
+    inherited_effects = ArrayField(models.TextField())
+    security_effects = ArrayField(models.TextField())
+    cost = models.TextField()
+    play_cost = models.TextField()
+    dp = models.TextField()
+    level = models.TextField()
+    abilities = ArrayField(models.TextField())
+    digivolution_requirements = ArrayField(models.TextField())
 
     def __str__(self):
         return "[{}] {}".format(self.number, self.name)

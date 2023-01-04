@@ -43,7 +43,7 @@ from digimontcg import models
 # Rarity
 # Block
 # Type
-# Color
+# Color(s)
 # Image(s)
 # Traits
 #   Form
@@ -213,11 +213,11 @@ Card = namedtuple("Card", [
     "name",
     "name_includes",
     "name_treated_as",
-    "set",
     "number",
+    "set",
     "rarity",
     "type",
-    "color",
+    "colors",
     "images",
     "form",
     "attributes",
@@ -225,9 +225,9 @@ Card = namedtuple("Card", [
     "effects",
     "inherited_effects",
     "security_effects",
-    "dp",
     "cost",
     "play_cost",
+    "dp",
     "level",
     "abilities",
     "digivolution_requirements",
@@ -259,100 +259,106 @@ def get_all_details(card_ids: list[int]):
             yield details
 
 
-def num_to_set(number):
-    return number.split("-")[0]
-
-
-def norm_rarity(rarity):
-    match rarity:
-        case "C":
-            return models.Card.Rarity.COMMON
-        case "U":
-            return models.Card.Rarity.UNCOMMON
-        case "R":
-            return models.Card.Rarity.RARE
-        case "SR":
-            return models.Card.Rarity.SUPER_RARE
-        case "SEC":
-            return models.Card.Rarity.SECRET_RARE
-        case "P":
-            return models.Card.Rarity.PROMO
-        case _:
-            return None
-
-
-def norm_type(type):
-    match type:
-        case "Digi-Egg":
-            return models.Card.Type.DIGI_EGG
-        case "Digimon":
-            return models.Card.Type.DIGIMON
-        case "Tamer":
-            return models.Card.Type.TAMER
-        case "Option":
-            return models.Card.Type.OPTION
-        case _:
-            return None
-
-
-def norm_color(color):
-    match color:
-        case "Red":
-            return models.Card.Color.RED
-        case "Blue":
-            return models.Card.Color.BLUE
-        case "Yellow":
-            return models.Card.Color.YELLOW
-        case "Green":
-            return models.Card.Color.GREEN
-        case "Black":
-            return models.Card.Color.BLACK
-        case "Purple":
-            return models.Card.Color.PURPLE
-        case "White":
-            return models.Card.Color.WHITE
-        case _:
-            return None
-
-
 def norm_card(card):
     config = card["card_config"]
     config = {conf["config_name"]: conf["value"] for conf in config if "value" in conf}
 
-    set = num_to_set(card["card_number"])
-    number = card["card_number"]
     name = card["card_name"]
-    rarity = norm_rarity(config.get("Rarity"))
-    type = norm_type(config.get("Card type"))
-    color = norm_color(config.get("Color"))
-    images = [card["image_url"]]
+    number = card["card_number"]
+    set_ = card["card_number"].split("-")[0]
 
     # fix missing rarity on a few promos
+    rarity = config.get("Rarity")
     if not rarity and set == "P":
         rarity = models.Card.Rarity.PROMO
 
+    type_ = config.get("Card type")
+    colors = [config.get("Color")]
+    images = [card["image_url"]]
+
+    # traits (form, attributes, types)
+    form = config.get('Form')
+    attributes = config.get('Attributes')
+    if attributes:
+        attributes = attributes.split('/')
+    types = config.get('Type')
+    if types:
+        types = types.split('/')
+
+    effects = card.get('card_text')
+    if effects:
+        effects = effects.replace('\r\n', '').split('<br>')
+
+    name_includes = []
+    name_treated_as = []
+
+    inherited_effects = config.get('Digivolve effect')
+    if inherited_effects:
+        inherited_effects = [inherited_effects]
+
+    security_effects = config.get('Security effect')
+    if security_effects:
+        security_effects = [security_effects]
+
+    cost = config.get('Cost')
+    play_cost = config.get('Play Cost')
+
+    dp = config.get('DP')
+
+    level = config.get('Lv.')
+    if level:
+        level = level.split('.')[-1]
+
+    # no good way to check these?
+    abilities = []
+
+    # parse basic digi reqs (no DNA or special)
+    digi_reqs = []
+    for i in range(1, 3):
+        key = 'Digivolve Cost ' + str(i)
+        if config.get(key):
+            digi_cost = config[key].split()[0]
+
+            # don't specify a color if all are valid (Kimeramon)
+            color = config.get(key + ' Evolution source Color')
+            if color == 'All Color':
+                color = None
+
+            level = config.get(key + ' Evolution source Lv.')
+            if level:
+                level = level.split('.')[-1]
+
+            req = {
+                'cost': digi_cost,
+                'from': [{
+                    'color': color,
+                    'level': level,
+                }],
+            }
+            digi_reqs.append(req)
+
     return Card(
         name=name,
-        name_includes=[],
-        name_treated_as=[],
-        set=set,
+        name_includes=name_includes,
+        name_treated_as=name_treated_as,
         number=number,
+        set=set_,
         rarity=rarity,
-        type=type,
-        color=color,
+        type=type_,
+        colors=colors,
         images=images,
-        form=None,
-        attributes=[],
-        types=[],
-        effects=[],
-        inherited_effects=[],
-        security_effects=[],
-        dp=None,
-        cost=None,
-        play_cost=None,
-        level=None,
-        abilities=[],
-        digivolution_requirements=[],
+        form=form,
+        attributes=attributes,
+        types=types,
+        effects=effects,
+        inherited_effects=inherited_effects,
+        security_effects=security_effects,
+        cost=cost,
+        play_cost=play_cost,
+        dp=dp,
+        level=level,
+        abilities=abilities,
+        digivolution_requirements=digi_reqs,
     )
 
 
@@ -433,7 +439,8 @@ class Command(BaseCommand):
 
             # print and continue if doing a dry run
             if options["dry_run"]:
-                pprint(card._asdict())
+                card = {k: v for k, v in card._asdict().items() if v}
+                pprint(card)
                 continue
 
             # collect and sort images / alt arts
