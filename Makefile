@@ -21,10 +21,6 @@ update:
 test:
 	go test -count=1 ./...
 
-.PHONY: race
-race:
-	go test -race -count=1 ./...
-
 .PHONY: cover
 cover:
 	go test -coverprofile=c.out -coverpkg=./... -count=1 ./...
@@ -40,4 +36,4 @@ format:
 
 .PHONY: clean
 clean:
-	rm -fr digimontcg dist/
+	rm -fr digimontcg c.out dist/

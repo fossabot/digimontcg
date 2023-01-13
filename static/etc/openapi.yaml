@@ -41,14 +41,13 @@ components:
     Set:
       type: object
       properties:
-        blog_id:
-          type: integer
-        feed_url:
+        number:
           type: string
-        site_url:
+        name:
           type: string
-        title:
+        releaseDate:
           type: string
+          format: date
     Card:
       type: object
       properties:
