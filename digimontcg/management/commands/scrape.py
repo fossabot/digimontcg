@@ -209,8 +209,35 @@ DigivolveCost = namedtuple("DigivolveCost", "cost from_")
 DNADigivolveCost = namedtuple("DNADigivolveCost", "cost from_")
 DigivolveFrom = namedtuple("DigivolveFrom", "color level name sources tamer")
 
-DigiXrosCost = namedtuple("DigiXrosCost", "cost different_names from_")
-DigiXrosFrom = namedtuple("DigiXrosFrom", "name trait_contains")
+DigiXrosCost = namedtuple("DigiXrosCost", "cost from_type from_")
+DigiXrosFromName = namedtuple("DigiXrosFrom", "name")
+DigiXrosFromCriteria = namedtuple("DigiXrosFrom", "count trait trait_contains different_names different_numbers")
+
+# Hi-VisionMonitamon
+# cost: -2
+# from_type: names
+# from: [Monitamon, Monitamon, Monitamon]
+
+# Shoutmon X4
+# cost: -2
+# from_type: names
+# from: [Shoutmon, Ballistamon, Dorulumon, Starmons]
+
+# Dorbickmon
+# cost: -2
+# from_type: criteria
+# from:
+#   count: 5
+#   trait_contains: [dragon, saur, ceratopsian]
+#   different_names: True
+
+# Shoutmon X7: Superior Mode
+# cost: -1
+# from_type: criteria
+# from:
+#   count: infinite
+#   trait: [Xros Hearts, Blue Flare]
+#   different_numbers: True
 
 # type returned from the scraper
 Card = namedtuple(
