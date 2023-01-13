@@ -4,36 +4,40 @@
 .PHONY: default
 default: build
 
-venv:
-	python3 -m venv venv
-	./venv/bin/python3 -m pip install -r requirements-dev.txt
-
 .PHONY: build
-build: clean
-	python3 -m pip install -q -r requirements.txt --platform manylinux2014_x86_64 --only-binary=:all: --target build/
-	rm -fr build/*.dist-info/
-	cp manage.py build/
-	cp -r project build/
-	cp -r digimontcg build/
-	./venv/bin/shiv --compressed --site-packages build --root /var/lib/digimontcg -p "/usr/bin/env python3" -e manage:main -o digimontcg.pyz
+build:
+	go build -o digimontcg main.go
 
-.PHONY: package
-package: build
-	nfpm package -p deb -t digimontcg.deb
+.PHONY: web
+web:
+	go run main.go
 
-.PHONY: deploy
-deploy: package
-	scp digimontcg.deb derz@digimontcg.online:/tmp
-	ssh -t derz@digimontcg.online sudo dpkg -i /tmp/digimontcg.deb
+.PHONY: update
+update:
+	go get -u ./...
+	go mod tidy
 
 .PHONY: test
-test: venv
-	./venv/bin/python3 manage.py test
+test:
+	go test -count=1 ./...
+
+.PHONY: race
+race:
+	go test -race -count=1 ./...
+
+.PHONY: cover
+cover:
+	go test -coverprofile=c.out -coverpkg=./... -count=1 ./...
+	go tool cover -html=c.out
+
+.PHONY: release
+release:
+	goreleaser release --snapshot --rm-dist
 
 .PHONY: format
-format: venv
-	./venv/bin/black manage.py digimontcg/ project/
+format:
+	gofmt -l -s -w .
 
 .PHONY: clean
 clean:
-	rm -fr *.deb *.pyz build/ static/
+	rm -fr digimontcg dist/

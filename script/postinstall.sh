@@ -15,19 +15,10 @@ if ! getent passwd digimontcg >/dev/null; then
         digimontcg
 fi
 
-# Update config file permissions (idempotent)
-chown root:digimontcg /etc/digimontcg.conf
-chmod 0640 /etc/digimontcg.conf
-
-# Create directory for extracted shiv binaries
-mkdir -p /var/lib/digimontcg
-chown digimontcg:digimontcg /var/lib/digimontcg
-chmod 0750 /var/lib/digimontcg
-
 # Reload systemd to pickup services
 systemctl daemon-reload
 
-# Start or restart components
+# Restart components (if enabled)
 components="digimontcg"
 for component in $components; do
     if systemctl is-enabled $component >/dev/null

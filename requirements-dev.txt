@@ -1,7 +1,0 @@
--r requirements.txt
-black
-minio
-pillow
-pytest
-requests
-shiv

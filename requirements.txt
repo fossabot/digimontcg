@@ -1,7 +1,0 @@
-dj-database-url
-django
-djangorestframework
-psycopg2-binary
-tomli
-waitress
-whitenoise

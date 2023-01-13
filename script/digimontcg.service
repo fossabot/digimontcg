@@ -5,17 +5,12 @@ After=network.target network-online.target
 Requires=network-online.target
 
 [Service]
-Type=simple
+Type=notify
 Restart=on-failure
 RestartSec=5
-
 User=digimontcg
 Group=digimontcg
-
-Environment=CONF=/etc/digimontcg.conf
-ExecStartPre=/usr/bin/digimontcg.pyz migrate --no-input
-ExecStartPre=/usr/bin/digimontcg.pyz collectstatic --no-input
-ExecStart=/usr/bin/digimontcg.pyz prodserver
+ExecStart=/usr/bin/digimontcg
 
 [Install]
 WantedBy=multi-user.target
