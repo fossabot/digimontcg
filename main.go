@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"embed"
+	_ "embed"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -17,6 +17,7 @@ import (
 	"github.com/coreos/go-systemd/daemon"
 
 	"github.com/theandrew168/digimontcg/model"
+	"github.com/theandrew168/digimontcg/web"
 )
 
 //go:embed data/sets.json
@@ -24,15 +25,6 @@ var setsJSON []byte
 
 //go:embed data/cards.json
 var cardsJSON []byte
-
-//go:embed template/index.html
-var indexHTML []byte
-
-//go:embed template/api.html
-var apiHTML []byte
-
-//go:embed static
-var staticFS embed.FS
 
 func main() {
 	os.Exit(run())
@@ -43,12 +35,21 @@ func run() int {
 	log.SetPrefix("")
 	log.SetFlags(0)
 
-	mux := http.NewServeMux()
-	mux.HandleFunc("/", handleIndex)
-	mux.HandleFunc("/api/v1/", handleAPI)
-	mux.HandleFunc("/api/v1/sets", handleSets)
-	mux.HandleFunc("/api/v1/cards", handleCards)
-	mux.Handle("/static/", http.FileServer(http.FS(staticFS)))
+	var sets []model.Set
+	err := json.Unmarshal(setsJSON, &sets)
+	if err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	var cards []model.Card
+	err = json.Unmarshal(cardsJSON, &cards)
+	if err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	app := web.NewApplication(sets, cards)
 
 	port := "5000"
 	if os.Getenv("PORT") != "" {
@@ -57,7 +58,7 @@ func run() int {
 	addr := fmt.Sprintf("127.0.0.1:%s", port)
 
 	srv := http.Server{
-		Handler: mux,
+		Handler: app.Handler(),
 
 		IdleTimeout:  time.Minute,
 		ReadTimeout:  10 * time.Second,
@@ -114,57 +115,4 @@ func run() int {
 
 	log.Println("stopped server")
 	return 0
-}
-
-func handleIndex(w http.ResponseWriter, r *http.Request) {
-	w.Write(indexHTML)
-}
-
-func handleAPI(w http.ResponseWriter, r *http.Request) {
-	w.Write(apiHTML)
-}
-
-func handleSets(w http.ResponseWriter, r *http.Request) {
-	var sets []model.Set
-	err := json.Unmarshal(setsJSON, &sets)
-	if err != nil {
-		log.Println(err)
-
-		code := 500
-		http.Error(w, http.StatusText(code), code)
-		return
-	}
-
-	err = writeJSON(w, 200, envelope{"sets": sets})
-	if err != nil {
-		log.Println(err)
-
-		code := 500
-		http.Error(w, http.StatusText(code), code)
-		return
-	}
-}
-
-func handleCards(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("cards"))
-}
-
-type envelope map[string]interface{}
-
-func writeJSON(w http.ResponseWriter, status int, data envelope) error {
-	// attempt to encode data into JSON
-	js, err := json.MarshalIndent(data, "", "\t")
-	if err != nil {
-		return err
-	}
-
-	// append a newline for nicer terminal output
-	js = append(js, '\n')
-
-	// set content type, set status, and write the response
-	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(status)
-	w.Write(js)
-
-	return nil
 }

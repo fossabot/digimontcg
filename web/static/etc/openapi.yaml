@@ -1,0 +1,68 @@
+openapi: 3.0.1
+info:
+  title: DigimonTCG REST API
+  description: They are the champions
+  version: 1.0.0
+servers:
+- url: /api/v1
+paths:
+  /sets:
+    get:
+      summary: Get available sets
+      responses:
+        "200":
+          description: JSON array of sets
+          content:
+            application/json:
+              schema: 
+                type: object
+                properties:
+                  sets:
+                    type: array
+                    items: 
+                      $ref: "#/components/schemas/Set"
+  /cards:
+    get:
+      summary: Get available cards
+      responses:
+        "200":
+          description: JSON array of cards
+          content:
+            application/json:
+              schema: 
+                type: object
+                properties:
+                  cards:
+                    type: array
+                    items: 
+                      $ref: "#/components/schemas/Card"
+components:
+  schemas:
+    Set:
+      type: object
+      properties:
+        number:
+          type: string
+        name:
+          type: string
+        releaseDate:
+          type: string
+          format: date
+    Card:
+      type: object
+      properties:
+        post_id:
+          type: integer
+        url:
+          type: string
+        title:
+          type: string
+        updated:
+          type: string
+          format: date-time
+        tags:
+          type: array
+          items:
+            type: string
+        set:
+          $ref: "#/components/schemas/Set"
