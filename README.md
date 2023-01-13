@@ -33,7 +33,7 @@ docker compose down
 ### Running
 To start the web server:
 ```
-python3 manage.py runserver
+DEBUG=1 python3 manage.py runserver
 ```
 
 ## Design

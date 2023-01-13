@@ -88,8 +88,8 @@ from digimontcg import models
 #   Custom (0 from specific mon, or from mon w/ specific source)
 #   Tamer (hybrids, or should this be a static effect?)
 
-#DigivolveCost = namedtuple('DigivolveCost', 'cost from_')
-#DigivolveFrom = namedtuple('DigivolveFrom', 'color level name sources tamer')
+# DigivolveCost = namedtuple('DigivolveCost', 'cost from_')
+# DigivolveFrom = namedtuple('DigivolveFrom', 'color level name sources tamer')
 
 # Alphamon: Ouryuken
 # [
@@ -205,33 +205,42 @@ SETS = [
 ]
 
 Effect = namedtuple("Effect", "trigger text once")
-DigivolveCost = namedtuple('DigivolveCost', 'cost from_')
-DigivolveFrom = namedtuple('DigivolveFrom', 'color level name sources tamer')
+DigivolveCost = namedtuple("DigivolveCost", "cost from_")
+DNADigivolveCost = namedtuple("DNADigivolveCost", "cost from_")
+DigivolveFrom = namedtuple("DigivolveFrom", "color level name sources tamer")
+
+DigiXrosCost = namedtuple("DigiXrosCost", "cost different_names from_")
+DigiXrosFrom = namedtuple("DigiXrosFrom", "name trait_contains")
 
 # type returned from the scraper
-Card = namedtuple("Card", [
-    "name",
-    "name_includes",
-    "name_treated_as",
-    "number",
-    "set",
-    "rarity",
-    "type",
-    "colors",
-    "images",
-    "form",
-    "attributes",
-    "types",
-    "effects",
-    "inherited_effects",
-    "security_effects",
-    "cost",
-    "play_cost",
-    "dp",
-    "level",
-    "abilities",
-    "digivolution_requirements",
-])
+Card = namedtuple(
+    "Card",
+    [
+        "name",
+        "name_includes",
+        "name_treated_as",
+        "number",
+        "set",
+        "rarity",
+        "type",
+        "colors",
+        "images",
+        "form",
+        "attributes",
+        "types",
+        "effects",
+        "inherited_effects",
+        "security_effects",
+        "cost",
+        "play_cost",
+        "dp",
+        "level",
+        "abilities",
+        "digivolution_requirements",
+        "dna_digivolution_requirements",
+        "digixros_requirements",
+    ],
+)
 
 
 def get_card_list(*set_ids):
@@ -265,6 +274,8 @@ def norm_card(card):
 
     name = card["card_name"]
     number = card["card_number"]
+    name_includes = []
+    name_treated_as = []
     set_ = card["card_number"].split("-")[0]
 
     # fix missing rarity on a few promos
@@ -277,37 +288,50 @@ def norm_card(card):
     images = [card["image_url"]]
 
     # traits (form, attributes, types)
-    form = config.get('Form')
-    attributes = config.get('Attributes')
+    form = config.get("Form")
+
+    attributes = config.get("Attributes") or []
     if attributes:
-        attributes = attributes.split('/')
-    types = config.get('Type')
+        attributes = attributes.split("/")
+
+    types = config.get("Type") or []
     if types:
-        types = types.split('/')
+        types = types.split("/")
 
-    effects = card.get('card_text')
+    effects = card.get("card_text") or []
     if effects:
-        effects = effects.replace('\r\n', '').split('<br>')
+        effects = effects.replace("\r\n", "").split("<br>")
 
-    name_includes = []
-    name_treated_as = []
-
-    inherited_effects = config.get('Digivolve effect')
+    inherited_effects = config.get("Digivolve effect") or []
     if inherited_effects:
         inherited_effects = [inherited_effects]
 
-    security_effects = config.get('Security effect')
+    security_effects = config.get("Security effect") or []
     if security_effects:
         security_effects = [security_effects]
 
-    cost = config.get('Cost')
-    play_cost = config.get('Play Cost')
+    cost = config.get("Cost")
+    if cost:
+        cost = int(cost)
 
-    dp = config.get('DP')
+    play_cost = config.get("Play Cost")
+    if play_cost == '-':
+        play_cost = None
+    elif play_cost:
+        play_cost = int(play_cost)
 
-    level = config.get('Lv.')
-    if level:
-        level = level.split('.')[-1]
+    dp = config.get("DP")
+    if dp:
+        dp = int(dp)
+    else:
+        dp = None
+
+    level = config.get("Lv.")
+    if level == '-':
+        level = None
+    elif level:
+        level = level.split(".")[-1]
+        level = int(level)
 
     # no good way to check these?
     abilities = []
@@ -315,25 +339,25 @@ def norm_card(card):
     # parse basic digi reqs (no DNA or special)
     digi_reqs = []
     for i in range(1, 3):
-        key = 'Digivolve Cost ' + str(i)
+        key = "Digivolve Cost " + str(i)
         if config.get(key):
             digi_cost = config[key].split()[0]
 
             # don't specify a color if all are valid (Kimeramon)
-            color = config.get(key + ' Evolution source Color')
-            if color == 'All Color':
+            color = config.get(key + " Evolution source Color")
+            if color == "All Color":
                 color = None
 
-            level = config.get(key + ' Evolution source Lv.')
+            level = config.get(key + " Evolution source Lv.")
             if level:
-                level = level.split('.')[-1]
+                level = level.split(".")[-1]
 
             req = {
-                'cost': digi_cost,
-                'from': [{
-                    'color': color,
-                    'level': level,
-                }],
+                "cost": digi_cost,
+                "from": {
+                    "color": color,
+                    "level": level,
+                },
             }
             digi_reqs.append(req)
 
@@ -359,6 +383,8 @@ def norm_card(card):
         level=level,
         abilities=abilities,
         digivolution_requirements=digi_reqs,
+        dna_digivolution_requirements=[],
+        digixros_requirements=[],
     )
 
 
@@ -447,18 +473,44 @@ class Command(BaseCommand):
             images = [c["image_url"] for c in found_cards[card.number]]
             images = sorted(images, key=len)
 
+            # lookup set and patch card with set ID
             set = set_cache[card.set]
-            obj = models.Card(
-                set=set,
-                number=card.number,
-                name=card.name,
-                rarity=card.rarity,
-                type=card.type,
-                color=card.color,
-                images=images,
-            )
+            card = card._asdict()
+            card['set'] = set
+
+            obj = models.Card(**card)
             try:
                 obj.save()
                 self.stdout.write(f"CREATE {obj}")
-            except:
+            except Exception as e:
+                print(e)
                 self.stdout.write(f"ERROR {card}")
+# # type returned from the scraper
+# Card = namedtuple(
+#     "Card",
+#     [
+#         "name",
+#         "name_includes",
+#         "name_treated_as",
+#         "number",
+#         "set",
+#         "rarity",
+#         "type",
+#         "colors",
+#         "images",
+#         "form",
+#         "attributes",
+#         "types",
+#         "effects",
+#         "inherited_effects",
+#         "security_effects",
+#         "cost",
+#         "play_cost",
+#         "dp",
+#         "level",
+#         "abilities",
+#         "digivolution_requirements",
+#         "dna_digivolution_requirements",
+#         "digixros_requirements",
+#     ],
+# )
