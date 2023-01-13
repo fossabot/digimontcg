@@ -24,9 +24,9 @@ class Card(models.Model):
     form = models.TextField(null=True)
     attributes = ArrayField(models.TextField())
     types = ArrayField(models.TextField())
-    effects = ArrayField(models.TextField())
-    inherited_effects = ArrayField(models.TextField())
-    security_effects = ArrayField(models.TextField())
+    effects = models.JSONField()
+    inherited_effects = models.JSONField()
+    security_effects = models.JSONField()
     cost = models.IntegerField(null=True)
     play_cost = models.IntegerField(null=True)
     dp = models.IntegerField(null=True)
@@ -38,3 +38,14 @@ class Card(models.Model):
 
     def __str__(self):
         return "[{}] {}".format(self.number, self.name)
+
+    @property
+    def traits(self):
+        traits = []
+        if self.form:
+            traits.append(self.form)
+        if self.attributes:
+            traits.extend(self.attributes)
+        if self.types:
+            traits.extend(self.types)
+        return traits
