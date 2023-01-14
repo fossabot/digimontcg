@@ -51,18 +51,137 @@ components:
     Card:
       type: object
       properties:
-        post_id:
-          type: integer
-        url:
+        set:
           type: string
-        title:
+        name:
           type: string
-        updated:
-          type: string
-          format: date-time
-        tags:
+        nameIncludes:
           type: array
           items:
             type: string
-        set:
-          $ref: "#/components/schemas/Set"
+        nameTreatedAs:
+          type: array
+          items:
+            type: string
+        number:
+          type: string
+        rarity:
+          type: string
+        type:
+          type: string
+        colors:
+          type: array
+          items:
+            type: string
+        images:
+          type: array
+          items:
+            type: string
+            format: uri
+        form:
+          type: string
+        attributes:
+          type: array
+          items:
+            type: string
+        types:
+          type: array
+          items:
+            type: string
+        effects:
+          type: array
+          items:
+            type: string
+        inheritedEffects:
+          type: array
+          items:
+            type: string
+        securityEffects:
+          type: array
+          items:
+            type: string
+        cost:
+          type: integer
+        playCost:
+          type: integer
+        dp:
+          type: integer
+        level:
+          type: integer
+        abilities:
+          type: array
+          items:
+            type: string
+        digivolutionRequirements:
+          type: array
+          items:
+            $ref: "#/components/schemas/DigivolveCost"
+        dnaDigivolutionRequirements:
+          type: array
+          items:
+            $ref: "#/components/schemas/DNADigivolveCost"
+        digiXrosRequirements:
+          type: array
+          items:
+            $ref: "#/components/schemas/DigiXrosCost"
+    DigivolveCost:
+      type: object
+      properties:
+        cost:
+          type: integer
+        from:
+          $ref: "#/components/schemas/DigivolveFrom"
+    DNADigivolveCost:
+      type: object
+      properties:
+        cost:
+          type: integer
+        from:
+          type: array
+          items:
+            $ref: "#/components/schemas/DigivolveFrom"
+    DigivolveFrom:
+      type: object
+      properties:
+        color:
+          type: string
+        level:
+          type: integer
+        name:
+          type: string
+        sources:
+          type: array
+          items:
+            type: string
+        tamer:
+          type: boolean
+    DigiXrosCost:
+      type: object
+      properties:
+        cost:
+          type: integer
+        fromNames:
+          type: array
+          items:
+            type: string
+        fromTraits:
+          type: array
+          items:
+            $ref: "#/components/schemas/DigiXrosFromTraits"
+    DigiXrosFromTraits:
+      type: object
+      properties:
+        count:
+          type: integer
+        traits:
+          type: array
+          items:
+            type: string
+        traitsContain:
+          type: array
+          items:
+            type: string
+        uniqueNames:
+          type: boolean
+        uniqueNumbers:
+          type: boolean
