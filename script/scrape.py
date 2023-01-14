@@ -21,8 +21,8 @@ BTCGP_SET_IDS = {
     'ST10': 226,
     'ST12': 245,
     'ST13': 246,
-    'V1.0': 35,
-    'V1.5': 36,
+    'Ver.1.0': 35,
+    'Ver.1.5': 36,
     'BT4': 31,
     'BT5': 23,
     'BT6': 27,
@@ -142,13 +142,19 @@ def norm_card(card):
     else:
         dp = None
 
+    # sorry bout this one...
     level = config.get('Lv.')
     if level == '-':
         level = None
     elif level:
         level = level.split('.')[-1]
-        level = int(level)
-        norm['level'] = level
+        if len(level) > 1:
+            level = level[-1]
+        if level == '-':
+            level = None
+        else:
+            level = int(level)
+            norm['level'] = level
 
     # TODO: how to scrape this?
 #    norm['abilities'] = []
@@ -192,8 +198,7 @@ def main():
     args = parser.parse_args()
 
     # ensure set is valid
-    set = args.set.upper()
-    set_id = BTCGP_SET_IDS.get(set)
+    set_id = BTCGP_SET_IDS.get(args.set)
     if not set_id:
         raise SystemExit(f'Invalid set ID: {set}')
 

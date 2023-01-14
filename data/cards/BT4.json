@@ -1,0 +1,3174 @@
+[
+    {
+        "name": "Sakuttomon",
+        "number": "BT4-001",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digi-Egg",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-001.png"
+        ],
+        "form": "In-Training",
+        "types": [
+            "Weapon"
+        ],
+        "effects": [
+            "[When Attacking][Once Per Turn] If this Digimon is level 7, gain 1 memory."
+        ],
+        "level": 2
+    },
+    {
+        "name": "Bukamon",
+        "number": "BT4-002",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digi-Egg",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-002.png"
+        ],
+        "form": "In-Training",
+        "types": [
+            "Lesser"
+        ],
+        "effects": [
+            "[When Attacking] Trash the bottom digivolution card of 1 of your opponent's level 4 or lower Digimon."
+        ],
+        "level": 2
+    },
+    {
+        "name": "Koromon",
+        "number": "BT4-003",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digi-Egg",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-003.png"
+        ],
+        "form": "In-Training",
+        "types": [
+            "Lesser"
+        ],
+        "effects": [
+            "[When Attacking][Once Per Turn] If you have 3 or fewer security cards, 1 of your opponent's Digimon gets -1000 DP for the turn."
+        ],
+        "level": 2
+    },
+    {
+        "name": "Budmon",
+        "number": "BT4-004",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digi-Egg",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-004.png"
+        ],
+        "form": "In-Training",
+        "types": [
+            "Vegetation"
+        ],
+        "effects": [
+            "[Your Turn] While this Digimon has ??Digi-Burst??, it gets +1000 DP."
+        ],
+        "level": 2
+    },
+    {
+        "name": "Missimon",
+        "number": "BT4-005",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digi-Egg",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-005.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-005_P1.png"
+        ],
+        "form": "In-Training",
+        "types": [
+            "Machine"
+        ],
+        "effects": [
+            "[Your Turn] While this Digimon has [D-Brigade] in its type, it gets +1000 DP."
+        ],
+        "level": 2
+    },
+    {
+        "name": "Xiaomon",
+        "number": "BT4-006",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digi-Egg",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-006.png"
+        ],
+        "form": "In-Training",
+        "types": [
+            "Lesser"
+        ],
+        "effects": [
+            "[Your Turn] While there are 10 or more cards in your trash, this Digimon gains ??Retaliation??. (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.)"
+        ],
+        "level": 2
+    },
+    {
+        "name": "Otamamon",
+        "number": "BT4-007",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-007.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Amphibian"
+        ],
+        "playCost": 2,
+        "dp": 5000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Red",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Agumon",
+        "number": "BT4-008",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-008.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Dinosaur"
+        ],
+        "effects": [
+            "[Your Turn] When this card is trashed due to activating this Digimon's ??Digi-Burst??, return this card to its owner's hand."
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Red",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Flamemon",
+        "number": "BT4-009",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-009.png"
+        ],
+        "form": "Hybrid",
+        "types": [
+            "Wizard"
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Red",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Fugamon",
+        "number": "BT4-010",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-010.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Demon"
+        ],
+        "playCost": 3,
+        "dp": 3000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "1",
+                "from": {
+                    "color": "Red",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Agunimon",
+        "number": "BT4-011",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-011.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-011_P1.png"
+        ],
+        "form": "Hybrid",
+        "types": [
+            "Wizard"
+        ],
+        "playCost": 5,
+        "dp": 5000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Red",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "GeoGreymon",
+        "number": "BT4-012",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-012.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Dinosaur"
+        ],
+        "playCost": 5,
+        "dp": 5000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Red",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "BurningGreymon",
+        "number": "BT4-013",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-013.png"
+        ],
+        "form": "Hybrid",
+        "types": [
+            "Dark Dragon"
+        ],
+        "playCost": 6,
+        "dp": 6000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Red",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Vermilimon",
+        "number": "BT4-014",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-014.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Ankylosaur"
+        ],
+        "playCost": 5,
+        "dp": 8000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Red",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Volcdramon",
+        "number": "BT4-015",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-015.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Dragon"
+        ],
+        "effects": [
+            "??Security Attack +1?? (This Digimon checks 1 additional security card.)"
+        ],
+        "playCost": 7,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Red",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Aldamon",
+        "number": "BT4-016",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-016.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-016_P1.png"
+        ],
+        "form": "Hybrid",
+        "types": [
+            "Wizard"
+        ],
+        "playCost": 8,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Red",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "RizeGreymon",
+        "number": "BT4-017",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-017.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-017_P1.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Cyborg"
+        ],
+        "effects": [
+            "[When Attacking] If you have a Tamer in play, 1 of your opponent's Digimon gets -2000 DP for the turn."
+        ],
+        "playCost": 8,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Red",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Spinomon",
+        "number": "BT4-018",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-018.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Dinosaur"
+        ],
+        "playCost": 10,
+        "dp": 10000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Red",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "VictoryGreymon",
+        "number": "BT4-019",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-019.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-019_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Dragonkin"
+        ],
+        "playCost": 11,
+        "dp": 12000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "4",
+                "from": {
+                    "color": "Red",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "ShineGreymon",
+        "number": "BT4-020",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-020.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Light Dragon"
+        ],
+        "playCost": 12,
+        "dp": 11000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Red",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gaomon",
+        "number": "BT4-021",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-021.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Beast"
+        ],
+        "effects": [
+            "[Your Turn] When this card is trashed due to activating this Digimon's ??Digi-Burst??, return this card to its owner's hand."
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Blue",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sangomon",
+        "number": "BT4-022",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-022.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Mollusk"
+        ],
+        "playCost": 3,
+        "dp": 4000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Blue",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Strabimon",
+        "number": "BT4-023",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-023.png"
+        ],
+        "form": "Hybrid",
+        "types": [
+            "Beastkin"
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Blue",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tobiumon",
+        "number": "BT4-024",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-024.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Sea Animal"
+        ],
+        "playCost": 3,
+        "dp": 3000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "1",
+                "from": {
+                    "color": "Blue",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lobomon",
+        "number": "BT4-025",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-025.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-025_P1.png"
+        ],
+        "form": "Hybrid",
+        "types": [
+            "Warrior"
+        ],
+        "playCost": 5,
+        "dp": 5000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Blue",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "GaoGamon",
+        "number": "BT4-026",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-026.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Beast"
+        ],
+        "playCost": 5,
+        "dp": 5000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Blue",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "KendoGarurumon",
+        "number": "BT4-027",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-027.png"
+        ],
+        "form": "Hybrid",
+        "types": [
+            "Cyborg"
+        ],
+        "playCost": 6,
+        "dp": 6000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Blue",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Piranimon",
+        "number": "BT4-028",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-028.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Sea Animal"
+        ],
+        "effects": [
+            "[When Attacking] Trash the top digivolution card of 1 of your opponent's Digimon."
+        ],
+        "playCost": 6,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Blue",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gusokumon",
+        "number": "BT4-029",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-029.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Crustacean"
+        ],
+        "playCost": 7,
+        "dp": 10000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Blue",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Beowolfmon",
+        "number": "BT4-030",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-030.png"
+        ],
+        "form": "Hybrid",
+        "types": [
+            "Warrior"
+        ],
+        "playCost": 7,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Blue",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "MarinChimairamon",
+        "number": "BT4-031",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-031.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Composite"
+        ],
+        "playCost": 7,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Blue",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "MachGaogamon",
+        "number": "BT4-032",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-032.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Cyborg"
+        ],
+        "effects": [
+            "[Your Turn] While you have a Tamer in play, this Digimon gets +2000 DP."
+        ],
+        "playCost": 8,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Blue",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "ZeedGarurumon",
+        "number": "BT4-033",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-033.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-033_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Cyborg"
+        ],
+        "playCost": 11,
+        "dp": 12000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "4",
+                "from": {
+                    "color": "Blue",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Regalecusmon",
+        "number": "BT4-034",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-034.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Sea Animal"
+        ],
+        "playCost": 11,
+        "dp": 11000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Blue",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "MirageGaogamon",
+        "number": "BT4-035",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-035.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-035_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Beast Knight"
+        ],
+        "playCost": 12,
+        "dp": 12000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "4",
+                "from": {
+                    "color": "Blue",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Falcomon",
+        "number": "BT4-036",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-036.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Avian"
+        ],
+        "playCost": 2,
+        "dp": 5000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Yellow",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Kudamon",
+        "number": "BT4-037",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-037.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Holy Beast"
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Yellow",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "BushiAgumon",
+        "number": "BT4-038",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-038.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Dinosaur"
+        ],
+        "playCost": 5,
+        "dp": 3000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Yellow",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Growlmon",
+        "number": "BT4-039",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-039.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Dark Dragon"
+        ],
+        "effects": [
+            "[Your Turn] While you have 3 or fewer security cards, this Digimon gets +1000 DP."
+        ],
+        "playCost": 4,
+        "dp": 4000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Yellow",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Diatrymon",
+        "number": "BT4-040",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-040.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Ancient Bird"
+        ],
+        "playCost": 5,
+        "dp": 6000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Yellow",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Meicoomon",
+        "number": "BT4-041",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-041.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Unknown "
+        ],
+        "playCost": 5,
+        "dp": 4000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Yellow",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Piddomon",
+        "number": "BT4-042",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-042.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Angel"
+        ],
+        "playCost": 6,
+        "dp": 5000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "1",
+                "from": {
+                    "color": "Yellow",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Crowmon",
+        "number": "BT4-043",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-043.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Mysterious Bird"
+        ],
+        "playCost": 5,
+        "dp": 8000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Yellow",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "HippoGryphonmon",
+        "number": "BT4-044",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-044.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Mythical Beast"
+        ],
+        "playCost": 6,
+        "dp": 6000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Yellow",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Maycrackmon",
+        "number": "BT4-045",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-045.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Beastkin"
+        ],
+        "playCost": 7,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Yellow",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "WarGrowlmon",
+        "number": "BT4-046",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-046.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Cyborg"
+        ],
+        "effects": [
+            "[Your Turn] While you have 3 or fewer security cards, this Digimon gets +1000 DP."
+        ],
+        "playCost": 8,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Yellow",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rasielmon",
+        "number": "BT4-047",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-047.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Throne"
+        ],
+        "playCost": 10,
+        "dp": 10000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "4",
+                "from": {
+                    "color": "Yellow",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "WarGreymon",
+        "number": "BT4-048",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-048.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-048_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Dragonkin"
+        ],
+        "playCost": 12,
+        "dp": 11000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Yellow",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Varodurumon",
+        "number": "BT4-049",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-049.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Holy Bird"
+        ],
+        "playCost": 13,
+        "dp": 11000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Yellow",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Liollmon",
+        "number": "BT4-050",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-050.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Holy Beast"
+        ],
+        "playCost": 2,
+        "dp": 5000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Green",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "DoKunemon",
+        "number": "BT4-051",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-051.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Larva"
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Green",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lalamon",
+        "number": "BT4-052",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-052.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Vegetation"
+        ],
+        "effects": [
+            "[Your Turn] When this card is trashed due to activating this Digimon's ??Digi-Burst??, return this card to its owner's hand."
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Green",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Roachmon",
+        "number": "BT4-053",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-053.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Insectoid"
+        ],
+        "playCost": 3,
+        "dp": 3000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "1",
+                "from": {
+                    "color": "Green",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sunflowmon",
+        "number": "BT4-054",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-054.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Vegetation"
+        ],
+        "playCost": 5,
+        "dp": 5000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Green",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Leomon",
+        "number": "BT4-055",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-055.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Beastkin"
+        ],
+        "playCost": 5,
+        "dp": 5000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Green",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "SkullScorpiomon",
+        "number": "BT4-056",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-056.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Insectoid"
+        ],
+        "playCost": 5,
+        "dp": 6000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Green",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "GrapLeomon",
+        "number": "BT4-057",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-057.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Beastkin"
+        ],
+        "playCost": 7,
+        "dp": 6000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Green",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Orochimon",
+        "number": "BT4-058",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-058.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Dark Dragon"
+        ],
+        "playCost": 8,
+        "dp": 8000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Green",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lilamon",
+        "number": "BT4-059",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-059.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-059_P1.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Fairy"
+        ],
+        "effects": [
+            "[When Attacking] If you have a Tamer in play, suspend 1 of your opponent's Digimon."
+        ],
+        "playCost": 8,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Green",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lotosmon",
+        "number": "BT4-060",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-060.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Fairy"
+        ],
+        "playCost": 11,
+        "dp": 12000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "4",
+                "from": {
+                    "color": "Green",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "BanchoLeomon",
+        "number": "BT4-061",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-061.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Beastkin",
+            "Boss"
+        ],
+        "playCost": 12,
+        "dp": 11000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Green",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Nidhoggmon",
+        "number": "BT4-062",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-062.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-062_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Dark Dragon"
+        ],
+        "playCost": 13,
+        "dp": 13000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "5",
+                "from": {
+                    "color": "Green",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Commandramon",
+        "number": "BT4-063",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-063.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Cyborg",
+            "D-Brigade"
+        ],
+        "playCost": 3,
+        "dp": 1000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Black",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sunarizamon",
+        "number": "BT4-064",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-064.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Reptile"
+        ],
+        "effects": [
+            "[Your Turn] When this card is trashed due to activating this Digimon's ??Digi-Burst??, return this card to its owner's hand."
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Black",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gotsumon",
+        "number": "BT4-065",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-065.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Rock"
+        ],
+        "playCost": 4,
+        "dp": 6000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "1",
+                "from": {
+                    "color": "Black",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Golemon",
+        "number": "BT4-066",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-066.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Mineral"
+        ],
+        "playCost": 4,
+        "dp": 3000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Black",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sealsdramon",
+        "number": "BT4-067",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-067.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-067_P1.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Cyborg",
+            "D-Brigade"
+        ],
+        "playCost": 5,
+        "dp": 6000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Black",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Baboongamon",
+        "number": "BT4-068",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-068.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Beast"
+        ],
+        "playCost": 5,
+        "dp": 4000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Black",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Blimpmon",
+        "number": "BT4-069",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-069.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Machine"
+        ],
+        "playCost": 6,
+        "dp": 7000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Black",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Meteormon",
+        "number": "BT4-070",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-070.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Rock"
+        ],
+        "playCost": 7,
+        "dp": 8000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Black",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Tankdramon",
+        "number": "BT4-071",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-071.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Machine",
+            "D-Brigade"
+        ],
+        "playCost": 7,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Black",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gogmamon",
+        "number": "BT4-072",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-072.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Rock"
+        ],
+        "effects": [
+            "[All Turns] This Digimon gets +1000 DP."
+        ],
+        "playCost": 8,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Black",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "BanchoGolemon",
+        "number": "BT4-073",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-073.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Mineral",
+            "Boss"
+        ],
+        "playCost": 11,
+        "dp": 11000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Black",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Darkdramon",
+        "number": "BT4-074",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-074.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Cyborg",
+            "D-Brigade"
+        ],
+        "playCost": 13,
+        "dp": 11000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Black",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Blastmon",
+        "number": "BT4-075",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-075.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-075_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Mineral"
+        ],
+        "playCost": 13,
+        "dp": 13000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Black",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gabumon",
+        "number": "BT4-076",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-076.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Reptile"
+        ],
+        "playCost": 3,
+        "dp": 4000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Purple",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ghostmon",
+        "number": "BT4-077",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-077.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Ghost"
+        ],
+        "effects": [
+            "[Your Turn] When this card is trashed due to activating this Digimon's ??Digi-Burst??, return this card to its owner's hand."
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Purple",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Soundbirdmon",
+        "number": "BT4-078",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-078.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Avian"
+        ],
+        "playCost": 3,
+        "dp": 1000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Purple",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Labramon",
+        "number": "BT4-079",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-079.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Beast"
+        ],
+        "playCost": 3,
+        "dp": 2000,
+        "level": 3,
+        "digivolutionRequirements": [
+            {
+                "cost": "0",
+                "from": {
+                    "color": "Purple",
+                    "level": "2"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bakemon",
+        "number": "BT4-080",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-080.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Ghost"
+        ],
+        "playCost": 5,
+        "dp": 6000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Purple",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Devimon",
+        "number": "BT4-081",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-081.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Fallen Angel"
+        ],
+        "playCost": 6,
+        "dp": 5000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Purple",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Dobermon",
+        "number": "BT4-082",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-082.png"
+        ],
+        "form": "Champion",
+        "types": [
+            "Dark Animal"
+        ],
+        "playCost": 6,
+        "dp": 7000,
+        "level": 4,
+        "digivolutionRequirements": [
+            {
+                "cost": "2",
+                "from": {
+                    "color": "Purple",
+                    "level": "3"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cerberusmon",
+        "number": "BT4-083",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-083.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Dark Animal"
+        ],
+        "playCost": 6,
+        "dp": 6000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Purple",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "NeoDevimon",
+        "number": "BT4-084",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-084.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Fallen Angel"
+        ],
+        "effects": [
+            "[Opponent's Turn] When an opponent's Tamer becomes suspended, gain 1 memory."
+        ],
+        "playCost": 7,
+        "dp": 7000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Purple",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Phantomon",
+        "number": "BT4-085",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-085.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Ghost"
+        ],
+        "playCost": 7,
+        "dp": 10000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Purple",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Cerberusmon: Werewolf Mode",
+        "number": "BT4-086",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-086.png"
+        ],
+        "form": "Ultimate",
+        "types": [
+            "Wizard"
+        ],
+        "playCost": 9,
+        "dp": 9000,
+        "level": 5,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Purple",
+                    "level": "4"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Anubismon",
+        "number": "BT4-087",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-087.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Shaman"
+        ],
+        "playCost": 11,
+        "dp": 10000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "3",
+                "from": {
+                    "color": "Purple",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "DanDevimon",
+        "number": "BT4-088",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-088.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-088_P1.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-088_P2.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Fallen Angel"
+        ],
+        "playCost": 12,
+        "dp": 12000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "4",
+                "from": {
+                    "color": "Purple",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Plutomon",
+        "number": "BT4-089",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-089.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Shaman"
+        ],
+        "playCost": 13,
+        "dp": 12000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "4",
+                "from": {
+                    "color": "Purple",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Chaosmon",
+        "number": "BT4-090",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Digimon",
+        "colors": [
+            "White"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-090.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-090_P1.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-090_P2.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-090_P3.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-090_P4.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Unique"
+        ],
+        "playCost": 15,
+        "dp": 14000,
+        "level": 7,
+        "digivolutionRequirements": [
+            {
+                "cost": "6",
+                "from": {
+                    "color": "White",
+                    "level": "6"
+                }
+            },
+            {
+                "cost": "6",
+                "from": {
+                    "color": "",
+                    "level": ""
+                }
+            }
+        ]
+    },
+    {
+        "name": "Chaosmon: Valdur Arm",
+        "number": "BT4-091",
+        "set": "BT4",
+        "rarity": "SR",
+        "type": "Digimon",
+        "colors": [
+            "White"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-091.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-091_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Unique"
+        ],
+        "playCost": 15,
+        "dp": 14000,
+        "level": 7,
+        "digivolutionRequirements": [
+            {
+                "cost": "6",
+                "from": {
+                    "color": "White",
+                    "level": "6"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Marcus Damon",
+        "number": "BT4-092",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Tamer",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-092.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-092_P1.png"
+        ],
+        "effects": [
+            "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.[Your Turn] When one of your Digimon with [Greymon] in its name attacks (other than [DoruGreymon],[BurningGreymon], or [DexDoruGreymon]), you may suspend this Tamer to gain 1 memory."
+        ],
+        "securityEffects": [
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "playCost": 4
+    },
+    {
+        "name": "Thomas H. Norstein",
+        "number": "BT4-093",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Tamer",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-093.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-093_P1.png"
+        ],
+        "effects": [
+            "[On Play] Trigger \uff1cDraw 1\uff1e. (Draw 1 card from your deck.)[Main] If your opponent has 8 or more cards in their hand, you may suspend this Tamer to unsuspend 1 of your Digimon with [Gao] in its name."
+        ],
+        "securityEffects": [
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "playCost": 3
+    },
+    {
+        "name": "Tai Kamiya",
+        "number": "BT4-094",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Tamer",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-094.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-094_P1.png"
+        ],
+        "effects": [
+            "[Your Turn] While you have 3 or fewer security cards, all of your Digimon get +1000 DP.[Your Turn] When an opponent's Digimon is deleted by dropping to 0 DP, you may suspend this Tamer to gain 1 memory."
+        ],
+        "securityEffects": [
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "playCost": 3
+    },
+    {
+        "name": "Yoshino Fujieda",
+        "number": "BT4-095",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Tamer",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-095.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-095_P1.png"
+        ],
+        "effects": [
+            "[On Play] Return 1 Digi-Egg card from your trash to the bottom of your Digi-Egg deck.[Your Turn] When digivolving one of your Digimon into a Digimon card in your hand with \uff1cDigi-Burst\uff1e, you may suspend this Tamer to reduce the digivolution cost by 1."
+        ],
+        "securityEffects": [
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "playCost": 3
+    },
+    {
+        "name": "Izzy Izumi",
+        "number": "BT4-096",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Tamer",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-096.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-096_P1.png"
+        ],
+        "effects": [
+            "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.[On Play] Reveal the top 3 cards of your deck. If all of the revealed cards are black, gain 1 memory. Place the cards on top of your deck in any order."
+        ],
+        "securityEffects": [
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "playCost": 4
+    },
+    {
+        "name": "Kari Kamiya",
+        "number": "BT4-097",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Tamer",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-097.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-097_P1.png"
+        ],
+        "effects": [
+            "[All Turns] When a card is removed from your security stack, you may suspend this Tamer to gain 1 memory."
+        ],
+        "securityEffects": [
+            "[Security] Play this card without paying its memory cost."
+        ],
+        "playCost": 3
+    },
+    {
+        "name": "Atomic Inferno",
+        "number": "BT4-098",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Option",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-098.png"
+        ],
+        "effects": [
+            "[Main] 1 of your Digimon with [Hybrid] in its form gets +3000 DP, \uff1cSecurity Attack +1\uff1e (This Digimon checks 1 additional security card), and \"[Your Turn] When this Digimon is blocked, gain +3 memory\" for the turn."
+        ],
+        "securityEffects": [
+            "[Security] All of your Digimon gain ??Security Attack +1?? (This Digimon checks 1 additional security card) until the end of your next turn."
+        ],
+        "playCost": 1
+    },
+    {
+        "name": "Heir of Dragons",
+        "number": "BT4-099",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Option",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-099.png"
+        ],
+        "effects": [
+            "[Main] Trigger \uff1cDraw 2\uff1e. (Draw 2 cards from your deck.) Then, if one of your Digimon has [Greymon] or [Dramon] in its name (other than [DoruGreymon], [BurningGreymon], or[DexDoruGreymon]), delete 1 of your opponent's Digimon with 4000 DP or less."
+        ],
+        "securityEffects": [
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "playCost": 3
+    },
+    {
+        "name": "Trident Revolver",
+        "number": "BT4-100",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Option",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-100.png"
+        ],
+        "effects": [
+            "[Main] Delete 1 of your opponent's Digimon with 6000 DP or less. Then, you may play 1 Tamer card with a play cost of 4 or less from your hand without paying its memory cost."
+        ],
+        "securityEffects": [
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "playCost": 6
+    },
+    {
+        "name": "I'll Drag You Into the Depths!",
+        "number": "BT4-101",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Option",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-101.png"
+        ],
+        "effects": [
+            "[Main] All of your Digimon gain \"[Your Turn] When attacking an opponent's Digimon with no digivolution cards, delete that Digimon\" for the turn."
+        ],
+        "securityEffects": [
+            "[Security] Add this card to its owner's hand."
+        ],
+        "playCost": 1
+    },
+    {
+        "name": "Aqua Viper",
+        "number": "BT4-102",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Option",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-102.png"
+        ],
+        "effects": [
+            "[Main] Return 1 of your Digimon to its owner's hand to return up to 2 of your opponent's level 4 or lower Digimon to their owners' hands. Trash all of the digivolution cards of those Digimon."
+        ],
+        "securityEffects": [
+            "[Security] Add this card to its owner's hand."
+        ],
+        "playCost": 3
+    },
+    {
+        "name": "Full Moon Blaster",
+        "number": "BT4-103",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Option",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-103.png"
+        ],
+        "effects": [
+            "[Main] Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. If your opponent has 8 or more cards in their hand, instead return 1 of your opponent's level 5 or lower Digimon to the bottom of its owner's deck. Trash all of the digivolution cards of that Digimon."
+        ],
+        "securityEffects": [
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "playCost": 5
+    },
+    {
+        "name": "Blinding Ray",
+        "number": "BT4-104",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Option",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-104.png"
+        ],
+        "effects": [
+            "[Main] Trash the top card of your security stack. Then, gain 2 memory."
+        ],
+        "playCost": 0
+    },
+    {
+        "name": "Tactical Retreat!",
+        "number": "BT4-105",
+        "set": "BT4",
+        "rarity": "U",
+        "type": "Option",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-105.png"
+        ],
+        "effects": [
+            "[Main] Place 1 of your Digimon on top of your security stack face down. Trash all of the digivolution cards of that Digimon."
+        ],
+        "securityEffects": [
+            "[Security] Trigger ??Recovery +1 (Deck)??. (Place the top card of your deck on top of your security stack.)"
+        ],
+        "playCost": 1
+    },
+    {
+        "name": "Purge Shine",
+        "number": "BT4-106",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Option",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-106.png"
+        ],
+        "effects": [
+            "[Main] All of your opponent's Digimon get -3000 DP for the turn."
+        ],
+        "securityEffects": [
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "playCost": 4
+    },
+    {
+        "name": "Pollen Spray",
+        "number": "BT4-107",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Option",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-107.png"
+        ],
+        "effects": [
+            "[Main] Reveal the top 3 cards of your deck. Add all Digimon cards with \uff1cDigi-Burst\uff1e among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, suspend 1 of your opponent's Digimon for each card added to your hand by this effect."
+        ],
+        "securityEffects": [
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "playCost": 3
+    },
+    {
+        "name": "Cyclonic Kick",
+        "number": "BT4-108",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Option",
+        "colors": [
+            "Green"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-108.png"
+        ],
+        "effects": [
+            "[Main] Unsuspend 1 of your Digimon and suspend 1 of your opponent's Digimon."
+        ],
+        "securityEffects": [
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "playCost": 4
+    },
+    {
+        "name": "Final Zubagon Punch",
+        "number": "BT4-109",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Option",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-109.png"
+        ],
+        "effects": [
+            "[Main] 1 of your Digimon gets +3000 DP until the end of your opponent's next turn. Then, if that Digimon has 16000 DP or more, that Digimon gains \uff1cBlocker\uff1e (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead), \uff1cReboot\uff1e (Unsuspend this Digimon during your opponent's unsuspend phase), and \uff1cSecurity Attack +1\uff1e (This Digimon checks 1 additional security card) until the end of your opponent's next turn."
+        ],
+        "securityEffects": [
+            "[Security] Add this card to its owner's hand."
+        ],
+        "playCost": 2
+    },
+    {
+        "name": "Dark Roar",
+        "number": "BT4-110",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Option",
+        "colors": [
+            "Black"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-110.png"
+        ],
+        "effects": [
+            "[Main] Delete 1 of your opponent's Digimon with a play cost of 3 or less. For each of your Digimon with [D-Brigade] in its type, add +1 to the maximum play cost of the Digimon you can choose with this effect."
+        ],
+        "securityEffects": [
+            "[Security] Activate this card's [Main] effect."
+        ],
+        "playCost": 3
+    },
+    {
+        "name": "Jack Raid",
+        "number": "BT4-111",
+        "set": "BT4",
+        "rarity": "C",
+        "type": "Option",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-111.png"
+        ],
+        "effects": [
+            "[Main] Gain 1 memory for every 10 cards in your trash."
+        ],
+        "securityEffects": [
+            "[Security] Gain 2 memory."
+        ],
+        "playCost": 0
+    },
+    {
+        "name": "Hell\u2019s Gate",
+        "number": "BT4-112",
+        "set": "BT4",
+        "rarity": "R",
+        "type": "Option",
+        "colors": [
+            "Purple"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-112.png"
+        ],
+        "effects": [
+            "[Main] Delete 1 of your opponent's level 6 or higher Digimon."
+        ],
+        "securityEffects": [
+            "[Security] Add this card to its owner's hand."
+        ],
+        "playCost": 6
+    },
+    {
+        "name": "AncientGreymon",
+        "number": "BT4-113",
+        "set": "BT4",
+        "rarity": "SEC",
+        "type": "Digimon",
+        "colors": [
+            "Red"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-113.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-113_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Ancient Dragon",
+            "Ten Warriors"
+        ],
+        "playCost": 12,
+        "dp": 13000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "5",
+                "from": {
+                    "color": "Red",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "AncientGarurumon",
+        "number": "BT4-114",
+        "set": "BT4",
+        "rarity": "SEC",
+        "type": "Digimon",
+        "colors": [
+            "Blue"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-114.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-114_P1.png"
+        ],
+        "form": "Mega",
+        "types": [
+            "Ancient Animal",
+            "Ten Warriors"
+        ],
+        "playCost": 12,
+        "dp": 13000,
+        "level": 6,
+        "digivolutionRequirements": [
+            {
+                "cost": "5",
+                "from": {
+                    "color": "Blue",
+                    "level": "5"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Lucemon",
+        "number": "BT4-115",
+        "set": "BT4",
+        "rarity": "SEC",
+        "type": "Digimon",
+        "colors": [
+            "Yellow"
+        ],
+        "images": [
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-115.png",
+            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT4/BT4-115_P1.png"
+        ],
+        "form": "Rookie",
+        "types": [
+            "Angel"
+        ],
+        "playCost": 13,
+        "dp": 10000,
+        "level": 3
+    }
+]
