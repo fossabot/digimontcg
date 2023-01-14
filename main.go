@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
-	_ "embed"
+	"embed"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io/fs"
 	"log"
 	"net"
 	"net/http"
@@ -23,8 +24,8 @@ import (
 //go:embed data/sets.json
 var setsJSON []byte
 
-//go:embed data/cards.json
-var cardsJSON []byte
+//go:embed data/cards/*.json
+var cardsFS embed.FS
 
 func main() {
 	os.Exit(run())
@@ -35,6 +36,7 @@ func run() int {
 	log.SetPrefix("")
 	log.SetFlags(0)
 
+	// all set data lives within a single data file
 	var sets []model.Set
 	err := json.Unmarshal(setsJSON, &sets)
 	if err != nil {
@@ -42,8 +44,24 @@ func run() int {
 		return 1
 	}
 
+	// read each set's worth of card data one at a time
 	var cards []model.Card
-	err = json.Unmarshal(cardsJSON, &cards)
+	err = fs.WalkDir(cardsFS, ".", func(path string, d fs.DirEntry, err error) error {
+		if d.IsDir() {
+			return nil
+		}
+
+		data, _ := cardsFS.ReadFile(path)
+
+		var set []model.Card
+		err = json.Unmarshal(data, &set)
+		if err != nil {
+			return err
+		}
+
+		cards = append(cards, set...)
+		return nil
+	})
 	if err != nil {
 		log.Println(err)
 		return 1

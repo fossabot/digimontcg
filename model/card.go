@@ -41,7 +41,7 @@ type DigiXrosFromTraits struct {
 }
 
 type Card struct {
-	Set                         Set                `json:"set,omitempty"`
+	Set                         string             `json:"set,omitempty"`
 	Name                        string             `json:"name,omitempty"`
 	NameIncludes                []string           `json:"nameIncludes,omitempty"`
 	NameTreatedAs               []string           `json:"nameTreatedAs,omitempty"`
