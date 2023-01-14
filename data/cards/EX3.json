@@ -65,10 +65,10 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Red",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -100,17 +100,17 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Red",
-                    "level": "2"
+                    "level": 2
                 }
             },
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Purple",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -142,17 +142,17 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Red",
-                    "level": "2"
+                    "level": 2
                 }
             },
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Black",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -181,10 +181,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Red",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -216,17 +216,17 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Red",
-                    "level": "3"
+                    "level": 3
                 }
             },
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Black",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -260,17 +260,17 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Red",
-                    "level": "3"
+                    "level": 3
                 }
             },
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Purple",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -299,10 +299,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Red",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -336,17 +336,17 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Red",
-                    "level": "4"
+                    "level": 4
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Purple",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -378,17 +378,17 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Red",
-                    "level": "4"
+                    "level": 4
                 }
             },
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Black",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -419,17 +419,17 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Red",
-                    "level": "5"
+                    "level": 5
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Black",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -461,17 +461,17 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Red",
-                    "level": "5"
+                    "level": 5
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Black",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -504,10 +504,10 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Red",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -536,10 +536,10 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Blue",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -568,10 +568,10 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Blue",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -600,10 +600,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Blue",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -636,17 +636,17 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Blue",
-                    "level": "3"
+                    "level": 3
                 }
             },
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Green",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -678,10 +678,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Blue",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -716,17 +716,17 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Blue",
-                    "level": "4"
+                    "level": 4
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Green",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -755,10 +755,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Blue",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -790,10 +790,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Blue",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -825,10 +825,10 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Blue",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -863,17 +863,17 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Blue",
-                    "level": "5"
+                    "level": 5
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Green",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -906,10 +906,10 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Blue",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -940,10 +940,10 @@
         "level": 7,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Blue",
-                    "level": "6"
+                    "level": 6
                 }
             }
         ]
@@ -972,10 +972,10 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Yellow",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -1004,10 +1004,10 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Yellow",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -1036,10 +1036,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Yellow",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -1071,10 +1071,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Yellow",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -1106,10 +1106,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Yellow",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -1139,10 +1139,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Yellow",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1175,10 +1175,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Yellow",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1211,10 +1211,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Yellow",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1246,10 +1246,10 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Yellow",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -1281,10 +1281,10 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Yellow",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -1318,17 +1318,17 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "1",
+                "cost": 1,
                 "from": {
                     "color": "Green",
-                    "level": "2"
+                    "level": 2
                 }
             },
             {
-                "cost": "1",
+                "cost": 1,
                 "from": {
                     "color": "Blue",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -1357,10 +1357,10 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Green",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -1393,17 +1393,17 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Green",
-                    "level": "3"
+                    "level": 3
                 }
             },
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Blue",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -1435,10 +1435,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Green",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -1473,17 +1473,17 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Green",
-                    "level": "4"
+                    "level": 4
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Blue",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1515,10 +1515,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Green",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1548,10 +1548,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Green",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1586,17 +1586,17 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Green",
-                    "level": "5"
+                    "level": 5
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Blue",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -1628,10 +1628,10 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "5",
+                "cost": 5,
                 "from": {
                     "color": "Green",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -1661,10 +1661,10 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Black",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -1696,17 +1696,17 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Black",
-                    "level": "2"
+                    "level": 2
                 }
             },
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Red",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -1738,17 +1738,17 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Black",
-                    "level": "3"
+                    "level": 3
                 }
             },
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Red",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -1781,10 +1781,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Black",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -1813,10 +1813,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Black",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1849,10 +1849,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Black",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1884,17 +1884,17 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Black",
-                    "level": "4"
+                    "level": 4
                 }
             },
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Red",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -1925,17 +1925,17 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Black",
-                    "level": "5"
+                    "level": 5
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Red",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -1967,10 +1967,10 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "5",
+                "cost": 5,
                 "from": {
                     "color": "Black",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -2002,17 +2002,17 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Purple",
-                    "level": "2"
+                    "level": 2
                 }
             },
             {
-                "cost": "0",
+                "cost": 0,
                 "from": {
                     "color": "Red",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -2042,10 +2042,10 @@
         "level": 3,
         "digivolutionRequirements": [
             {
-                "cost": "1",
+                "cost": 1,
                 "from": {
                     "color": "Purple",
-                    "level": "2"
+                    "level": 2
                 }
             }
         ]
@@ -2078,10 +2078,10 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Purple",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -2115,17 +2115,17 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Purple",
-                    "level": "3"
+                    "level": 3
                 }
             },
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Red",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -2154,17 +2154,17 @@
         "level": 4,
         "digivolutionRequirements": [
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Purple",
-                    "level": "3"
+                    "level": 3
                 }
             },
             {
-                "cost": "2",
+                "cost": 2,
                 "from": {
                     "color": "Green",
-                    "level": "3"
+                    "level": 3
                 }
             }
         ]
@@ -2194,17 +2194,17 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Purple",
-                    "level": "4"
+                    "level": 4
                 }
             },
             {
-                "cost": "3",
+                "cost": 3,
                 "from": {
                     "color": "Green",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -2238,17 +2238,17 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Purple",
-                    "level": "4"
+                    "level": 4
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Red",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -2278,10 +2278,10 @@
         "level": 5,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Purple",
-                    "level": "4"
+                    "level": 4
                 }
             }
         ]
@@ -2313,17 +2313,17 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Purple",
-                    "level": "5"
+                    "level": 5
                 }
             },
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Red",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -2356,10 +2356,10 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "4",
+                "cost": 4,
                 "from": {
                     "color": "Purple",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -2559,17 +2559,17 @@
         "level": 6,
         "digivolutionRequirements": [
             {
-                "cost": "5",
+                "cost": 5,
                 "from": {
                     "color": "Purple",
-                    "level": "5"
+                    "level": 5
                 }
             },
             {
-                "cost": "5",
+                "cost": 5,
                 "from": {
                     "color": "Red",
-                    "level": "5"
+                    "level": 5
                 }
             }
         ]
@@ -2602,17 +2602,17 @@
         "level": 7,
         "digivolutionRequirements": [
             {
-                "cost": "5",
+                "cost": 5,
                 "from": {
                     "color": "Green",
-                    "level": "6"
+                    "level": 6
                 }
             },
             {
-                "cost": "5",
+                "cost": 5,
                 "from": {
                     "color": "Blue",
-                    "level": "6"
+                    "level": 6
                 }
             }
         ]

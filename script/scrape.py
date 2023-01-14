@@ -70,6 +70,21 @@ def get_all_details(card_ids):
             yield details
 
 
+def norm_level(level):
+    if not level or level == '-':
+        return None
+
+    level = level.split('.')[-1]
+    if len(level) > 1:
+        level = level[-1]
+
+    if level == '-':
+        return None
+
+    level = int(level)
+    return level
+
+
 def norm_card(card):
     config = card['card_config']
     config = {conf['config_name']: conf['value'] for conf in config if 'value' in conf}
@@ -90,7 +105,7 @@ def norm_card(card):
 
     # fix missing rarity on a few promos
     rarity = config.get('Rarity')
-    if not norm['rarity'] and set == 'P':
+    if not norm['rarity'] and norm['set'] == 'P':
         norm['rarity'] = 'P'
 
     # traits (form, attributes, types)
@@ -142,19 +157,10 @@ def norm_card(card):
     else:
         dp = None
 
-    # sorry bout this one...
     level = config.get('Lv.')
-    if level == '-':
-        level = None
-    elif level:
-        level = level.split('.')[-1]
-        if len(level) > 1:
-            level = level[-1]
-        if level == '-':
-            level = None
-        else:
-            level = int(level)
-            norm['level'] = level
+    level = norm_level(level)
+    if level:
+        norm['level'] = level
 
     # TODO: how to scrape this?
 #    norm['abilities'] = []
@@ -164,7 +170,9 @@ def norm_card(card):
     for i in range(1, 3):
         key = 'Digivolve Cost ' + str(i)
         if config.get(key):
-            digi_cost = config[key].split()[0]
+            digi_cost = config[key].split()
+            digi_cost, fallback_level = digi_cost[0], digi_cost[-1]
+            digi_cost = int(digi_cost)
 
             # don't specify a color if all are valid (Kimeramon)
             color = config.get(key + ' Evolution source Color')
@@ -172,8 +180,9 @@ def norm_card(card):
                 color = None
 
             level = config.get(key + ' Evolution source Lv.')
-            if level:
-                level = level.split('.')[-1]
+            level = norm_level(level)
+            if not level:
+                level = norm_level(fallback_level)
 
             req = {
                 'cost': digi_cost,

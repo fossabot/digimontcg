@@ -56,6 +56,7 @@ func run() int {
 		var set []model.Card
 		err = json.Unmarshal(data, &set)
 		if err != nil {
+			log.Println(path)
 			return err
 		}
 
