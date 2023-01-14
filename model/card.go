@@ -17,11 +17,13 @@ type DNADigivolveCost struct {
 }
 
 type DigivolveFrom struct {
-	Color   string      `json:"color,omitempty"`
-	Level   json.Number `json:"level,omitempty"`
-	Name    string      `json:"name,omitempty"`
-	Sources []string    `json:"sources,omitempty"`
-	Tamer   bool        `json:"tamer,omitempty"`
+	Color         string      `json:"color,omitempty"`
+	Level         json.Number `json:"level,omitempty"`
+	Name          string      `json:"name,omitempty"`
+	Sources       []string    `json:"sources,omitempty"`
+	Traits        []string    `json:"traits,omitempty"`
+	TraitsContain []string    `json:"traitsContain,omitempty"`
+	Tamer         bool        `json:"tamer,omitempty"`
 }
 
 type DigiXrosCost struct {

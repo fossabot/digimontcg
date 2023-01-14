@@ -179,9 +179,8 @@
             "Xros Heart"
         ],
         "effects": [
-            "Digivolve: 0 from Lv.2 w/[Xros Heart] in traits",
-            "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card and 1 Tamer card\u2015both with [Xros Heart] in their traits\u2015among them to your hand. Place the rest at the bottom of your deck in any order.",
-            "[On Deletion] &lt;Save&gt; (You may place this card under one of your Tamers.)"
+            "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card and 1 Tamer card - both with [Xros Heart] in their traits - among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "[On Deletion] <Save> (You may place this card under one of your Tamers.)"
         ],
         "inheritedEffects": [
             "[Your Turn] While this Digimon has [Shoutmon] in its name, it gains &lt;Rush&gt;. (This Digimon may attack the turn it was played.)"
@@ -195,6 +194,15 @@
                 "from": {
                     "color": "Red",
                     "level": 2
+                }
+            },
+            {
+                "cost": 0,
+                "from": {
+                    "level": 2,
+                    "traits": [
+                        "Xros Heart"
+                    ]
                 }
             }
         ]
