@@ -24,6 +24,36 @@ paths:
   /cards:
     get:
       summary: Get available cards
+      parameters:
+        - name: name
+          description: Search by card name
+          in: query
+          schema:
+            type: string
+        - name: sort
+          description: Sort results by a specific field
+          in: query
+          schema:
+            type: string
+            enum:
+              - name
+              - -name
+              - number
+              - -number
+            default: number
+        - name: page
+          description: Select which page of results to view
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: page_size
+          description: Select how many results appear per page
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
       responses:
         "200":
           description: JSON array of cards
