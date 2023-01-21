@@ -70,6 +70,28 @@ def get_all_details(card_ids):
             yield details
 
 
+def norm_effects(effects):
+    if not effects:
+        return []
+
+    effects = effects.strip()
+    if not effects or effects == '-':
+        return []
+
+    reps = [
+        ('&lt;', '<'),
+        ('&gt;', '>'),
+        ('\r\n', ''),
+    ]
+
+    for a, b in reps:
+        effects = effects.replace(a, b)
+
+    effects = effects.split('<br>')
+    effects = [{'text': effect} for effect in effects]
+    return effects
+
+
 def norm_level(level):
     if not level or level == '-':
         return None
@@ -100,6 +122,8 @@ def norm_card(card):
     }
 
     # TODO: how to scrape these?
+    # effect: "This card/Digimon is also treated as having [Greymon] in its name."
+    # effect: "The name of this card/Digimon is also treated as [MetalGreymon]."
 #    norm['nameIncludes'] = []
 #    norm['nameTreatedAs'] = []
 
@@ -123,19 +147,19 @@ def norm_card(card):
         types = types.split('/')
         norm['types'] = types
 
-    effects = card.get('card_text') or []
+    effects = card.get('card_text')
+    effects = norm_effects(effects)
     if effects:
-        effects = effects.replace('\r\n', '').split('<br>')
         norm['effects'] = effects
 
-    inherited_effects = config.get('Digivolve effect') or []
+    inherited_effects = config.get('Digivolve effect')
+    inherited_effects = norm_effects(inherited_effects)
     if inherited_effects:
-        inherited_effects = [inherited_effects]
         norm['inheritedEffects'] = inherited_effects
 
-    security_effects = config.get('Security effect') or []
+    security_effects = config.get('Security effect')
+    security_effecst = norm_effects(security_effects)
     if security_effects:
-        security_effects = [security_effects]
         norm['securityEffects'] = security_effects
 
     cost = config.get('Cost')
@@ -163,6 +187,7 @@ def norm_card(card):
         norm['level'] = level
 
     # TODO: how to scrape this?
+    # effect: <Ability> (optional rules text)
 #    norm['abilities'] = []
 
     # parse basic digivolve reqs (no DNA or special)
@@ -196,7 +221,14 @@ def norm_card(card):
     if digi_reqs:
         norm['digivolutionRequirements'] = digi_reqs
 
+    # TODO: parse alternate digi reqs
+    # effect: "Digivolve: 0 from [MetalGreymon]"
+
+    # TODO: parse DNA digi reqs
+    # is this data even eluded to in the raw JSON?
+
     # TODO: parse digixros reqs
+    # check for effect starting with "DigiXros -N"
 
     return norm
 
@@ -233,7 +265,7 @@ def main():
         deduped_card['images'] = images
         deduped_cards.append(deduped_card)
 
-    print(json.dumps(deduped_cards, indent=4))
+    print(json.dumps(deduped_cards, indent='\t', ensure_ascii=False))
 
 
 if __name__ == '__main__':
