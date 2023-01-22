@@ -1,528 +1,528 @@
 [
-    {
-        "name": "Flower Cannon",
-        "number": "BT1-110",
-        "set": "BT1",
-        "rarity": "R",
-        "type": "Option",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_16_D.jpg"
-        ],
-        "effects": [
-            "[Main] Suspend 1 of your opponent's Digimon."
-        ],
-        "securityEffects": [
-            "[Security] Suspend all of your opponent's Digimon without &lt;Blocker&gt;."
-        ],
-        "playCost": 2
-    },
-    {
-        "name": "Minomon",
-        "number": "ST9-01",
-        "set": "ST9",
-        "rarity": "U",
-        "type": "Digi-Egg",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_01_D.jpg"
-        ],
-        "form": "In-Training",
-        "types": [
-            "Larva"
-        ],
-        "inheritedEffects": [
-            "[Your Turn] While you have a blue Digimon in play, this Digimon gets +1000 DP."
-        ],
-        "level": 2
-    },
-    {
-        "name": "Veemon",
-        "number": "ST9-02",
-        "set": "ST9",
-        "rarity": "U",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_02_D.jpg"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Mini Dragon"
-        ],
-        "effects": [
-            "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Free] in its traits among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Blue",
-                    "level": 2
-                }
-            },
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Green",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Betamon",
-        "number": "ST9-03",
-        "set": "ST9",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_03_D.jpg"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Amphibian"
-        ],
-        "playCost": 3,
-        "dp": 4000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Blue",
-                    "level": 2
-                }
-            },
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Green",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "ExVeemon",
-        "number": "ST9-04",
-        "set": "ST9",
-        "rarity": "U",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_04_D.jpg"
-        ],
-        "form": "Champion",
-        "types": [
-            "Mythical Dragon"
-        ],
-        "effects": [
-            "When you would play this card from your hand, if you have a green Digimon in play, reduce its play cost by 1."
-        ],
-        "inheritedEffects": [
-            "[When Attacking] If you have a green Digimon in play, this Digimon gets +1000 DP for the turn."
-        ],
-        "playCost": 4,
-        "dp": 4000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Blue",
-                    "level": 3
-                }
-            },
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Green",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Paildramon",
-        "number": "ST9-05",
-        "set": "ST9",
-        "rarity": "SR",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_05_D.jpg",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST9-05_UC_D.png"
-        ],
-        "form": "Ulitimate",
-        "types": [
-            "Dragonkin"
-        ],
-        "effects": [
-            "&lt;DNA Digivolution: 0 from blue Lv.4 + green Lv.4&gt; Digivolve unsuspended with the 2 specified Digimon stacked on top of each other.[When Digivolving] When DNA digivolving, return 1 of your opponent's Digimon with 6000 DP or less to the bottom of its owner's deck.[When Attacking][Once Per Turn] Unsuspend this Digimon."
-        ],
-        "playCost": 8,
-        "dp": 8000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 4,
-                "from": {
-                    "color": "Blue",
-                    "level": 4
-                }
-            },
-            {
-                "cost": 4,
-                "from": {
-                    "color": "Green",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "Imperialdramon Dragon Mode",
-        "number": "ST9-06",
-        "set": "ST9",
-        "rarity": "SR",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_06_D.jpg",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX2/e_ST09-06P_D.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Ancient Dragon"
-        ],
-        "effects": [
-            "[When Digivolving] You may play 1 level 4 or lower blue Digimon card and/or 1 level 4 or lower green Digimon card from this Digimon's digivolution cards without paying their memory costs."
-        ],
-        "playCost": 13,
-        "dp": 12000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 4,
-                "from": {
-                    "color": "Blue",
-                    "level": 5
-                }
-            },
-            {
-                "cost": 4,
-                "from": {
-                    "color": "Green",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "KoKabuterimon",
-        "number": "ST9-07",
-        "set": "ST9",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_07_D.jpg"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Insectoid"
-        ],
-        "effects": [
-            "[Opponent's Turn] While you have a blue Digimon in play, this Digimon gains &lt;Blocker&gt;. (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)"
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Green",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Wormmon",
-        "number": "ST9-08",
-        "set": "ST9",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_08_D.jpg"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Larva"
-        ],
-        "inheritedEffects": [
-            "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost."
-        ],
-        "playCost": 3,
-        "dp": 3000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Green",
-                    "level": 2
-                }
-            },
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Blue",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Stingmon",
-        "number": "ST9-09",
-        "set": "ST9",
-        "rarity": "U",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_09_D.jpg"
-        ],
-        "form": "Champion",
-        "types": [
-            "Insectoid"
-        ],
-        "effects": [
-            "When you would play this card from your hand, if you have a blue Digimon in play, reduce its play cost by 1."
-        ],
-        "inheritedEffects": [
-            "[When Attacking] If you have a blue Digimon in play, &lt;Draw 1&gt;. (Draw 1 card from your deck.)"
-        ],
-        "playCost": 4,
-        "dp": 4000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Green",
-                    "level": 3
-                }
-            },
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Blue",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Snimon",
-        "number": "ST9-10",
-        "set": "ST9",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_10_D.jpg"
-        ],
-        "form": "Champion",
-        "types": [
-            "Insectoid"
-        ],
-        "effects": [
-            "[Security] At the end of the battle, play this card without paying its memory cost.[On Play] Suspend 1 of your opponent's Digimon."
-        ],
-        "playCost": 6,
-        "dp": 4000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Green",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Dinobeemon",
-        "number": "ST9-11",
-        "set": "ST9",
-        "rarity": "R",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_11_D.jpg"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Mutant"
-        ],
-        "effects": [
-            "&lt;DNA Digivolution: 0 from green Lv.4 + blue Lv.4&gt; Digivolve unsuspended with the 2 specified Digimon stacked on top of each other. [When Digivolving] Suspend 1 of your opponent's Digimon. When DNA digivolving, that Digimon doesn't unsuspend during its owner's next unsuspend phase."
-        ],
-        "inheritedEffects": [
-            "[Your Turn] This Digimon gets +1000 DP for each of its colors."
-        ],
-        "playCost": 8,
-        "dp": 8000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 4,
-                "from": {
-                    "color": "Green",
-                    "level": 4
-                }
-            },
-            {
-                "cost": 4,
-                "from": {
-                    "color": "Blue",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "JewelBeemon",
-        "number": "ST9-12",
-        "set": "ST9",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_12_D.jpg"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Insectoid"
-        ],
-        "playCost": 6,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Green",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "GranKuwagamon",
-        "number": "ST9-13",
-        "set": "ST9",
-        "rarity": "R",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_13_D.jpg"
-        ],
-        "form": "Mega",
-        "types": [
-            "Insectoid"
-        ],
-        "effects": [
-            "&lt;Security Attack +1&gt; (This Digimon checks 1 additional security card.) [When Digivolving] This Digimon gets +4000 DP for the turn."
-        ],
-        "playCost": 12,
-        "dp": 11000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Green",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "Megadeath",
-        "number": "ST9-14",
-        "set": "ST9",
-        "rarity": "R",
-        "type": "Option",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_14_D.jpg"
-        ],
-        "effects": [
-            "[Main] Suspend 1 of your opponent's Digimon. Then, return 1 of your opponent's suspended Digimon to its owner's hand."
-        ],
-        "securityEffects": [
-            "[Security] Activate this card's [Main] effect."
-        ],
-        "playCost": 5
-    },
-    {
-        "name": "Hell Masquerade",
-        "number": "ST9-15",
-        "set": "ST9",
-        "rarity": "U",
-        "type": "Option",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_15_D.jpg"
-        ],
-        "effects": [
-            "[Main] 1 of your Digimon gets +2000 DP for the turn. Then, If you have a blue Digimon in play, 1 of your Digimon gains &lt;Piercing&gt; for the turn. (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)"
-        ],
-        "securityEffects": [
-            "[Security] Add this card to its owner's hand."
-        ],
-        "playCost": 1
-    }
+	{
+		"name": "Flower Cannon",
+		"number": "BT1-110",
+		"set": "BT1",
+		"rarity": "R",
+		"type": "Option",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_16_D.jpg"
+		],
+		"effects": [
+			"[Main] Suspend 1 of your opponent's Digimon."
+		],
+		"securityEffects": [
+			"[Security] Suspend all of your opponent's Digimon without <Blocker>."
+		],
+		"playCost": 2
+	},
+	{
+		"name": "Minomon",
+		"number": "ST9-01",
+		"set": "ST9",
+		"rarity": "U",
+		"type": "Digi-Egg",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_01_D.jpg"
+		],
+		"form": "In-Training",
+		"types": [
+			"Larva"
+		],
+		"inheritedEffects": [
+			"[Your Turn] While you have a blue Digimon in play, this Digimon gets +1000 DP."
+		],
+		"level": 2
+	},
+	{
+		"name": "Veemon",
+		"number": "ST9-02",
+		"set": "ST9",
+		"rarity": "U",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_02_D.jpg"
+		],
+		"form": "Rookie",
+		"types": [
+			"Mini Dragon"
+		],
+		"effects": [
+			"[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Free] in its traits among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Blue",
+					"level": 2
+				}
+			},
+			{
+				"cost": 0,
+				"from": {
+					"color": "Green",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Betamon",
+		"number": "ST9-03",
+		"set": "ST9",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_03_D.jpg"
+		],
+		"form": "Rookie",
+		"types": [
+			"Amphibian"
+		],
+		"playCost": 3,
+		"dp": 4000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Blue",
+					"level": 2
+				}
+			},
+			{
+				"cost": 0,
+				"from": {
+					"color": "Green",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "ExVeemon",
+		"number": "ST9-04",
+		"set": "ST9",
+		"rarity": "U",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_04_D.jpg"
+		],
+		"form": "Champion",
+		"types": [
+			"Mythical Dragon"
+		],
+		"effects": [
+			"When you would play this card from your hand, if you have a green Digimon in play, reduce its play cost by 1."
+		],
+		"inheritedEffects": [
+			"[When Attacking] If you have a green Digimon in play, this Digimon gets +1000 DP for the turn."
+		],
+		"playCost": 4,
+		"dp": 4000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Blue",
+					"level": 3
+				}
+			},
+			{
+				"cost": 2,
+				"from": {
+					"color": "Green",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Paildramon",
+		"number": "ST9-05",
+		"set": "ST9",
+		"rarity": "SR",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_05_D.jpg",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST9-05_UC_D.png"
+		],
+		"form": "Ulitimate",
+		"types": [
+			"Dragonkin"
+		],
+		"effects": [
+			"<DNA Digivolution: 0 from blue Lv.4 + green Lv.4> Digivolve unsuspended with the 2 specified Digimon stacked on top of each other.[When Digivolving] When DNA digivolving, return 1 of your opponent's Digimon with 6000 DP or less to the bottom of its owner's deck.[When Attacking][Once Per Turn] Unsuspend this Digimon."
+		],
+		"playCost": 8,
+		"dp": 8000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 4,
+				"from": {
+					"color": "Blue",
+					"level": 4
+				}
+			},
+			{
+				"cost": 4,
+				"from": {
+					"color": "Green",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "Imperialdramon Dragon Mode",
+		"number": "ST9-06",
+		"set": "ST9",
+		"rarity": "SR",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_06_D.jpg",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX2/e_ST09-06P_D.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Ancient Dragon"
+		],
+		"effects": [
+			"[When Digivolving] You may play 1 level 4 or lower blue Digimon card and/or 1 level 4 or lower green Digimon card from this Digimon's digivolution cards without paying their memory costs."
+		],
+		"playCost": 13,
+		"dp": 12000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 4,
+				"from": {
+					"color": "Blue",
+					"level": 5
+				}
+			},
+			{
+				"cost": 4,
+				"from": {
+					"color": "Green",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "KoKabuterimon",
+		"number": "ST9-07",
+		"set": "ST9",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_07_D.jpg"
+		],
+		"form": "Rookie",
+		"types": [
+			"Insectoid"
+		],
+		"effects": [
+			"[Opponent's Turn] While you have a blue Digimon in play, this Digimon gains <Blocker>. (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)"
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Green",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Wormmon",
+		"number": "ST9-08",
+		"set": "ST9",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_08_D.jpg"
+		],
+		"form": "Rookie",
+		"types": [
+			"Larva"
+		],
+		"inheritedEffects": [
+			"[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost."
+		],
+		"playCost": 3,
+		"dp": 3000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Green",
+					"level": 2
+				}
+			},
+			{
+				"cost": 0,
+				"from": {
+					"color": "Blue",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Stingmon",
+		"number": "ST9-09",
+		"set": "ST9",
+		"rarity": "U",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_09_D.jpg"
+		],
+		"form": "Champion",
+		"types": [
+			"Insectoid"
+		],
+		"effects": [
+			"When you would play this card from your hand, if you have a blue Digimon in play, reduce its play cost by 1."
+		],
+		"inheritedEffects": [
+			"[When Attacking] If you have a blue Digimon in play, <Draw 1>. (Draw 1 card from your deck.)"
+		],
+		"playCost": 4,
+		"dp": 4000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Green",
+					"level": 3
+				}
+			},
+			{
+				"cost": 2,
+				"from": {
+					"color": "Blue",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Snimon",
+		"number": "ST9-10",
+		"set": "ST9",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_10_D.jpg"
+		],
+		"form": "Champion",
+		"types": [
+			"Insectoid"
+		],
+		"effects": [
+			"[Security] At the end of the battle, play this card without paying its memory cost.[On Play] Suspend 1 of your opponent's Digimon."
+		],
+		"playCost": 6,
+		"dp": 4000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Green",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Dinobeemon",
+		"number": "ST9-11",
+		"set": "ST9",
+		"rarity": "R",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_11_D.jpg"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Mutant"
+		],
+		"effects": [
+			"<DNA Digivolution: 0 from green Lv.4 + blue Lv.4> Digivolve unsuspended with the 2 specified Digimon stacked on top of each other. [When Digivolving] Suspend 1 of your opponent's Digimon. When DNA digivolving, that Digimon doesn't unsuspend during its owner's next unsuspend phase."
+		],
+		"inheritedEffects": [
+			"[Your Turn] This Digimon gets +1000 DP for each of its colors."
+		],
+		"playCost": 8,
+		"dp": 8000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 4,
+				"from": {
+					"color": "Green",
+					"level": 4
+				}
+			},
+			{
+				"cost": 4,
+				"from": {
+					"color": "Blue",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "JewelBeemon",
+		"number": "ST9-12",
+		"set": "ST9",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_12_D.jpg"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Insectoid"
+		],
+		"playCost": 6,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Green",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "GranKuwagamon",
+		"number": "ST9-13",
+		"set": "ST9",
+		"rarity": "R",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_13_D.jpg"
+		],
+		"form": "Mega",
+		"types": [
+			"Insectoid"
+		],
+		"effects": [
+			"<Security Attack +1> (This Digimon checks 1 additional security card.) [When Digivolving] This Digimon gets +4000 DP for the turn."
+		],
+		"playCost": 12,
+		"dp": 11000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Green",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "Megadeath",
+		"number": "ST9-14",
+		"set": "ST9",
+		"rarity": "R",
+		"type": "Option",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_14_D.jpg"
+		],
+		"effects": [
+			"[Main] Suspend 1 of your opponent's Digimon. Then, return 1 of your opponent's suspended Digimon to its owner's hand."
+		],
+		"securityEffects": [
+			"[Security] Activate this card's [Main] effect."
+		],
+		"playCost": 5
+	},
+	{
+		"name": "Hell Masquerade",
+		"number": "ST9-15",
+		"set": "ST9",
+		"rarity": "U",
+		"type": "Option",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST9/e_ST09_15_D.jpg"
+		],
+		"effects": [
+			"[Main] 1 of your Digimon gets +2000 DP for the turn. Then, If you have a blue Digimon in play, 1 of your Digimon gains <Piercing> for the turn. (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)"
+		],
+		"securityEffects": [
+			"[Security] Add this card to its owner's hand."
+		],
+		"playCost": 1
+	}
 ]

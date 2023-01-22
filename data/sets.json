@@ -1,131 +1,131 @@
 [
-    {
-        "number": "P",
-        "name": "Promotion Card"
-    },
-    {
-        "number": "ST1",
-        "name": "Gaia Red",
-        "releaseDate": "2021-01-29"
-    },
-    {
-        "number": "ST2",
-        "name": "Cocytus Blue",
-        "releaseDate": "2021-01-29"
-    },
-    {
-        "number": "ST3",
-        "name": "Heaven's Yellow",
-        "releaseDate": "2021-01-29"
-    },
-    {
-        "number": "ST4",
-        "name": "Giga Green",
-        "releaseDate": "2021-06-11"
-    },
-    {
-        "number": "ST5",
-        "name": "Machine Black",
-        "releaseDate": "2021-06-11"
-    },
-    {
-        "number": "ST6",
-        "name": "Venomous Violet",
-        "releaseDate": "2021-06-11"
-    },
-    {
-        "number": "ST7",
-        "name": "Gallantmon",
-        "releaseDate": "2021-12-01"
-    },
-    {
-        "number": "ST8",
-        "name": "Ulforceveedramon",
-        "releaseDate": "2021-12-01"
-    },
-    {
-        "number": "ST9",
-        "name": "Ultimate Ancient Dragon",
-        "releaseDate": "2022-05-27"
-    },
-    {
-        "number": "ST10",
-        "name": "Parallel World Tactician",
-        "releaseDate": "2022-05-27"
-    },
-    {
-        "number": "ST12",
-        "name": "Jesmon",
-        "releaseDate": "2022-10-14"
-    },
-    {
-        "number": "ST13",
-        "name": "Ragnaloardmon",
-        "releaseDate": "2022-10-14"
-    },
-    {
-        "number": "BT1",
-        "name": "New Evolution",
-        "releaseDate": "2021-03-12"
-    },
-    {
-        "number": "BT2",
-        "name": "Ultimate Power",
-        "releaseDate": "2021-03-12"
-    },
-    {
-        "number": "BT3",
-        "name": "Union Impact",
-        "releaseDate": "2021-03-12"
-    },
-    {
-        "number": "BT4",
-        "name": "Great Legend",
-        "releaseDate": "2021-06-11"
-    },
-    {
-        "number": "BT5",
-        "name": "Battle Of Omni",
-        "releaseDate": "2021-08-06"
-    },
-    {
-        "number": "BT6",
-        "name": "Double Diamond",
-        "releaseDate": "2021-11-26"
-    },
-    {
-        "number": "BT7",
-        "name": "Next Adventure",
-        "releaseDate": "2022-03-22"
-    },
-    {
-        "number": "BT8",
-        "name": "New Awakening",
-        "releaseDate": "2022-05-27"
-    },
-    {
-        "number": "BT9",
-        "name": "X Record",
-        "releaseDate": "2022-07-29"
-    },
-    {
-        "number": "BT10",
-        "name": "Xros Encounter",
-        "releaseDate": "2022-10-21"
-    },
-    {
-        "number": "EX1",
-        "name": "Classic Collection",
-        "releaseDate": "2022-01-21"
-    },
-    {
-        "number": "EX2",
-        "name": "Digital Hazard",
-        "releaseDate": "2022-06-24"
-    },
-    {
-        "number": "EX3",
-        "name": "Draconic Roar",
-        "releaseDate": "2022-11-11"
-    }
+	{
+		"number": "P",
+		"name": "Promotion Card"
+	},
+	{
+		"number": "ST1",
+		"name": "Gaia Red",
+		"releaseDate": "2021-01-29"
+	},
+	{
+		"number": "ST2",
+		"name": "Cocytus Blue",
+		"releaseDate": "2021-01-29"
+	},
+	{
+		"number": "ST3",
+		"name": "Heaven's Yellow",
+		"releaseDate": "2021-01-29"
+	},
+	{
+		"number": "ST4",
+		"name": "Giga Green",
+		"releaseDate": "2021-06-11"
+	},
+	{
+		"number": "ST5",
+		"name": "Machine Black",
+		"releaseDate": "2021-06-11"
+	},
+	{
+		"number": "ST6",
+		"name": "Venomous Violet",
+		"releaseDate": "2021-06-11"
+	},
+	{
+		"number": "ST7",
+		"name": "Gallantmon",
+		"releaseDate": "2021-12-01"
+	},
+	{
+		"number": "ST8",
+		"name": "Ulforceveedramon",
+		"releaseDate": "2021-12-01"
+	},
+	{
+		"number": "ST9",
+		"name": "Ultimate Ancient Dragon",
+		"releaseDate": "2022-05-27"
+	},
+	{
+		"number": "ST10",
+		"name": "Parallel World Tactician",
+		"releaseDate": "2022-05-27"
+	},
+	{
+		"number": "ST12",
+		"name": "Jesmon",
+		"releaseDate": "2022-10-14"
+	},
+	{
+		"number": "ST13",
+		"name": "Ragnaloardmon",
+		"releaseDate": "2022-10-14"
+	},
+	{
+		"number": "BT1",
+		"name": "New Evolution",
+		"releaseDate": "2021-03-12"
+	},
+	{
+		"number": "BT2",
+		"name": "Ultimate Power",
+		"releaseDate": "2021-03-12"
+	},
+	{
+		"number": "BT3",
+		"name": "Union Impact",
+		"releaseDate": "2021-03-12"
+	},
+	{
+		"number": "BT4",
+		"name": "Great Legend",
+		"releaseDate": "2021-06-11"
+	},
+	{
+		"number": "BT5",
+		"name": "Battle Of Omni",
+		"releaseDate": "2021-08-06"
+	},
+	{
+		"number": "BT6",
+		"name": "Double Diamond",
+		"releaseDate": "2021-11-26"
+	},
+	{
+		"number": "BT7",
+		"name": "Next Adventure",
+		"releaseDate": "2022-03-22"
+	},
+	{
+		"number": "BT8",
+		"name": "New Awakening",
+		"releaseDate": "2022-05-27"
+	},
+	{
+		"number": "BT9",
+		"name": "X Record",
+		"releaseDate": "2022-07-29"
+	},
+	{
+		"number": "BT10",
+		"name": "Xros Encounter",
+		"releaseDate": "2022-10-21"
+	},
+	{
+		"number": "EX1",
+		"name": "Classic Collection",
+		"releaseDate": "2022-01-21"
+	},
+	{
+		"number": "EX2",
+		"name": "Digital Hazard",
+		"releaseDate": "2022-06-24"
+	},
+	{
+		"number": "EX3",
+		"name": "Draconic Roar",
+		"releaseDate": "2022-11-11"
+	}
 ]

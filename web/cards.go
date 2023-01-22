@@ -18,7 +18,7 @@ func (app *Application) handleCards(w http.ResponseWriter, r *http.Request) {
 
 		Sort string
 
-		Page     int
+		Page int
 		Size int
 	}
 

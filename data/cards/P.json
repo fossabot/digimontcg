@@ -1,1916 +1,1916 @@
 [
-    {
-        "name": "Agumon",
-        "number": "P-001",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-001.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Reptile"
-        ],
-        "playCost": 5,
-        "dp": 3000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Biyomon",
-        "number": "P-002",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-002.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Bird"
-        ],
-        "effects": [
-            "[Your Turn] When this Digimon deletes one of your opponent's Digimon in battle and survives?C trigger ??Draw 1??. (Draw 1 card from your deck.)"
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gabumon",
-        "number": "P-003",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-003.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Reptile"
-        ],
-        "playCost": 4,
-        "dp": 3000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Blue",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gomamon",
-        "number": "P-004",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-004.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Sea Beast"
-        ],
-        "effects": [
-            "[Your Turn][Once Per Turn] When you trash a digivolution card of 1 of your opponent's Digimon?C gain 1 memory."
-        ],
-        "playCost": 3,
-        "dp": 1000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Blue",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Patamon",
-        "number": "P-005",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-005.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Mammal"
-        ],
-        "playCost": 4,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Yellow",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gatomon",
-        "number": "P-006",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-006.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Holy Beast"
-        ],
-        "effects": [
-            "[Your Turn] While you have 3 or more security cards?C this Digimon gets +1000 DP."
-        ],
-        "playCost": 4,
-        "dp": 4000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Yellow",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Garurumon",
-        "number": "P-007",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-007.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Beast"
-        ],
-        "effects": [
-            "[When Attacking] If this Digimon has [Garurumon] in its name?C trigger ??Draw 1??. (Draw 1 card from your deck.)"
-        ],
-        "playCost": 4,
-        "dp": 4000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Blue",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "WereGarurumon",
-        "number": "P-008",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-008.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-008_P1.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-008_P2.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-008_P3.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Beastkin"
-        ],
-        "effects": [
-            "[Your Turn] While you have 8 or more cards in your hand?C this Digimon gains ??Security Attack +1??. (This Digimon checks 1 additional security card.)"
-        ],
-        "playCost": 7,
-        "dp": 6000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Blue",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "Agumon",
-        "number": "P-009",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-009.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Reptile"
-        ],
-        "effects": [
-            "[Your Turn] While this Digimon has [Greymon] in its name?C it gets +2000 DP."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Greymon",
-        "number": "P-010",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-010.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Dinosaur"
-        ],
-        "playCost": 5,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Red",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Veedramon Zero",
-        "number": "P-011",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-011.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Mythical Dragon"
-        ],
-        "effects": [
-            "[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to activate ??Draw 1??. (Draw 1 card from your deck.)"
-        ],
-        "playCost": 6,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Blue",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Tai Kamiya (V-Tamer)",
-        "number": "P-012",
-        "set": "P",
-        "rarity": "P",
-        "type": "Tamer",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-012.png"
-        ],
-        "effects": [
-            "[Main] If you have a Digimon with [Veedramon] in its name, you may suspend this Tamer to activate one of the following effects:\u30fbTrigger &lt;Draw 1&gt;. (Draw 1 card from your deck.)\u30fb1 of your Digimon gets +1000 DP for the turn."
-        ],
-        "securityEffects": [
-            "[Security] Play this card without paying its memory cost."
-        ],
-        "playCost": 2
-    },
-    {
-        "name": "Keramon",
-        "number": "P-013",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-013.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Unidentified"
-        ],
-        "effects": [
-            "[Opponent's Turn] This Digimon gets +1000 DP."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Black",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Kurisarimon",
-        "number": "P-014",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-014.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Unidentified"
-        ],
-        "playCost": 4,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Black",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Infermon",
-        "number": "P-015",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-015.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Unidentified"
-        ],
-        "playCost": 7,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Black",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "Diaboromon",
-        "number": "P-016",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-016.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Unidentified"
-        ],
-        "playCost": 11,
-        "dp": 11000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Black",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "DemiDevimon",
-        "number": "P-017",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-017.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Evil"
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Purple",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Devimon",
-        "number": "P-018",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-018.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Fallen Angel"
-        ],
-        "playCost": 5,
-        "dp": 3000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Purple",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Myotismon",
-        "number": "P-019",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-019.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Undead"
-        ],
-        "effects": [
-            "??Retaliation?? (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.)"
-        ],
-        "playCost": 7,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Purple",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "VenomMyotismon",
-        "number": "P-020",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-020.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Dark Animal"
-        ],
-        "playCost": 11,
-        "dp": 11000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Purple",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "A New World",
-        "number": "P-021",
-        "set": "P",
-        "rarity": "P",
-        "type": "Option",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-021.png"
-        ],
-        "effects": [
-            "[Main] If you have [Mimi Tachikawa] in play, you may play a [Palmon] from your hand without paying its memory cost to return 1 of your [Mimi Tachikawa] cards to its owner's hand."
-        ],
-        "securityEffects": [
-            "[Security] Add this card to your hand."
-        ],
-        "playCost": 0
-    },
-    {
-        "name": "DNA Digivolution - Hearts United",
-        "number": "P-022",
-        "set": "P",
-        "rarity": "P",
-        "type": "Option",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-022.png"
-        ],
-        "effects": [
-            "[Main] If you have [Davis Motomiya] and [Ken Ichijoji] in play, you may place 1 [ExVeemon] and 1 [Stingmon] from your hand at the bottom of your deck in any order to play 1 [Paildramon] from your hand without paying its memory cost."
-        ],
-        "securityEffects": [
-            "[Security] Add this card to your hand."
-        ],
-        "playCost": 0
-    },
-    {
-        "name": "Patamon's Confession",
-        "number": "P-023",
-        "set": "P",
-        "rarity": "P",
-        "type": "Option",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-023.png"
-        ],
-        "effects": [
-            "[Main] If you have [T.K. Takaishi] in play, place 1 of your [Patamon] at the bottom of your security stack face down. Trash that Digimon's digivolution cards."
-        ],
-        "securityEffects": [
-            "[Security] Add this card to your hand."
-        ],
-        "playCost": 0
-    },
-    {
-        "name": "Tai's Growing Up!",
-        "number": "P-024",
-        "set": "P",
-        "rarity": "P",
-        "type": "Option",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-024.png"
-        ],
-        "effects": [
-            "[Main] If you have [Tai Kamiya] in play, you may place 1 of your [Agumon] cards at the bottom of its owner's deck to trigger \uff1cDraw 3\uff1e. (Draw 3 cards from your deck.) Trash that Digimon's digivolution cards."
-        ],
-        "securityEffects": [
-            "[Security] Add this card to your hand."
-        ],
-        "playCost": 0
-    },
-    {
-        "name": "GranKuwagamon",
-        "number": "P-025",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-025.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Insectoid"
-        ],
-        "playCost": 11,
-        "dp": 11000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Green",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "BlackWarGreymon",
-        "number": "P-026",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-026.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Dragonkin"
-        ],
-        "playCost": 11,
-        "dp": 11000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Black",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "MetalGarurumon",
-        "number": "P-027",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-027.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Cyborg"
-        ],
-        "playCost": 11,
-        "dp": 11000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Purple",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "Pulsemon",
-        "number": "P-028",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-028.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-028_P1.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Beastkin"
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Yellow",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Agunimon",
-        "number": "P-029",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-029.png"
-        ],
-        "form": "Hybrid",
-        "types": [
-            "Wizard"
-        ],
-        "effects": [
-            "[Your Turn] When digivolving this Digimon into an [AncientGreymon] in your hand, reduce its digivolution cost by 2."
-        ],
-        "playCost": 5,
-        "dp": 4000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Red",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Lobomon",
-        "number": "P-030",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-030.png"
-        ],
-        "form": "Hybrid",
-        "types": [
-            "Warrior"
-        ],
-        "effects": [
-            "[Your Turn] When digivolving this Digimon into an [AncientGarurumon] in your hand, reduce its digivolution cost by 2."
-        ],
-        "playCost": 5,
-        "dp": 4000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Blue",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gatomon",
-        "number": "P-031",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-031.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Holy Beast"
-        ],
-        "playCost": 6,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Yellow",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Palmon",
-        "number": "P-032",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-032.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Vegetation"
-        ],
-        "effects": [
-            "[Your Turn] When this card is trashed due to activating this Digimon's ??Digi-Burst??, 1 of your Digimon gains  ??Jamming?? (This Digimon can't be deleted in battles against Security Digimon) for the turn."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Green",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Sunarizamon",
-        "number": "P-033",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-033.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Reptile"
-        ],
-        "effects": [
-            "[Your Turn] While this Digimon is black and has 13000 DP or more, this Digimon gains ??Security Attack +1??. (This Digimon checks 1 additional security card.)"
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Black",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "DemiDevimon",
-        "number": "P-034",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-034.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Evil"
-        ],
-        "effects": [
-            "[On Deletion] If you have 7 or more Digimon cards with [Devimon] in their names in your trash, you may play 1 [DanDevimon] from your trash without paying its memory cost."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Purple",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Red Memory Boost!",
-        "number": "P-035",
-        "set": "P",
-        "rarity": "SR",
-        "type": "Option",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-035.png"
-        ],
-        "effects": [
-            "[Main] Reveal the top 4 cards of your deck. Add 1 red Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] \uff1cDelay\uff1e (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  \u30fbGain 2 memory."
-        ],
-        "securityEffects": [
-            "[Security] Place this card in its owner's battle area."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Blue Memory Boost!",
-        "number": "P-036",
-        "set": "P",
-        "rarity": "SR",
-        "type": "Option",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-036.png"
-        ],
-        "effects": [
-            "[Main] Reveal the top 4 cards of your deck. Add 1 blue Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] \uff1cDelay\uff1e (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  \u30fbGain 2 memory."
-        ],
-        "securityEffects": [
-            "[Security] Place this card in its owner's battle area."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Yellow Memory Boost!",
-        "number": "P-037",
-        "set": "P",
-        "rarity": "SR",
-        "type": "Option",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-037.png"
-        ],
-        "effects": [
-            "[Main] Reveal the top 4 cards of your deck. Add 1 yellow Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] \uff1cDelay\uff1e (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  \u30fbGain 2 memory."
-        ],
-        "securityEffects": [
-            "[Security] Place this card in its owner's battle area."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Green Memory Boost!",
-        "number": "P-038",
-        "set": "P",
-        "rarity": "SR",
-        "type": "Option",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-038.png"
-        ],
-        "effects": [
-            "[Main] Reveal the top 4 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] \uff1cDelay\uff1e (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  \u30fbGain 2 memory."
-        ],
-        "securityEffects": [
-            "[Security] Place this card in its owner's battle area."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Black Memory Boost!",
-        "number": "P-039",
-        "set": "P",
-        "rarity": "SR",
-        "type": "Option",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-039.png"
-        ],
-        "effects": [
-            "[Main] Reveal the top 4 cards of your deck. Add 1 black Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] \uff1cDelay\uff1e (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  \u30fbGain 2 memory."
-        ],
-        "securityEffects": [
-            "[Security] Place this card in its owner's battle area."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Purple Memory Boost!",
-        "number": "P-040",
-        "set": "P",
-        "rarity": "SR",
-        "type": "Option",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-040.png"
-        ],
-        "effects": [
-            "[Main] Reveal the top 4 cards of your deck. Add 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] \uff1cDelay\uff1e (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  \u30fbGain 2 memory."
-        ],
-        "securityEffects": [
-            "[Security] Place this card in its owner's battle area."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Guilmon",
-        "number": "P-041",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-041.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Reptile"
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gabumon",
-        "number": "P-042",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-042.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Reptile"
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Blue",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Kudamon",
-        "number": "P-043",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-043.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Holy Beast"
-        ],
-        "effects": [
-            "[On Deletion] 1 of your opponent's Digimon gets -1000 DP for the turn."
-        ],
-        "playCost": 3,
-        "dp": 1000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Yellow",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "HerculesKabuterimon",
-        "number": "P-044",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-044.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Insectoid"
-        ],
-        "playCost": 11,
-        "dp": 11000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Green",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "Kurisarimon",
-        "number": "P-045",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-045.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Unidentified"
-        ],
-        "effects": [
-            "[All Turns] All of your other Digimon with the same name as this Digimon gain ??Decoy (Black/White)??. (When one of your other black or white Digimon would be deleted by an opponent's effect, you may delete this Digimon to prevent that deletion.)"
-        ],
-        "playCost": 4,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Black",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Wizardmon",
-        "number": "P-046",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-046.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Wizard"
-        ],
-        "effects": [
-            "[Your Turn][Once Per Turn] When you use an Option card, gain 1 memory."
-        ],
-        "playCost": 5,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Purple",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "AeroVeedramon Zero",
-        "number": "P-047",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-047_d.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Holy Dragon"
-        ],
-        "effects": [
-            "[When Digivolving] Trash the top 3 cards of your deck. Then, if you have a Tamer in play, this Digimon gets +3000 DP for the turn."
-        ],
-        "inheritedEffects": [
-            "[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to have this Digimon get +2000 DP for the turn.\r\n"
-        ],
-        "playCost": 8,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Blue",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "UlforceVeedramon Zero",
-        "number": "P-048",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-048_d.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Holy Warrior"
-        ],
-        "effects": [
-            "[When Digivolving] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to unsuspend this Digimon and 1 of your Tamers. [Your Turn][Once Per Turn] When a card is returned from your trash to your deck, gain 1 memory."
-        ],
-        "inheritedEffects": [
-            "[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to have this Digimon get +2000 DP for the turn.\r\n"
-        ],
-        "playCost": 13,
-        "dp": 12000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 4,
-                "from": {
-                    "color": "Blue",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "Tyrannomon",
-        "number": "P-057",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-057_D.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Dinosaur"
-        ],
-        "effects": [
-            "[Your Turn] This Digimon gets +3000 DP."
-        ],
-        "inheritedEffects": [
-            "[Your Turn] While this Digimon is level 6 or higher, it gets +2000 DP."
-        ],
-        "playCost": 5,
-        "dp": 4000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Green",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gammamon",
-        "number": "P-058",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-058_D.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Ceratopsian"
-        ],
-        "effects": [
-            "[Your Turn] While you have a red Tamer in play, this Digimon can also attack your opponent's unsuspended Digimon."
-        ],
-        "playCost": 4,
-        "dp": 4000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 1,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gammamon",
-        "number": "P-059",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-059_D.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Ceratopsian"
-        ],
-        "inheritedEffects": [
-            "[Your Turn] While you have a [Hiro Amanokawa] in play, this Digimon gets +2000 DP."
-        ],
-        "playCost": 3,
-        "dp": 3000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Angoramon",
-        "number": "P-060",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-060_errata_D.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Beast"
-        ],
-        "inheritedEffects": [
-            "[When Attacking][Once Per Turn] If you have a [Ruri Tsukiyono] in play, gain 1 memory."
-        ],
-        "playCost": 3,
-        "dp": 3000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Green",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Jellymon",
-        "number": "P-061",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-061_D.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Mollusk"
-        ],
-        "inheritedEffects": [
-            "[When Attacking][Once Per Turn] If you have a [Kiyoshiro Higashimitarai] in play, &lt;Draw 1&gt;. (Draw 1 card from your deck.)"
-        ],
-        "playCost": 3,
-        "dp": 3000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Blue",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Hiro Amanokawa",
-        "number": "P-062",
-        "set": "P",
-        "rarity": "P",
-        "type": "Tamer",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-062_D.png"
-        ],
-        "effects": [
-            "[Your Turn] When you attack with a Digimon that has [Gammamon] in its digivolution cards, you may suspend this Tamer to have that Digimon gain &lt;Security Attack +1&gt; for the turn. (This Digimon checks 1 additional security card.)"
-        ],
-        "securityEffects": [
-            "[Security] Play this card without paying its memory cost."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Ruri Tsukiyono",
-        "number": "P-063",
-        "set": "P",
-        "rarity": "P",
-        "type": "Tamer",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-063_errata_D.png"
-        ],
-        "effects": [
-            "[Your Turn] When you attack with a Digimon that has [Angoramon] in its digivolution cards, you may suspend this Tamer to have that Digimon get +3000 DP for the turn."
-        ],
-        "securityEffects": [
-            "[Security] Play this card without paying its memory cost."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Kiyoshiro Higashimitarai",
-        "number": "P-064",
-        "set": "P",
-        "rarity": "P",
-        "type": "Tamer",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-064_D.png"
-        ],
-        "effects": [
-            "[Your Turn] When you attack with a Digimon that has [Jellymon] in its digivolution cards, you may suspend this Tamer to have that Digimon gain &lt;Jamming&gt; for the turn. (This Digimon can't be deleted in battles against Security Digimon.)"
-        ],
-        "securityEffects": [
-            "[Security] Play this card without paying its memory cost."
-        ],
-        "playCost": 3
-    },
-    {
-        "name": "Gammamon",
-        "number": "P-065",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P_065_D.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Virus"
-        ],
-        "effects": [
-            "[On Play] Delete 1 of your opponent's Digimon with 2000 DP or less."
-        ],
-        "inheritedEffects": [
-            "[When Attacking] Delete 1 of your opponent's Digimon with 2000 DP or less."
-        ],
-        "playCost": 4,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "MetalGreymon: Alterous Mode",
-        "number": "P-072",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-072_D.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-072_D_horo.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Cyborg"
-        ],
-        "effects": [
-            "Digivolve: 0 from [MetalGreymon]",
-            "The name of this card/Digimon is also treated as [MetalGreymon].",
-            "[When Digivolving] If you have a Tamer in play, delete 1 of your opponent's Digimon with 5000 DP or less."
-        ],
-        "inheritedEffects": [
-            "[All Turns] When this Digimon has [Greymon] or [Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent it from leaving play."
-        ],
-        "playCost": 7,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Red",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "WereGarurumon: Sagittarius Mode",
-        "number": "P-073",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Blue"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-073_D.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-073_D_horo.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Beastkin"
-        ],
-        "effects": [
-            "Digivolve: 0 from [WereGarurumon]",
-            "The name of this card/Digimon is also treated as [WereGarurumon].",
-            "[When Digivolving] If you have a Tamer in play, return 2 of your opponent\u2019s level 3 Digimon to their owners\u2019 hands."
-        ],
-        "inheritedEffects": [
-            "[All Turns] When this Digimon has [Garurumon] or [Omnimon] in its name and would be deleted in battle, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent that deletion."
-        ],
-        "playCost": 7,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Blue",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "Boutmon",
-        "number": "P-074",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-074_D.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-074_D_horo.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Beastkin"
-        ],
-        "effects": [
-            "[Your Turn] When this Digimon would digivolve into a card with [Shaman] or [Wizard] in its traits, you may trash up to 3 cards from the top of your security stack. For each security card trashed by this effect, reduce the digivolution cost by 1."
-        ],
-        "inheritedEffects": [
-            "[When Attacking][Once Per Turn] If you have 3 security cards, unsuspend this Digimon."
-        ],
-        "playCost": 7,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Yellow",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "Okuwamon",
-        "number": "P-075",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Green"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-075_D.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-075_D_horo.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Insectoid"
-        ],
-        "effects": [
-            "[Your Turn] When this Digimon would digivolve into a card with [Insectoid] in its traits, all of your opponent's Digimon gain \"[All Turns] When this Digimon becomes suspended, lose 1 memory.\" until the end of your opponent's turn."
-        ],
-        "inheritedEffects": [
-            "[Your Turn] While this Digimon has [Insectoid] in its traits, it gains &lt;Piercing&gt;. (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)"
-        ],
-        "playCost": 7,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Green",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "Deltamon",
-        "number": "P-076",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Black"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-076_D.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-076_D_horo.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Composite"
-        ],
-        "effects": [
-            "[Your Turn] When this Digimon would digivolve into a card with 2 colors or [Composite] in its traits, reduce the digivolution cost by 2."
-        ],
-        "inheritedEffects": [
-            "[When Attacking] For each of this Digimon\u2019s colors, delete 1 of your opponent's Digimon with 3000 DP or less."
-        ],
-        "playCost": 5,
-        "dp": 6000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Black",
-                    "level": 3
-                }
-            },
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Red",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Wizardmon",
-        "number": "P-077",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-077_D.png",
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-077_D_horo.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Wizard"
-        ],
-        "effects": [
-            "When this card is trashed from your deck, gain 1 memory."
-        ],
-        "inheritedEffects": [
-            "[When Attacking] You may reveal 1 purple card from your hand and place it on top of your deck."
-        ],
-        "playCost": 5,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Purple",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Agumon",
-        "number": "P-079",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-079_D_RGB_transp.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Reptile"
-        ],
-        "effects": [
-            "[On Play] If you have a red Tamer in play, delete 1 of your opponent's Digimon with 3000 DP or less."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3
-    },
-    {
-        "name": "Labramon",
-        "number": "P-080",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Purple"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-080_D_RGB_transp.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Beast"
-        ],
-        "effects": [
-            "[On Play] If you have a purple Tamer in play, delete 1 of your opponent's level 3 Digimon."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3
-    },
-    {
-        "name": "Falcomon",
-        "number": "P-081",
-        "set": "P",
-        "rarity": "P",
-        "type": "Digimon",
-        "colors": [
-            "Yellow"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-081_D_RGB_transp.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Avian"
-        ],
-        "effects": [
-            "[On Play] If you have a yellow Tamer in play, 1 of your opponent's Digimon gets -2000 DP until the end of their turn."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3
-    }
+	{
+		"name": "Agumon",
+		"number": "P-001",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-001.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Reptile"
+		],
+		"playCost": 5,
+		"dp": 3000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Biyomon",
+		"number": "P-002",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-002.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Bird"
+		],
+		"effects": [
+			"[Your Turn] When this Digimon deletes one of your opponent's Digimon in battle and survives?C trigger ??Draw 1??. (Draw 1 card from your deck.)"
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Gabumon",
+		"number": "P-003",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-003.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Reptile"
+		],
+		"playCost": 4,
+		"dp": 3000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Blue",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Gomamon",
+		"number": "P-004",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-004.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Sea Beast"
+		],
+		"effects": [
+			"[Your Turn][Once Per Turn] When you trash a digivolution card of 1 of your opponent's Digimon?C gain 1 memory."
+		],
+		"playCost": 3,
+		"dp": 1000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Blue",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Patamon",
+		"number": "P-005",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-005.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Mammal"
+		],
+		"playCost": 4,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Yellow",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Gatomon",
+		"number": "P-006",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-006.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Holy Beast"
+		],
+		"effects": [
+			"[Your Turn] While you have 3 or more security cards?C this Digimon gets +1000 DP."
+		],
+		"playCost": 4,
+		"dp": 4000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Yellow",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Garurumon",
+		"number": "P-007",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-007.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Beast"
+		],
+		"effects": [
+			"[When Attacking] If this Digimon has [Garurumon] in its name?C trigger ??Draw 1??. (Draw 1 card from your deck.)"
+		],
+		"playCost": 4,
+		"dp": 4000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Blue",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "WereGarurumon",
+		"number": "P-008",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-008.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-008_P1.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-008_P2.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-008_P3.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Beastkin"
+		],
+		"effects": [
+			"[Your Turn] While you have 8 or more cards in your hand?C this Digimon gains ??Security Attack +1??. (This Digimon checks 1 additional security card.)"
+		],
+		"playCost": 7,
+		"dp": 6000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Blue",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "Agumon",
+		"number": "P-009",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-009.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Reptile"
+		],
+		"effects": [
+			"[Your Turn] While this Digimon has [Greymon] in its name?C it gets +2000 DP."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Greymon",
+		"number": "P-010",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-010.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Dinosaur"
+		],
+		"playCost": 5,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Red",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Veedramon Zero",
+		"number": "P-011",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-011.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Mythical Dragon"
+		],
+		"effects": [
+			"[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to activate ??Draw 1??. (Draw 1 card from your deck.)"
+		],
+		"playCost": 6,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Blue",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Tai Kamiya (V-Tamer)",
+		"number": "P-012",
+		"set": "P",
+		"rarity": "P",
+		"type": "Tamer",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-012.png"
+		],
+		"effects": [
+			"[Main] If you have a Digimon with [Veedramon] in its name, you may suspend this Tamer to activate one of the following effects:・Trigger <Draw 1>. (Draw 1 card from your deck.)・1 of your Digimon gets +1000 DP for the turn."
+		],
+		"securityEffects": [
+			"[Security] Play this card without paying its memory cost."
+		],
+		"playCost": 2
+	},
+	{
+		"name": "Keramon",
+		"number": "P-013",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-013.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Unidentified"
+		],
+		"effects": [
+			"[Opponent's Turn] This Digimon gets +1000 DP."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Black",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Kurisarimon",
+		"number": "P-014",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-014.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Unidentified"
+		],
+		"playCost": 4,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Black",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Infermon",
+		"number": "P-015",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-015.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Unidentified"
+		],
+		"playCost": 7,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Black",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "Diaboromon",
+		"number": "P-016",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-016.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Unidentified"
+		],
+		"playCost": 11,
+		"dp": 11000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Black",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "DemiDevimon",
+		"number": "P-017",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-017.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Evil"
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Purple",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Devimon",
+		"number": "P-018",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-018.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Fallen Angel"
+		],
+		"playCost": 5,
+		"dp": 3000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Purple",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Myotismon",
+		"number": "P-019",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-019.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Undead"
+		],
+		"effects": [
+			"??Retaliation?? (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.)"
+		],
+		"playCost": 7,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Purple",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "VenomMyotismon",
+		"number": "P-020",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-020.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Dark Animal"
+		],
+		"playCost": 11,
+		"dp": 11000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Purple",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "A New World",
+		"number": "P-021",
+		"set": "P",
+		"rarity": "P",
+		"type": "Option",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-021.png"
+		],
+		"effects": [
+			"[Main] If you have [Mimi Tachikawa] in play, you may play a [Palmon] from your hand without paying its memory cost to return 1 of your [Mimi Tachikawa] cards to its owner's hand."
+		],
+		"securityEffects": [
+			"[Security] Add this card to your hand."
+		],
+		"playCost": 0
+	},
+	{
+		"name": "DNA Digivolution - Hearts United",
+		"number": "P-022",
+		"set": "P",
+		"rarity": "P",
+		"type": "Option",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-022.png"
+		],
+		"effects": [
+			"[Main] If you have [Davis Motomiya] and [Ken Ichijoji] in play, you may place 1 [ExVeemon] and 1 [Stingmon] from your hand at the bottom of your deck in any order to play 1 [Paildramon] from your hand without paying its memory cost."
+		],
+		"securityEffects": [
+			"[Security] Add this card to your hand."
+		],
+		"playCost": 0
+	},
+	{
+		"name": "Patamon's Confession",
+		"number": "P-023",
+		"set": "P",
+		"rarity": "P",
+		"type": "Option",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-023.png"
+		],
+		"effects": [
+			"[Main] If you have [T.K. Takaishi] in play, place 1 of your [Patamon] at the bottom of your security stack face down. Trash that Digimon's digivolution cards."
+		],
+		"securityEffects": [
+			"[Security] Add this card to your hand."
+		],
+		"playCost": 0
+	},
+	{
+		"name": "Tai's Growing Up!",
+		"number": "P-024",
+		"set": "P",
+		"rarity": "P",
+		"type": "Option",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-024.png"
+		],
+		"effects": [
+			"[Main] If you have [Tai Kamiya] in play, you may place 1 of your [Agumon] cards at the bottom of its owner's deck to trigger ＜Draw 3＞. (Draw 3 cards from your deck.) Trash that Digimon's digivolution cards."
+		],
+		"securityEffects": [
+			"[Security] Add this card to your hand."
+		],
+		"playCost": 0
+	},
+	{
+		"name": "GranKuwagamon",
+		"number": "P-025",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-025.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Insectoid"
+		],
+		"playCost": 11,
+		"dp": 11000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Green",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "BlackWarGreymon",
+		"number": "P-026",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-026.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Dragonkin"
+		],
+		"playCost": 11,
+		"dp": 11000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Black",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "MetalGarurumon",
+		"number": "P-027",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-027.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Cyborg"
+		],
+		"playCost": 11,
+		"dp": 11000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Purple",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "Pulsemon",
+		"number": "P-028",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-028.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-028_P1.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Beastkin"
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Yellow",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Agunimon",
+		"number": "P-029",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-029.png"
+		],
+		"form": "Hybrid",
+		"types": [
+			"Wizard"
+		],
+		"effects": [
+			"[Your Turn] When digivolving this Digimon into an [AncientGreymon] in your hand, reduce its digivolution cost by 2."
+		],
+		"playCost": 5,
+		"dp": 4000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Red",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Lobomon",
+		"number": "P-030",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-030.png"
+		],
+		"form": "Hybrid",
+		"types": [
+			"Warrior"
+		],
+		"effects": [
+			"[Your Turn] When digivolving this Digimon into an [AncientGarurumon] in your hand, reduce its digivolution cost by 2."
+		],
+		"playCost": 5,
+		"dp": 4000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Blue",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Gatomon",
+		"number": "P-031",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-031.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Holy Beast"
+		],
+		"playCost": 6,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Yellow",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Palmon",
+		"number": "P-032",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-032.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Vegetation"
+		],
+		"effects": [
+			"[Your Turn] When this card is trashed due to activating this Digimon's ??Digi-Burst??, 1 of your Digimon gains  ??Jamming?? (This Digimon can't be deleted in battles against Security Digimon) for the turn."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Green",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Sunarizamon",
+		"number": "P-033",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-033.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Reptile"
+		],
+		"effects": [
+			"[Your Turn] While this Digimon is black and has 13000 DP or more, this Digimon gains ??Security Attack +1??. (This Digimon checks 1 additional security card.)"
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Black",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "DemiDevimon",
+		"number": "P-034",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-034.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Evil"
+		],
+		"effects": [
+			"[On Deletion] If you have 7 or more Digimon cards with [Devimon] in their names in your trash, you may play 1 [DanDevimon] from your trash without paying its memory cost."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Purple",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Red Memory Boost!",
+		"number": "P-035",
+		"set": "P",
+		"rarity": "SR",
+		"type": "Option",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-035.png"
+		],
+		"effects": [
+			"[Main] Reveal the top 4 cards of your deck. Add 1 red Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] ＜Delay＞ (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  ・Gain 2 memory."
+		],
+		"securityEffects": [
+			"[Security] Place this card in its owner's battle area."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Blue Memory Boost!",
+		"number": "P-036",
+		"set": "P",
+		"rarity": "SR",
+		"type": "Option",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-036.png"
+		],
+		"effects": [
+			"[Main] Reveal the top 4 cards of your deck. Add 1 blue Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] ＜Delay＞ (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  ・Gain 2 memory."
+		],
+		"securityEffects": [
+			"[Security] Place this card in its owner's battle area."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Yellow Memory Boost!",
+		"number": "P-037",
+		"set": "P",
+		"rarity": "SR",
+		"type": "Option",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-037.png"
+		],
+		"effects": [
+			"[Main] Reveal the top 4 cards of your deck. Add 1 yellow Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] ＜Delay＞ (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  ・Gain 2 memory."
+		],
+		"securityEffects": [
+			"[Security] Place this card in its owner's battle area."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Green Memory Boost!",
+		"number": "P-038",
+		"set": "P",
+		"rarity": "SR",
+		"type": "Option",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-038.png"
+		],
+		"effects": [
+			"[Main] Reveal the top 4 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] ＜Delay＞ (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  ・Gain 2 memory."
+		],
+		"securityEffects": [
+			"[Security] Place this card in its owner's battle area."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Black Memory Boost!",
+		"number": "P-039",
+		"set": "P",
+		"rarity": "SR",
+		"type": "Option",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-039.png"
+		],
+		"effects": [
+			"[Main] Reveal the top 4 cards of your deck. Add 1 black Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] ＜Delay＞ (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  ・Gain 2 memory."
+		],
+		"securityEffects": [
+			"[Security] Place this card in its owner's battle area."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Purple Memory Boost!",
+		"number": "P-040",
+		"set": "P",
+		"rarity": "SR",
+		"type": "Option",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-040.png"
+		],
+		"effects": [
+			"[Main] Reveal the top 4 cards of your deck. Add 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area. [Main] ＜Delay＞ (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)  ・Gain 2 memory."
+		],
+		"securityEffects": [
+			"[Security] Place this card in its owner's battle area."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Guilmon",
+		"number": "P-041",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-041.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Reptile"
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Gabumon",
+		"number": "P-042",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-042.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Reptile"
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Blue",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Kudamon",
+		"number": "P-043",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-043.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Holy Beast"
+		],
+		"effects": [
+			"[On Deletion] 1 of your opponent's Digimon gets -1000 DP for the turn."
+		],
+		"playCost": 3,
+		"dp": 1000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Yellow",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "HerculesKabuterimon",
+		"number": "P-044",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-044.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Insectoid"
+		],
+		"playCost": 11,
+		"dp": 11000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Green",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "Kurisarimon",
+		"number": "P-045",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-045.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Unidentified"
+		],
+		"effects": [
+			"[All Turns] All of your other Digimon with the same name as this Digimon gain ??Decoy (Black/White)??. (When one of your other black or white Digimon would be deleted by an opponent's effect, you may delete this Digimon to prevent that deletion.)"
+		],
+		"playCost": 4,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Black",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Wizardmon",
+		"number": "P-046",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/P-046.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Wizard"
+		],
+		"effects": [
+			"[Your Turn][Once Per Turn] When you use an Option card, gain 1 memory."
+		],
+		"playCost": 5,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Purple",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "AeroVeedramon Zero",
+		"number": "P-047",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-047_d.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Holy Dragon"
+		],
+		"effects": [
+			"[When Digivolving] Trash the top 3 cards of your deck. Then, if you have a Tamer in play, this Digimon gets +3000 DP for the turn."
+		],
+		"inheritedEffects": [
+			"[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to have this Digimon get +2000 DP for the turn."
+		],
+		"playCost": 8,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Blue",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "UlforceVeedramon Zero",
+		"number": "P-048",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-048_d.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Holy Warrior"
+		],
+		"effects": [
+			"[When Digivolving] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to unsuspend this Digimon and 1 of your Tamers. [Your Turn][Once Per Turn] When a card is returned from your trash to your deck, gain 1 memory."
+		],
+		"inheritedEffects": [
+			"[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to have this Digimon get +2000 DP for the turn."
+		],
+		"playCost": 13,
+		"dp": 12000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 4,
+				"from": {
+					"color": "Blue",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "Tyrannomon",
+		"number": "P-057",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-057_D.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Dinosaur"
+		],
+		"effects": [
+			"[Your Turn] This Digimon gets +3000 DP."
+		],
+		"inheritedEffects": [
+			"[Your Turn] While this Digimon is level 6 or higher, it gets +2000 DP."
+		],
+		"playCost": 5,
+		"dp": 4000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Green",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Gammamon",
+		"number": "P-058",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-058_D.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Ceratopsian"
+		],
+		"effects": [
+			"[Your Turn] While you have a red Tamer in play, this Digimon can also attack your opponent's unsuspended Digimon."
+		],
+		"playCost": 4,
+		"dp": 4000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 1,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Gammamon",
+		"number": "P-059",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-059_D.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Ceratopsian"
+		],
+		"inheritedEffects": [
+			"[Your Turn] While you have a [Hiro Amanokawa] in play, this Digimon gets +2000 DP."
+		],
+		"playCost": 3,
+		"dp": 3000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Angoramon",
+		"number": "P-060",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-060_errata_D.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Beast"
+		],
+		"inheritedEffects": [
+			"[When Attacking][Once Per Turn] If you have a [Ruri Tsukiyono] in play, gain 1 memory."
+		],
+		"playCost": 3,
+		"dp": 3000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Green",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Jellymon",
+		"number": "P-061",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-061_D.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Mollusk"
+		],
+		"inheritedEffects": [
+			"[When Attacking][Once Per Turn] If you have a [Kiyoshiro Higashimitarai] in play, <Draw 1>. (Draw 1 card from your deck.)"
+		],
+		"playCost": 3,
+		"dp": 3000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Blue",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Hiro Amanokawa",
+		"number": "P-062",
+		"set": "P",
+		"rarity": "P",
+		"type": "Tamer",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-062_D.png"
+		],
+		"effects": [
+			"[Your Turn] When you attack with a Digimon that has [Gammamon] in its digivolution cards, you may suspend this Tamer to have that Digimon gain <Security Attack +1> for the turn. (This Digimon checks 1 additional security card.)"
+		],
+		"securityEffects": [
+			"[Security] Play this card without paying its memory cost."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Ruri Tsukiyono",
+		"number": "P-063",
+		"set": "P",
+		"rarity": "P",
+		"type": "Tamer",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-063_errata_D.png"
+		],
+		"effects": [
+			"[Your Turn] When you attack with a Digimon that has [Angoramon] in its digivolution cards, you may suspend this Tamer to have that Digimon get +3000 DP for the turn."
+		],
+		"securityEffects": [
+			"[Security] Play this card without paying its memory cost."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Kiyoshiro Higashimitarai",
+		"number": "P-064",
+		"set": "P",
+		"rarity": "P",
+		"type": "Tamer",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-064_D.png"
+		],
+		"effects": [
+			"[Your Turn] When you attack with a Digimon that has [Jellymon] in its digivolution cards, you may suspend this Tamer to have that Digimon gain <Jamming> for the turn. (This Digimon can't be deleted in battles against Security Digimon.)"
+		],
+		"securityEffects": [
+			"[Security] Play this card without paying its memory cost."
+		],
+		"playCost": 3
+	},
+	{
+		"name": "Gammamon",
+		"number": "P-065",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P_065_D.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Virus"
+		],
+		"effects": [
+			"[On Play] Delete 1 of your opponent's Digimon with 2000 DP or less."
+		],
+		"inheritedEffects": [
+			"[When Attacking] Delete 1 of your opponent's Digimon with 2000 DP or less."
+		],
+		"playCost": 4,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "MetalGreymon: Alterous Mode",
+		"number": "P-072",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-072_D.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-072_D_horo.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Cyborg"
+		],
+		"effects": [
+			"Digivolve: 0 from [MetalGreymon]",
+			"The name of this card/Digimon is also treated as [MetalGreymon].",
+			"[When Digivolving] If you have a Tamer in play, delete 1 of your opponent's Digimon with 5000 DP or less."
+		],
+		"inheritedEffects": [
+			"[All Turns] When this Digimon has [Greymon] or [Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent it from leaving play."
+		],
+		"playCost": 7,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Red",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "WereGarurumon: Sagittarius Mode",
+		"number": "P-073",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Blue"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-073_D.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-073_D_horo.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Beastkin"
+		],
+		"effects": [
+			"Digivolve: 0 from [WereGarurumon]",
+			"The name of this card/Digimon is also treated as [WereGarurumon].",
+			"[When Digivolving] If you have a Tamer in play, return 2 of your opponent’s level 3 Digimon to their owners’ hands."
+		],
+		"inheritedEffects": [
+			"[All Turns] When this Digimon has [Garurumon] or [Omnimon] in its name and would be deleted in battle, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent that deletion."
+		],
+		"playCost": 7,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Blue",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "Boutmon",
+		"number": "P-074",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-074_D.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-074_D_horo.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Beastkin"
+		],
+		"effects": [
+			"[Your Turn] When this Digimon would digivolve into a card with [Shaman] or [Wizard] in its traits, you may trash up to 3 cards from the top of your security stack. For each security card trashed by this effect, reduce the digivolution cost by 1."
+		],
+		"inheritedEffects": [
+			"[When Attacking][Once Per Turn] If you have 3 security cards, unsuspend this Digimon."
+		],
+		"playCost": 7,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Yellow",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "Okuwamon",
+		"number": "P-075",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Green"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-075_D.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-075_D_horo.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Insectoid"
+		],
+		"effects": [
+			"[Your Turn] When this Digimon would digivolve into a card with [Insectoid] in its traits, all of your opponent's Digimon gain \"[All Turns] When this Digimon becomes suspended, lose 1 memory.\" until the end of your opponent's turn."
+		],
+		"inheritedEffects": [
+			"[Your Turn] While this Digimon has [Insectoid] in its traits, it gains <Piercing>. (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)"
+		],
+		"playCost": 7,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Green",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "Deltamon",
+		"number": "P-076",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Black"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-076_D.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-076_D_horo.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Composite"
+		],
+		"effects": [
+			"[Your Turn] When this Digimon would digivolve into a card with 2 colors or [Composite] in its traits, reduce the digivolution cost by 2."
+		],
+		"inheritedEffects": [
+			"[When Attacking] For each of this Digimon’s colors, delete 1 of your opponent's Digimon with 3000 DP or less."
+		],
+		"playCost": 5,
+		"dp": 6000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Black",
+					"level": 3
+				}
+			},
+			{
+				"cost": 3,
+				"from": {
+					"color": "Red",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Wizardmon",
+		"number": "P-077",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-077_D.png",
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-077_D_horo.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Wizard"
+		],
+		"effects": [
+			"When this card is trashed from your deck, gain 1 memory."
+		],
+		"inheritedEffects": [
+			"[When Attacking] You may reveal 1 purple card from your hand and place it on top of your deck."
+		],
+		"playCost": 5,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Purple",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Agumon",
+		"number": "P-079",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-079_D_RGB_transp.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Reptile"
+		],
+		"effects": [
+			"[On Play] If you have a red Tamer in play, delete 1 of your opponent's Digimon with 3000 DP or less."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3
+	},
+	{
+		"name": "Labramon",
+		"number": "P-080",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Purple"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-080_D_RGB_transp.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Beast"
+		],
+		"effects": [
+			"[On Play] If you have a purple Tamer in play, delete 1 of your opponent's level 3 Digimon."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3
+	},
+	{
+		"name": "Falcomon",
+		"number": "P-081",
+		"set": "P",
+		"rarity": "P",
+		"type": "Digimon",
+		"colors": [
+			"Yellow"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/P/e_P-081_D_RGB_transp.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Avian"
+		],
+		"effects": [
+			"[On Play] If you have a yellow Tamer in play, 1 of your opponent's Digimon gets -2000 DP until the end of their turn."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3
+	}
 ]

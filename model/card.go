@@ -62,7 +62,6 @@ type Card struct {
 	PlayCost                    json.Number        `json:"playCost,omitempty"`
 	DP                          json.Number        `json:"dp,omitempty"`
 	Level                       json.Number        `json:"level,omitempty"`
-	Abilities                   []string           `json:"abilities,omitempty"`
 	DigivolutionRequirements    []DigivolveCost    `json:"digivolutionRequirements,omitempty"`
 	DNADigivolutionRequirements []DNADigivolveCost `json:"dnaDigivolutionRequirements,omitempty"`
 	DigiXrosRequirements        []DigiXrosCost     `json:"digiXrosRequirements,omitempty"`

@@ -88,7 +88,6 @@ def norm_effects(effects):
         effects = effects.replace(a, b)
 
     effects = effects.split('<br>')
-    effects = [{'text': effect} for effect in effects]
     return effects
 
 
@@ -152,7 +151,7 @@ def norm_card(card):
         norm['inheritedEffects'] = inherited_effects
 
     security_effects = config.get('Security effect')
-    security_effecst = norm_effects(security_effects)
+    security_effects = norm_effects(security_effects)
     if security_effects:
         norm['securityEffects'] = security_effects
 

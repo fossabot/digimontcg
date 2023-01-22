@@ -1,444 +1,444 @@
 [
-    {
-        "name": "Monodramon",
-        "number": "BT1-009",
-        "set": "BT1",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT1/BT1-009_P1.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Mini Dragon"
-        ],
-        "playCost": 2,
-        "dp": 3000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "DarkTyrannomon",
-        "number": "BT1-019",
-        "set": "BT1",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT1/BT1-019_P1.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Dinosaur"
-        ],
-        "playCost": 6,
-        "dp": 6000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Red",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "Groundramon",
-        "number": "BT1-020",
-        "set": "BT1",
-        "rarity": "U",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT1/BT1-020_P1.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Earth Dragon"
-        ],
-        "playCost": 5,
-        "dp": 6000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Red",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gaia Force",
-        "number": "ST1-16",
-        "set": "ST1",
-        "rarity": "U",
-        "type": "Option",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST1/ST1-16_P2.png"
-        ],
-        "effects": [
-            "[Main] Delete 1 of your opponent's Digimon."
-        ],
-        "securityEffects": [
-            "[Security] Activate this card's [Main] effect."
-        ],
-        "playCost": 8
-    },
-    {
-        "name": "Gigimon",
-        "number": "ST7-01",
-        "set": "ST7",
-        "rarity": "U",
-        "type": "Digi-Egg",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-01.png"
-        ],
-        "form": "In-Training",
-        "types": [
-            "Lesser"
-        ],
-        "effects": [
-            "[Your Turn][Once Per Turn] When an opponent's Digimon is deleted, this Digimon gets +2000 DP for the turn."
-        ],
-        "level": 2
-    },
-    {
-        "name": "Agumon",
-        "number": "ST7-02",
-        "set": "ST7",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-02.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Dinosaur"
-        ],
-        "effects": [
-            "[When Attacking] When this Digimon attacks a player, it gets +2000 DP for the turn."
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Guilmon",
-        "number": "ST7-03",
-        "set": "ST7",
-        "rarity": "SR",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-03.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Reptile"
-        ],
-        "effects": [
-            "[Your Turn][Once Per Turn] When an opponent's Digimon is deleted, trigger ??Draw 1??. (Draw 1 card from your deck.)"
-        ],
-        "playCost": 3,
-        "dp": 2000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Biyomon",
-        "number": "ST7-04",
-        "set": "ST7",
-        "rarity": "C",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-04.png"
-        ],
-        "form": "Rookie",
-        "types": [
-            "Bird"
-        ],
-        "playCost": 4,
-        "dp": 3000,
-        "level": 3,
-        "digivolutionRequirements": [
-            {
-                "cost": 0,
-                "from": {
-                    "color": "Red",
-                    "level": 2
-                }
-            }
-        ]
-    },
-    {
-        "name": "Growlmon",
-        "number": "ST7-05",
-        "set": "ST7",
-        "rarity": "R",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-05.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Dark Dragon"
-        ],
-        "effects": [
-            "[Your Turn][Once Per Turn] When an opponent's Digimon is deleted, gain 1 memory."
-        ],
-        "playCost": 4,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Red",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "GeoGreymon",
-        "number": "ST7-06",
-        "set": "ST7",
-        "rarity": "U",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-06.png"
-        ],
-        "form": "Champion",
-        "types": [
-            "Dinosaur"
-        ],
-        "playCost": 6,
-        "dp": 5000,
-        "level": 4,
-        "digivolutionRequirements": [
-            {
-                "cost": 2,
-                "from": {
-                    "color": "Red",
-                    "level": 3
-                }
-            }
-        ]
-    },
-    {
-        "name": "RizeGreymon",
-        "number": "ST7-07",
-        "set": "ST7",
-        "rarity": "U",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-07.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Cyborg"
-        ],
-        "playCost": 7,
-        "dp": 7000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Red",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "WarGrowlmon",
-        "number": "ST7-08",
-        "set": "ST7",
-        "rarity": "R",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-08.png"
-        ],
-        "form": "Ultimate",
-        "types": [
-            "Cyborg"
-        ],
-        "effects": [
-            "[Your Turn][Once Per Turn] When an opponent's Digimon is deleted, this Digimon gains ??Security Attack +1?? for the turn. (This Digimon checks 1 additional security card.)"
-        ],
-        "playCost": 8,
-        "dp": 8000,
-        "level": 5,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Red",
-                    "level": 4
-                }
-            }
-        ]
-    },
-    {
-        "name": "Gallantmon",
-        "number": "ST7-09",
-        "set": "ST7",
-        "rarity": "SR",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-09.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Holy Warrior",
-            "Royal Knight"
-        ],
-        "playCost": 11,
-        "dp": 11000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 3,
-                "from": {
-                    "color": "Red",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "ShineGreymon",
-        "number": "ST7-10",
-        "set": "ST7",
-        "rarity": "R",
-        "type": "Digimon",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-10.png"
-        ],
-        "form": "Mega",
-        "types": [
-            "Light Dragon"
-        ],
-        "playCost": 12,
-        "dp": 12000,
-        "level": 6,
-        "digivolutionRequirements": [
-            {
-                "cost": 4,
-                "from": {
-                    "color": "Red",
-                    "level": 5
-                }
-            }
-        ]
-    },
-    {
-        "name": "Lightning Joust",
-        "number": "ST7-11",
-        "set": "ST7",
-        "rarity": "U",
-        "type": "Option",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-11.png"
-        ],
-        "effects": [
-            "[Main] 1 of your Digimon gets +2000 DP for the turn. Then, if the number of cards in your security stack is less than or equal to your opponent's, 1 of your Digimon gains \uff1cSecurity Attack +1\uff1e for the turn. (This Digimon checks 1 additional security card.)"
-        ],
-        "securityEffects": [
-            "[Security] Add this card to its owner's hand."
-        ],
-        "playCost": 1
-    },
-    {
-        "name": "Atomic Blaster",
-        "number": "ST7-12",
-        "set": "ST7",
-        "rarity": "C",
-        "type": "Option",
-        "colors": [
-            "Red"
-        ],
-        "images": [
-            "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-12.png"
-        ],
-        "effects": [
-            "[Main] Choose any number of your opponent's Digimon whose total DP adds up to 8000 or less and delete them."
-        ],
-        "securityEffects": [
-            "[Security] Activate this card's [Main] effect."
-        ],
-        "playCost": 5
-    }
+	{
+		"name": "Monodramon",
+		"number": "BT1-009",
+		"set": "BT1",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT1/BT1-009_P1.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Mini Dragon"
+		],
+		"playCost": 2,
+		"dp": 3000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "DarkTyrannomon",
+		"number": "BT1-019",
+		"set": "BT1",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT1/BT1-019_P1.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Dinosaur"
+		],
+		"playCost": 6,
+		"dp": 6000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Red",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "Groundramon",
+		"number": "BT1-020",
+		"set": "BT1",
+		"rarity": "U",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT1/BT1-020_P1.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Earth Dragon"
+		],
+		"playCost": 5,
+		"dp": 6000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Red",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "Gaia Force",
+		"number": "ST1-16",
+		"set": "ST1",
+		"rarity": "U",
+		"type": "Option",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST1/ST1-16_P2.png"
+		],
+		"effects": [
+			"[Main] Delete 1 of your opponent's Digimon."
+		],
+		"securityEffects": [
+			"[Security] Activate this card's [Main] effect."
+		],
+		"playCost": 8
+	},
+	{
+		"name": "Gigimon",
+		"number": "ST7-01",
+		"set": "ST7",
+		"rarity": "U",
+		"type": "Digi-Egg",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-01.png"
+		],
+		"form": "In-Training",
+		"types": [
+			"Lesser"
+		],
+		"effects": [
+			"[Your Turn][Once Per Turn] When an opponent's Digimon is deleted, this Digimon gets +2000 DP for the turn."
+		],
+		"level": 2
+	},
+	{
+		"name": "Agumon",
+		"number": "ST7-02",
+		"set": "ST7",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-02.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Dinosaur"
+		],
+		"effects": [
+			"[When Attacking] When this Digimon attacks a player, it gets +2000 DP for the turn."
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Guilmon",
+		"number": "ST7-03",
+		"set": "ST7",
+		"rarity": "SR",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-03.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Reptile"
+		],
+		"effects": [
+			"[Your Turn][Once Per Turn] When an opponent's Digimon is deleted, trigger ??Draw 1??. (Draw 1 card from your deck.)"
+		],
+		"playCost": 3,
+		"dp": 2000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Biyomon",
+		"number": "ST7-04",
+		"set": "ST7",
+		"rarity": "C",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-04.png"
+		],
+		"form": "Rookie",
+		"types": [
+			"Bird"
+		],
+		"playCost": 4,
+		"dp": 3000,
+		"level": 3,
+		"digivolutionRequirements": [
+			{
+				"cost": 0,
+				"from": {
+					"color": "Red",
+					"level": 2
+				}
+			}
+		]
+	},
+	{
+		"name": "Growlmon",
+		"number": "ST7-05",
+		"set": "ST7",
+		"rarity": "R",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-05.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Dark Dragon"
+		],
+		"effects": [
+			"[Your Turn][Once Per Turn] When an opponent's Digimon is deleted, gain 1 memory."
+		],
+		"playCost": 4,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Red",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "GeoGreymon",
+		"number": "ST7-06",
+		"set": "ST7",
+		"rarity": "U",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-06.png"
+		],
+		"form": "Champion",
+		"types": [
+			"Dinosaur"
+		],
+		"playCost": 6,
+		"dp": 5000,
+		"level": 4,
+		"digivolutionRequirements": [
+			{
+				"cost": 2,
+				"from": {
+					"color": "Red",
+					"level": 3
+				}
+			}
+		]
+	},
+	{
+		"name": "RizeGreymon",
+		"number": "ST7-07",
+		"set": "ST7",
+		"rarity": "U",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-07.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Cyborg"
+		],
+		"playCost": 7,
+		"dp": 7000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Red",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "WarGrowlmon",
+		"number": "ST7-08",
+		"set": "ST7",
+		"rarity": "R",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-08.png"
+		],
+		"form": "Ultimate",
+		"types": [
+			"Cyborg"
+		],
+		"effects": [
+			"[Your Turn][Once Per Turn] When an opponent's Digimon is deleted, this Digimon gains ??Security Attack +1?? for the turn. (This Digimon checks 1 additional security card.)"
+		],
+		"playCost": 8,
+		"dp": 8000,
+		"level": 5,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Red",
+					"level": 4
+				}
+			}
+		]
+	},
+	{
+		"name": "Gallantmon",
+		"number": "ST7-09",
+		"set": "ST7",
+		"rarity": "SR",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-09.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Holy Warrior",
+			"Royal Knight"
+		],
+		"playCost": 11,
+		"dp": 11000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 3,
+				"from": {
+					"color": "Red",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "ShineGreymon",
+		"number": "ST7-10",
+		"set": "ST7",
+		"rarity": "R",
+		"type": "Digimon",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-10.png"
+		],
+		"form": "Mega",
+		"types": [
+			"Light Dragon"
+		],
+		"playCost": 12,
+		"dp": 12000,
+		"level": 6,
+		"digivolutionRequirements": [
+			{
+				"cost": 4,
+				"from": {
+					"color": "Red",
+					"level": 5
+				}
+			}
+		]
+	},
+	{
+		"name": "Lightning Joust",
+		"number": "ST7-11",
+		"set": "ST7",
+		"rarity": "U",
+		"type": "Option",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-11.png"
+		],
+		"effects": [
+			"[Main] 1 of your Digimon gets +2000 DP for the turn. Then, if the number of cards in your security stack is less than or equal to your opponent's, 1 of your Digimon gains ＜Security Attack +1＞ for the turn. (This Digimon checks 1 additional security card.)"
+		],
+		"securityEffects": [
+			"[Security] Add this card to its owner's hand."
+		],
+		"playCost": 1
+	},
+	{
+		"name": "Atomic Blaster",
+		"number": "ST7-12",
+		"set": "ST7",
+		"rarity": "C",
+		"type": "Option",
+		"colors": [
+			"Red"
+		],
+		"images": [
+			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/ST7/ST7-12.png"
+		],
+		"effects": [
+			"[Main] Choose any number of your opponent's Digimon whose total DP adds up to 8000 or less and delete them."
+		],
+		"securityEffects": [
+			"[Security] Activate this card's [Main] effect."
+		],
+		"playCost": 5
+	}
 ]
