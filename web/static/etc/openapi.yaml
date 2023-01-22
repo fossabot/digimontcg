@@ -30,6 +30,21 @@ paths:
           in: query
           schema:
             type: string
+        - name: number
+          description: Search by card number
+          in: query
+          schema:
+            type: string
+        - name: set
+          description: Search by card set
+          in: query
+          schema:
+            type: string
+        - name: rarity
+          description: Search by card rarity
+          in: query
+          schema:
+            type: string
         - name: sort
           description: Sort results by a specific field
           in: query
@@ -47,8 +62,8 @@ paths:
           schema:
             type: integer
             default: 1
-        - name: page_size
-          description: Select how many results appear per page
+        - name: size
+          description: Select the size of each page
           in: query
           schema:
             type: integer
