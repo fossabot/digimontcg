@@ -121,12 +121,6 @@ def norm_card(card):
         'images': [card['image_url']],
     }
 
-    # TODO: how to scrape these?
-    # effect: "This card/Digimon is also treated as having [Greymon] in its name."
-    # effect: "The name of this card/Digimon is also treated as [MetalGreymon]."
-#    norm['nameIncludes'] = []
-#    norm['nameTreatedAs'] = []
-
     # fix missing rarity on a few promos
     rarity = config.get('Rarity')
     if not norm['rarity'] and norm['set'] == 'P':
@@ -178,17 +172,11 @@ def norm_card(card):
     if dp:
         dp = int(dp)
         norm['dp'] = dp
-    else:
-        dp = None
 
     level = config.get('Lv.')
     level = norm_level(level)
     if level:
         norm['level'] = level
-
-    # TODO: how to scrape this?
-    # effect: <Ability> (optional rules text)
-#    norm['abilities'] = []
 
     # parse basic digivolve reqs (no DNA or special)
     digi_reqs = []
@@ -220,15 +208,6 @@ def norm_card(card):
 
     if digi_reqs:
         norm['digivolutionRequirements'] = digi_reqs
-
-    # TODO: parse alternate digi reqs
-    # effect: "Digivolve: 0 from [MetalGreymon]"
-
-    # TODO: parse DNA digi reqs
-    # is this data even eluded to in the raw JSON?
-
-    # TODO: parse digixros reqs
-    # check for effect starting with "DigiXros -N"
 
     return norm
 
