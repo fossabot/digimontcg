@@ -311,7 +311,7 @@
 			"X Antibody"
 		],
 		"inheritedEffects": [
-			"[All Turns] When this Digimon has [Greymon] or [Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon’s digivolution cards to prevent it from leaving play."
+			"[All Turns] When this Digimon has [Greymon] or [Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent it from leaving play."
 		],
 		"playCost": 5,
 		"dp": 6000,
@@ -344,7 +344,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] <Blitz> (This Digimon can attack when your opponent has 1 or more memory.)[Your Turn] While this Digimon has [OmniShoutmon] or [X Antibody] in its digivolution cards, this Digimon can also attack your opponent’s unsuspended Digimon."
+			"[When Digivolving] <Blitz> (This Digimon can attack when your opponent has 1 or more memory.)[Your Turn] While this Digimon has [OmniShoutmon] or [X Antibody] in its digivolution cards, this Digimon can also attack your opponent's unsuspended Digimon."
 		],
 		"playCost": 8,
 		"dp": 8000,
@@ -410,7 +410,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] This Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) until the end of your opponent's turn. Then, if this Digimon has [MetalGreymon] or [X Antibody] in its digivolution cards, this Digimon gets +3000 DP until the end of your opponent’s next turn."
+			"[When Digivolving] This Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) until the end of your opponent's turn. Then, if this Digimon has [MetalGreymon] or [X Antibody] in its digivolution cards, this Digimon gets +3000 DP until the end of your opponent's next turn."
 		],
 		"playCost": 8,
 		"dp": 8000,
@@ -444,7 +444,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[All Turns] When a card is removed from your opponent’s security stack, gain 1 memory. [End of Attack][Once Per Turn] If [WarGreymon] or [X Antibody] is in this Digimon’s digivolution cards, delete 1 of your opponent’s Digimon with DP less than or equal to this Digimon’s DP."
+			"[All Turns] When a card is removed from your opponent's security stack, gain 1 memory. [End of Attack][Once Per Turn] If [WarGreymon] or [X Antibody] is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with DP less than or equal to this Digimon's DP."
 		],
 		"playCost": 12,
 		"dp": 12000,
@@ -479,7 +479,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] Delete 1 of your opponent's Digimon with the lowest DP. If no Digimon is deleted by this effect, unsuspend this Digimon. [Your Turn][Once Per Turn] When an opponent’s Digimon is deleted, if [Gallantmon] or [X Antibody] is in this Digimon’s digivolution cards, trash the top card of your opponent's security stack."
+			"[When Digivolving] Delete 1 of your opponent's Digimon with the lowest DP. If no Digimon is deleted by this effect, unsuspend this Digimon. [Your Turn][Once Per Turn] When an opponent's Digimon is deleted, if [Gallantmon] or [X Antibody] is in this Digimon's digivolution cards, trash the top card of your opponent's security stack."
 		],
 		"playCost": 12,
 		"dp": 12000,
@@ -512,7 +512,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] For each Tamer your opponent has in play, suspend 1 of your opponent’s Digimon and gain 1 memory. [All Turns][Once Per Turn] When an opponent’s Digimon with 6000 DP or less becomes suspended, you may delete that Digimon."
+			"[When Digivolving] For each Tamer your opponent has in play, suspend 1 of your opponent's Digimon and gain 1 memory. [All Turns][Once Per Turn] When an opponent's Digimon with 6000 DP or less becomes suspended, you may delete that Digimon."
 		],
 		"playCost": 13,
 		"dp": 13000,
@@ -618,7 +618,7 @@
 			"[Your Turn][Once Per Turn] When you play a blue Tamer, <Draw 1>. (Draw 1 card from your deck.)"
 		],
 		"inheritedEffects": [
-			"[Your Turn][Once Per Turn] When an effect adds a card to your hand, return 1 of your opponent’s level 3 Digimon to its owner’s hand."
+			"[Your Turn][Once Per Turn] When an effect adds a card to your hand, return 1 of your opponent's level 3 Digimon to its owner's hand."
 		],
 		"playCost": 3,
 		"dp": 2000,
@@ -838,7 +838,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] Unsuspend this Digimon. Then, if [WereGarurumon] or [X Antibody] is in this Digimon’s digivolution cards, return 1 of your opponent’s level 4 or lower Digimon to its owner’s hand."
+			"[When Digivolving] Unsuspend this Digimon. Then, if [WereGarurumon] or [X Antibody] is in this Digimon's digivolution cards, return 1 of your opponent's level 4 or lower Digimon to its owner's hand."
 		],
 		"playCost": 8,
 		"dp": 8000,
@@ -870,10 +870,10 @@
 			"Machine"
 		],
 		"effects": [
-			"[Hand][Main] If you have a Digimon with [Justimon] or [Raidenmon] in its name in play, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.[When Digivolving] You may trash 1 Digimon card with [Machine] or [Cyborg] in its traits in your hand to place 1 of your opponent’s level 4 or lower Digimon at the bottom of its owner's deck."
+			"[Hand][Main] If you have a Digimon with [Justimon] or [Raidenmon] in its name in play, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.[When Digivolving] You may trash 1 Digimon card with [Machine] or [Cyborg] in its traits in your hand to place 1 of your opponent's level 4 or lower Digimon at the bottom of its owner's deck."
 		],
 		"inheritedEffects": [
-			"[When Attacking] Return 1 of your opponent’s level 4 or lower Digimon to its owner’s hand."
+			"[When Attacking] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand."
 		],
 		"playCost": 11,
 		"dp": 11000,
@@ -913,7 +913,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Attacking] You may play 1 Digimon card with [Piranimon] in its name from this Digimon’s digivolution cards without paying its memory cost."
+			"[When Attacking] You may play 1 Digimon card with [Piranimon] in its name from this Digimon's digivolution cards without paying its memory cost."
 		],
 		"playCost": 11,
 		"dp": 11000,
@@ -947,7 +947,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] Unsuspend this Digimon, and it gains <Blocker> until the end of your opponent’s turn. (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.) [Your Turn][Once Per Turn] When this Digimon becomes unsuspended, if [MetalGarurumon] or [X Antibody] is in its digivolution cards, return all of your opponent’s Digimon with the lowest level to their owners Ehands."
+			"[When Digivolving] Unsuspend this Digimon, and it gains <Blocker> until the end of your opponent's turn. (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.) [Your Turn][Once Per Turn] When this Digimon becomes unsuspended, if [MetalGarurumon] or [X Antibody] is in its digivolution cards, return all of your opponent's Digimon with the lowest level to their owners' hands."
 		],
 		"playCost": 12,
 		"dp": 12000,
@@ -1008,7 +1008,7 @@
 			"Mammal"
 		],
 		"effects": [
-			"[All Turns] Players can’t play Digimon by effects."
+			"[All Turns] Players can't play Digimon by effects."
 		],
 		"playCost": 3,
 		"dp": 2000,
@@ -1135,7 +1135,7 @@
 			"Holy Beast"
 		],
 		"effects": [
-			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Attacking] 1 of your opponent’s Digimon gets -2000 DP for the turn."
+			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Attacking] 1 of your opponent's Digimon gets -2000 DP for the turn."
 		],
 		"playCost": 5,
 		"dp": 5000,
@@ -1236,7 +1236,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] 1 of your opponent's Digimon gains <Security Attack -1> (This Digimon checks 1 fewer security cards) until the end of your opponent's turn. Then, if [Angewomon] or [X Antibody] is in this Digimon’s digivolution cards and you have 5 or fewer security cards, <Recovery +1 (Deck)>. (Place the top card of your deck on top of your security stack.)"
+			"[When Digivolving] 1 of your opponent's Digimon gains <Security Attack -1> (This Digimon checks 1 fewer security cards) until the end of your opponent's turn. Then, if [Angewomon] or [X Antibody] is in this Digimon's digivolution cards and you have 5 or fewer security cards, <Recovery +1 (Deck)>. (Place the top card of your deck on top of your security stack.)"
 		],
 		"playCost": 8,
 		"dp": 8000,
@@ -1269,7 +1269,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] You may play 1 yellow or red Tamer card from your hand without paying its memory cost. Then, if [RizeGreymon] or [X Antibody] is in this Digimon’s digivolution cards, 1 of your opponent's Digimon gets -2000 DP for the turn for each yellow or red Tamer you have in play. [Your Turn] For each Tamer you have in play, this Digimon gets +1000 DP."
+			"[When Digivolving] You may play 1 yellow or red Tamer card from your hand without paying its memory cost. Then, if [RizeGreymon] or [X Antibody] is in this Digimon's digivolution cards, 1 of your opponent's Digimon gets -2000 DP for the turn for each yellow or red Tamer you have in play. [Your Turn] For each Tamer you have in play, this Digimon gets +1000 DP."
 		],
 		"playCost": 8,
 		"dp": 8000,
@@ -1308,7 +1308,7 @@
 			"Cyborg"
 		],
 		"effects": [
-			"[Hand][Main] If you have a Digimon in play with [Justimon] or [Raidenmon] in its name, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.[When Digivolving] You may trash 1 Digimon card with [Machine] or [Cyborg] in its traits in your hand to have 1 of your opponent’s Digimon get -4000 DP for the turn."
+			"[Hand][Main] If you have a Digimon in play with [Justimon] or [Raidenmon] in its name, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.[When Digivolving] You may trash 1 Digimon card with [Machine] or [Cyborg] in its traits in your hand to have 1 of your opponent's Digimon get -4000 DP for the turn."
 		],
 		"inheritedEffects": [
 			"[When Attacking] 1 of your opponent's Digimon gets -4000 DP for the turn."
@@ -1352,7 +1352,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] If [Magnadramon] or [X Antibody] is in this Digimon’s digivolution cards, all of your opponent’s Digimon and Security Digimon get -1000 DP for the turn for each card in your security stack. [End of Attack][Once Per Turn] You may add the top card of your security stack to your hand to unsuspend this Digimon."
+			"[When Digivolving] If [Magnadramon] or [X Antibody] is in this Digimon's digivolution cards, all of your opponent's Digimon and Security Digimon get -1000 DP for the turn for each card in your security stack. [End of Attack][Once Per Turn] You may add the top card of your security stack to your hand to unsuspend this Digimon."
 		],
 		"playCost": 12,
 		"dp": 12000,
@@ -1387,7 +1387,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[Opponent’s Turn] When an opponent’s Digimon attacks, if a card with [Armor Form] in its traits or [X Antibody] is in this Digimon’s digivolution cards, you may switch the target of attack to this Digimon. [All Turns] When this Digimon would be deleted, you may place the top card of this Digimon on top of your security stack face down to prevent that deletion."
+			"[Opponent's Turn] When an opponent's Digimon attacks, if a card with [Armor Form] in its traits or [X Antibody] is in this Digimon's digivolution cards, you may switch the target of attack to this Digimon. [All Turns] When this Digimon would be deleted, you may place the top card of this Digimon on top of your security stack face down to prevent that deletion."
 		],
 		"playCost": 12,
 		"dp": 11000,
@@ -1488,7 +1488,7 @@
 			"Vegetation"
 		],
 		"effects": [
-			"[All Turns] Players can’t play Digimon by effects."
+			"[All Turns] Players can't play Digimon by effects."
 		],
 		"playCost": 3,
 		"dp": 2000,
@@ -1583,7 +1583,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[All Turns] When this Digimon would be deleted in battle, you may play 1 [Leomon] from this Digimon’s digivolution cards without paying its memory cost."
+			"[All Turns] When this Digimon would be deleted in battle, you may play 1 [Leomon] from this Digimon's digivolution cards without paying its memory cost."
 		],
 		"playCost": 5,
 		"dp": 5000,
@@ -1623,7 +1623,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"Treat this card/Digimon as if it also has [Leomon] in its name. [All Turns] When this Digimon would be deleted in battle, you may play 1 [Leomon] from this Digimon’s digivolution cards without paying its memory cost."
+			"Treat this card/Digimon as if it also has [Leomon] in its name. [All Turns] When this Digimon would be deleted in battle, you may play 1 [Leomon] from this Digimon's digivolution cards without paying its memory cost."
 		],
 		"playCost": 7,
 		"dp": 7000,
@@ -1663,7 +1663,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] If [Okuwamon] or [X Antibody] is in this Digimon’s digivolution cards, suspend 1 of your opponent’s Digimon. Then, if this Digimon is attacking, you may switch the target of attack to 1 of your opponent’s suspended Digimon. [Your Turn] When this Digimon would digivolve into a Digimon with [Insectoid] in its traits, reduce the digivolution cost by 1."
+			"[When Digivolving] If [Okuwamon] or [X Antibody] is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon. Then, if this Digimon is attacking, you may switch the target of attack to 1 of your opponent's suspended Digimon. [Your Turn] When this Digimon would digivolve into a Digimon with [Insectoid] in its traits, reduce the digivolution cost by 1."
 		],
 		"playCost": 8,
 		"dp": 8000,
@@ -1725,7 +1725,7 @@
 			"Cyborg"
 		],
 		"effects": [
-			"[Hand][Main] If you have a Digimon with [Justimon] or [Raidenmon] in its name in play, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.[When Digivolving] You may trash 1 Digimon card with [Machine] or [Cyborg] in its traits in your hand to suspend 1 of your opponent’s Digimon."
+			"[Hand][Main] If you have a Digimon with [Justimon] or [Raidenmon] in its name in play, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.[When Digivolving] You may trash 1 Digimon card with [Machine] or [Cyborg] in its traits in your hand to suspend 1 of your opponent's Digimon."
 		],
 		"inheritedEffects": [
 			"[When Attacking] Suspend 1 of your opponent's Digimon with 5000 DP or less. That Digimon doesn't unsuspend during your opponent's next unsuspend phase."
@@ -1769,7 +1769,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] Suspend 1 of your opponent's Digimon. Then, if this Digimon is attacking, you may switch the target of attack to 1 of your opponent’s suspended Digimon. [Your Turn] This Digimon gets +4000 DP. [End of Attack][Once Per Turn] If [GranKuwagamon] or [X Antibody] is in this Digimon’s digivolution cards, suspend 1 of your opponent’s Digimon and unsuspend this Digimon."
+			"[When Digivolving] Suspend 1 of your opponent's Digimon. Then, if this Digimon is attacking, you may switch the target of attack to 1 of your opponent's suspended Digimon. [Your Turn] This Digimon gets +4000 DP. [End of Attack][Once Per Turn] If [GranKuwagamon] or [X Antibody] is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon and unsuspend this Digimon."
 		],
 		"playCost": 12,
 		"dp": 12000,
@@ -1802,7 +1802,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Attacking] If a card with [Leomon] in its name or [X Antibody] is in this Digimon’s digivolution cards, suspend 1 of your opponent’s Digimon or Tamers. [Your Turn][Once Per Turn] When an opponent’s Digimon or Tamer becomes suspended, unsuspend this Digimon."
+			"[When Attacking] If a card with [Leomon] in its name or [X Antibody] is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon or Tamers. [Your Turn][Once Per Turn] When an opponent's Digimon or Tamer becomes suspended, unsuspend this Digimon."
 		],
 		"playCost": 12,
 		"dp": 12000,
@@ -2267,7 +2267,7 @@
 			"Four Sovereigns"
 		],
 		"effects": [
-			"[When Digivolving] Unsuspend up to 2 Digimon and/or Tamers. Then, gain 1 memory for each of your opponent's unsuspended Digimon and Tamers. [End of Your Turn][Once Per Turn] For every 2 unsuspended Digimon and/or Tamers your opponent has in play, trash 1 card from the top of your opponent’s security stack."
+			"[When Digivolving] Unsuspend up to 2 Digimon and/or Tamers. Then, gain 1 memory for each of your opponent's unsuspended Digimon and Tamers. [End of Your Turn][Once Per Turn] For every 2 unsuspended Digimon and/or Tamers your opponent has in play, trash 1 card from the top of your opponent's security stack."
 		],
 		"playCost": 13,
 		"dp": 13000,
@@ -2482,7 +2482,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] You may trash 1 card with [Dex] or [DeathX] in its name or [X Antibody] in its traits in your hand to gain 1 memory. [When Digivolving] If this Digimon has [Dorugamon] in its digivolution cards or is digivolving from the trash, 1 of your Digimon gains <Blocker> and <Retaliation> until the end of your opponent’s turn."
+			"[When Digivolving] You may trash 1 card with [Dex] or [DeathX] in its name or [X Antibody] in its traits in your hand to gain 1 memory. [When Digivolving] If this Digimon has [Dorugamon] in its digivolution cards or is digivolving from the trash, 1 of your Digimon gains <Blocker> and <Retaliation> until the end of your opponent's turn."
 		],
 		"playCost": 6,
 		"dp": 6000,
@@ -2521,7 +2521,7 @@
 			"Unknown"
 		],
 		"effects": [
-			"[On Play][When Digivolving] You may trash 1 card in your hand. If you trash a purple card, delete 1 of your opponent’s level 3 Digimon. If you trash a yellow card, 1 of your opponent’s Digimon gets -3000 DP for the turn."
+			"[On Play][When Digivolving] You may trash 1 card in your hand. If you trash a purple card, delete 1 of your opponent's level 3 Digimon. If you trash a yellow card, 1 of your opponent's Digimon gets -3000 DP for the turn."
 		],
 		"inheritedEffects": [
 			"[On Deletion] If this Digimon has 2 or more colors, gain 2 memory."
@@ -2596,7 +2596,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] You may trash 1 card with [Dex] or [DeathX] in its name or [X Antibody] in its traits in your hand to gain 1 memory. [When Digivolving] If this Digimon has [DoruGreymon] in its digivolution cards or is digivolving from the trash, delete 1 of your opponent’s level 4 or lower Digimon."
+			"[When Digivolving] You may trash 1 card with [Dex] or [DeathX] in its name or [X Antibody] in its traits in your hand to gain 1 memory. [When Digivolving] If this Digimon has [DoruGreymon] in its digivolution cards or is digivolving from the trash, delete 1 of your opponent's level 4 or lower Digimon."
 		],
 		"playCost": 8,
 		"dp": 8000,
@@ -2709,7 +2709,7 @@
 			"X Antibody"
 		],
 		"effects": [
-			"[When Digivolving] If this Digimon has [Dorugoramon] in its digivolution cards or is digivolving from the trash, delete all of your opponent’s Digimon with the lowest level. [On Deletion] You may play 1 purple or black level 3 Digimon card from your trash without paying its memory cost. If you have 5 or more cards with [Dex] or [DeathX] in their names in your trash, you may play 1 [DeathXmon] from your trash without paying its memory cost instead."
+			"[When Digivolving] If this Digimon has [Dorugoramon] in its digivolution cards or is digivolving from the trash, delete all of your opponent's Digimon with the lowest level. [On Deletion] You may play 1 purple or black level 3 Digimon card from your trash without paying its memory cost. If you have 5 or more cards with [Dex] or [DeathX] in their names in your trash, you may play 1 [DeathXmon] from your trash without paying its memory cost instead."
 		],
 		"playCost": 13,
 		"dp": 13000,
@@ -2789,7 +2789,7 @@
 			"Holy Warrior"
 		],
 		"effects": [
-			"[When Digivolving] For each card with [Mega] in their traits in this Digimon’s digivolution cards, delete 1 of your opponent’s Digimon. Then, place 10 cards from your opponent’s trash at the bottom of their deck in any order. [Start of Your Turn] Trash the top card of this Digimon. If you do, trash the top card of your opponent’s security stack."
+			"[When Digivolving] For each card with [Mega] in their traits in this Digimon's digivolution cards, delete 1 of your opponent's Digimon. Then, place 10 cards from your opponent's trash at the bottom of their deck in any order. [Start of Your Turn] Trash the top card of this Digimon. If you do, trash the top card of your opponent's security stack."
 		],
 		"playCost": 15,
 		"dp": 15000,
@@ -2824,7 +2824,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-084_dummy.jpg"
 		],
 		"effects": [
-			"[Start of Your Turn] If you have 3 or fewer security cards, gain 1 memory. If your opponent has 3 or fewer security cards, gain 1 memory. [Your Turn] When one of your red or yellow Digimon attacks, you may suspend this Tamer to have all of your opponent’s Security Digimon get -2000 DP for the turn."
+			"[Start of Your Turn] If you have 3 or fewer security cards, gain 1 memory. If your opponent has 3 or fewer security cards, gain 1 memory. [Your Turn] When one of your red or yellow Digimon attacks, you may suspend this Tamer to have all of your opponent's Security Digimon get -2000 DP for the turn."
 		],
 		"securityEffects": [
 			"[Security] Play this card without paying its memory cost."
@@ -2844,7 +2844,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-085_dummy.jpg"
 		],
 		"effects": [
-			"[Start of Your Main Phase] If you have 8 or more cards in hand, gain 1 memory. If your opponent has 8 or more cards in hand, gain 1 memory. [Your Turn] When one of your blue or red Digimon becomes unsuspended, you may suspend this Tamer to return 1 of your opponent’s level 3 Digimon to its owner’s hand."
+			"[Start of Your Main Phase] If you have 8 or more cards in hand, gain 1 memory. If your opponent has 8 or more cards in hand, gain 1 memory. [Your Turn] When one of your blue or red Digimon becomes unsuspended, you may suspend this Tamer to return 1 of your opponent's level 3 Digimon to its owner's hand."
 		],
 		"securityEffects": [
 			"[Security] Play this card without paying its memory cost."
@@ -2884,7 +2884,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-087_dummy.jpg"
 		],
 		"effects": [
-			"[Start of Your Main Phase] If you have a level 5 or higher Digimon in play, gain 1 memory. If your opponent has a level 5 or higher Digimon in play, gain 1 memory. [Your Turn] When one of your Digimon digivolves into a yellow or green Digimon, you may suspend this Tamer to have 1 of your opponent’s Digimon get -1000 DP until the end of your opponent’s turn."
+			"[Start of Your Main Phase] If you have a level 5 or higher Digimon in play, gain 1 memory. If your opponent has a level 5 or higher Digimon in play, gain 1 memory. [Your Turn] When one of your Digimon digivolves into a yellow or green Digimon, you may suspend this Tamer to have 1 of your opponent's Digimon get -1000 DP until the end of your opponent's turn."
 		],
 		"securityEffects": [
 			"[Security] Play this card without paying its memory cost."
@@ -2904,7 +2904,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-088_dummy.jpg"
 		],
 		"effects": [
-			"[Start of Your Turn] If you have a suspended Digimon in play, gain 1 memory. If your opponent has a suspended Digimon in play, gain 1 memory. [All Turns] When one of your green or blue Digimon deletes an opponent’s Digimon in battle and survives, you may suspend this Tamer to <Draw 1>. (Draw 1 card from your deck.)"
+			"[Start of Your Turn] If you have a suspended Digimon in play, gain 1 memory. If your opponent has a suspended Digimon in play, gain 1 memory. [All Turns] When one of your green or blue Digimon deletes an opponent's Digimon in battle and survives, you may suspend this Tamer to <Draw 1>. (Draw 1 card from your deck.)"
 		],
 		"securityEffects": [
 			"[Security] Play this card without paying its memory cost."
@@ -2924,7 +2924,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-089_dummy.jpg"
 		],
 		"effects": [
-			"[All Turns] When an opponent’s Digimon becomes unsuspended during a main phase, you may suspend this Tamer to gain 1 memory. [Your Turn] When one of your Digimon digivolves into a black level 6 Digimon, it gains <Blocker> until the end of your opponent’s turn. (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)"
+			"[All Turns] When an opponent's Digimon becomes unsuspended during a main phase, you may suspend this Tamer to gain 1 memory. [Your Turn] When one of your Digimon digivolves into a black level 6 Digimon, it gains <Blocker> until the end of your opponent's turn. (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)"
 		],
 		"securityEffects": [
 			"[Security] Play this card without paying its memory cost."
@@ -3024,7 +3024,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-094_dummy.jpg"
 		],
 		"effects": [
-			"[Main] Choose any number of your opponent’s Digimon whose total DP adds up to 10000 or less and delete them."
+			"[Main] Choose any number of your opponent's Digimon whose total DP adds up to 10000 or less and delete them."
 		],
 		"securityEffects": [
 			"[Security] Activate this card's [Main] effect."
@@ -3064,7 +3064,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-096_dummy.jpg"
 		],
 		"effects": [
-			"[Main] Return 1 of your opponent’s level 4 or lower Digimon to its owner’s hand. Then, if you have a Digimon with [Jellymon] in its name or with [Jellymon] in its digivolution cards, return 1 of your opponent’s Tamers to its owner’s hand."
+			"[Main] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Then, if you have a Digimon with [Jellymon] in its name or with [Jellymon] in its digivolution cards, return 1 of your opponent's Tamers to its owner's hand."
 		],
 		"securityEffects": [
 			"[Security] Activate this card's [Main] effect."
@@ -3084,7 +3084,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-097_dummy.jpg"
 		],
 		"effects": [
-			"When you would use this card, if you have a Digimon with [X Antibody] in its digivolution cards in play, reduce the memory cost of this card by 2. [Main] Return 1 of your opponent’s level 6 or lower Digimon to its owner’s hand. Then, unsuspend 1 of your Digimon with [Garurumon] in its name."
+			"When you would use this card, if you have a Digimon with [X Antibody] in its digivolution cards in play, reduce the memory cost of this card by 2. [Main] Return 1 of your opponent's level 6 or lower Digimon to its owner's hand. Then, unsuspend 1 of your Digimon with [Garurumon] in its name."
 		],
 		"securityEffects": [
 			"[Security] Activate this card's [Main] effect."
@@ -3124,7 +3124,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-099_dummy.jpg"
 		],
 		"effects": [
-			"[Main] You may play 1 yellow or red Tamer card from your hand without paying its memory cost. Then, 1 of your opponent’s Digimon gets -3000 DP for the turn for each yellow and/or red Tamer you have in play."
+			"[Main] You may play 1 yellow or red Tamer card from your hand without paying its memory cost. Then, 1 of your opponent's Digimon gets -3000 DP for the turn for each yellow and/or red Tamer you have in play."
 		],
 		"securityEffects": [
 			"[Security] Activate this card's [Main] effect."
@@ -3144,7 +3144,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-100_dummy.jpg"
 		],
 		"effects": [
-			"[Main] Suspend 1 of your opponent's Digimon. Then, unsuspend 1 of your Digimon with [Insectoid] in its traits, and it may attack your opponent’s Digimon."
+			"[Main] Suspend 1 of your opponent's Digimon. Then, unsuspend 1 of your Digimon with [Insectoid] in its traits, and it may attack your opponent's Digimon."
 		],
 		"securityEffects": [
 			"[Security] Suspend 1 of your opponent's Digimon or Tamers."
@@ -3164,7 +3164,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-101_dummy.jpg"
 		],
 		"effects": [
-			"[Main] Return 1 of your opponent's suspended Digimon and 1 of their suspended Tamers to the bottom of their owners Edecks."
+			"[Main] Return 1 of your opponent's suspended Digimon and 1 of their suspended Tamers to the bottom of their owners' decks."
 		],
 		"securityEffects": [
 			"[Security] Activate this card's [Main] effect."
@@ -3184,10 +3184,10 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-102_dummy.jpg"
 		],
 		"effects": [
-			"[Main] You may trash 1 card with [Cyborg] or [Machine] in its traits in your hand to have all of your level 6 Digimon with [Machine] in their traits gain <Rush> (This Digimon can attack the turn it comes into play) and “[On Play] If this Digimon has a digivolution card, <Blitz>. (This Digimon can attack when your opponent has 1 or more memory.) Efor the turn."
+			"[Main] You may trash 1 card with [Cyborg] or [Machine] in its traits in your hand to have all of your level 6 Digimon with [Machine] in their traits gain <Rush> (This Digimon can attack the turn it comes into play) and \"[On Play] If this Digimon has a digivolution card, <Blitz>. (This Digimon can attack when your opponent has 1 or more memory.)' for the turn."
 		],
 		"securityEffects": [
-			"[Security] You may trash 1 Digimon card with [Cyborg] or [Machine] in its traits in your hand to delete 1 of your opponent窶冱 Digimon whose play cost is less than or equal to the trashed card窶冱 play cost."
+			"[Security] You may trash 1 Digimon card with [Cyborg] or [Machine] in its traits in your hand to delete 1 of your opponent' Digimon whose play cost is less than or equal to the trashed card' play cost."
 		],
 		"playCost": 0
 	},
@@ -3204,7 +3204,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-103_dummy.jpg"
 		],
 		"effects": [
-			"[Main] Until the end of your opponent’s turn, your opponent’s Digimon with play costs of 7 or less can’t attack players, and cards can’t be added to security stacks by your opponent’s effects."
+			"[Main] Until the end of your opponent's turn, your opponent's Digimon with play costs of 7 or less can't attack players, and cards can't be added to security stacks by your opponent's effects."
 		],
 		"securityEffects": [
 			"[Security] Activate this card's [Main] effect."
@@ -3247,7 +3247,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-105_dummy.jpg"
 		],
 		"effects": [
-			"[Main] Reveal the top 3 cards of your deck. Choose 1 Digimon card with [X Antibody] in its traits among them, and delete 1 of your opponent’s Digimon whose play cost is less than or equal to the chosen card's play cost. Trash the revealed cards. Then, place 1 card with [X Antibody] in its traits from your trash under 1 of your Digimon with [X Antibody] in its traits as its bottom digivolution card."
+			"[Main] Reveal the top 3 cards of your deck. Choose 1 Digimon card with [X Antibody] in its traits among them, and delete 1 of your opponent's Digimon whose play cost is less than or equal to the chosen card's play cost. Trash the revealed cards. Then, place 1 card with [X Antibody] in its traits from your trash under 1 of your Digimon with [X Antibody] in its traits as its bottom digivolution card."
 		],
 		"securityEffects": [
 			"[Security] Activate this card's [Main] effect."
@@ -3290,7 +3290,7 @@
 			"https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-107_dummy.jpg"
 		],
 		"effects": [
-			"[Main] Trash up to 3 cards in your hand. For each card trashed by this effect, <De-Digivolve 1> 1 of your opponent's Digimon. (Trash 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards.) Then, delete 1 of your opponent’s level 4 or lower Digimon."
+			"[Main] Trash up to 3 cards in your hand. For each card trashed by this effect, <De-Digivolve 1> 1 of your opponent's Digimon. (Trash 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards.) Then, delete 1 of your opponent's level 4 or lower Digimon."
 		],
 		"securityEffects": [
 			"[Security] Activate this card's [Main] effect."
@@ -3417,7 +3417,7 @@
 			"X Program"
 		],
 		"effects": [
-			"When you would play this card, reduce its memory cost by 3 for each Digimon and Tamer your opponent has in play. [On Play][When Digivolving] <De-Digivolve 1> all of your opponent’s Digimon. Then, delete all of your opponent’s level 4 or lower Digimon. [End of Opponent’s Turn][Once Per Turn] Delete all of your opponent's Digimon with the lowest play cost."
+			"When you would play this card, reduce its memory cost by 3 for each Digimon and Tamer your opponent has in play. [On Play][When Digivolving] <De-Digivolve 1> all of your opponent's Digimon. Then, delete all of your opponent's level 4 or lower Digimon. [End of Opponent's Turn][Once Per Turn] Delete all of your opponent's Digimon with the lowest play cost."
 		],
 		"playCost": 20,
 		"dp": 15000,

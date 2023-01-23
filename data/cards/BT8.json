@@ -142,9 +142,6 @@
 		"types": [
 			"Mammal"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 2,
 		"dp": 3000,
 		"level": 3,
@@ -213,9 +210,6 @@
 		],
 		"effects": [
 			"[On Play] Reveal the top 4 cards of your deck. Add 1 2-color red card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 3,
 		"dp": 2000,
@@ -338,9 +332,6 @@
 		"effects": [
 			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Attacking] This Digimon gets +3000 DP for the turn."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 5,
 		"dp": 5000,
 		"level": 4,
@@ -373,9 +364,6 @@
 		"effects": [
 			"[When Digivolving] <Blitz> (This Digimon can attack when your opponent has 1 or more memory.)"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 5,
 		"dp": 6000,
 		"level": 4,
@@ -404,9 +392,6 @@
 		"form": "Ultimate",
 		"types": [
 			"Flame"
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 6,
 		"dp": 7000,
@@ -522,9 +507,6 @@
 			"Cyborg",
 			"X-Antibody"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 10,
 		"dp": 13000,
 		"level": 6,
@@ -565,9 +547,6 @@
 		"effects": [
 			"[Your Turn] This Digimon can also attack your opponent's unsuspended Digimon."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 12,
 		"dp": 11000,
 		"level": 6,
@@ -600,9 +579,6 @@
 		],
 		"effects": [
 			"[When Digivolving] Your opponent chooses 1 of their Digimon. Delete all Digimon other than this Digimon and your opponent's chosen Digimon. For each Digimon deleted by this effect, gain 1 memory.[Your Turn] When an opponent's Digimon is deleted, this Digimon gains <Security Attack +1> for the turn for each of your opponent's Digimon deleted."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 13,
 		"dp": 13000,
@@ -675,9 +651,6 @@
 		"effects": [
 			"[On Play] Reveal the top 4 cards of your deck. Add 1 2-color blue card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 3,
 		"dp": 2000,
 		"level": 3,
@@ -717,9 +690,6 @@
 		"effects": [
 			"[On Play] Trash the top digivolution card of 1 of your opponent's Digimon."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 3,
 		"dp": 2000,
 		"level": 3,
@@ -751,9 +721,6 @@
 		],
 		"effects": [
 			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Digivolving] Trash the bottom digivolution card of 1 of your opponent's Digimon. Then, 1 of your opponent's Digimon with no digivolution cards gets -3000 DP for the turn."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 4,
 		"dp": 4000,
@@ -869,9 +836,6 @@
 		"effects": [
 			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Attacking] Delete 1 of your opponent's level 3 Digimon."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 5,
 		"dp": 5000,
 		"level": 4,
@@ -900,9 +864,6 @@
 		"form": "Ultimate",
 		"types": [
 			"Ancient Crustacean"
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 7,
 		"dp": 8000,
@@ -935,9 +896,6 @@
 		],
 		"effects": [
 			"[All Turns] When your opponent plays a level 5 or higher Digimon, gain 1 memory and <Draw 1>. (Draw 1 card from your deck.)"
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 7,
 		"dp": 7000,
@@ -1003,9 +961,6 @@
 		"types": [
 			"Cyborg"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 10,
 		"dp": 13000,
 		"level": 6,
@@ -1045,9 +1000,6 @@
 		"effects": [
 			"[When Digivolving] Trash the top digivolution card of 1 of your opponent's Digimon. Then, return 1 of your opponent's Digimon with no digivolution cards to its owner's hand.[Opponent's Turn] All of your opponent's Digimon gain \"[When Attacking] Trash the bottom digivolution card of this Digimon.\""
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 11,
 		"dp": 12000,
 		"level": 6,
@@ -1081,9 +1033,6 @@
 		"effects": [
 			"[When Digivolving] Return 1 of your opponent's Digimon with 10000 DP or less to its owner's hand.[When Attacking][Once Per Turn] If a blue card is in this Digimon's digivolution cards, unsuspend 1 of your Digimon. If a green card is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 12,
 		"dp": 13000,
 		"level": 6,
@@ -1116,9 +1065,6 @@
 		],
 		"effects": [
 			"[On Play] Reveal the top 4 cards of your deck. Add 1 2-color yellow card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 3,
 		"dp": 2000,
@@ -1155,9 +1101,6 @@
 		"form": "Rookie",
 		"types": [
 			"Mammal"
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 3,
 		"dp": 4000,
@@ -1313,9 +1256,6 @@
 		"effects": [
 			"<Blocker><Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Digivolving] Unsuspend this Digimon, and it gets +2000 DP until the end of your opponent's next turn for each card with [Armor Form] in its traits in your trash."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 7,
 		"dp": 7000,
 		"level": 4,
@@ -1356,9 +1296,6 @@
 		"effects": [
 			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Digivolving] Suspend 1 of your opponent's Digimon for each Tamer you have in play. Then, up to 3 of your opponent's suspended Digimon get -5000 DP for the turn."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 6,
 		"dp": 6000,
 		"level": 4,
@@ -1398,9 +1335,6 @@
 		"effects": [
 			"[When Digivolving] You may trash 1 card in your hand to treat this Digimon as also having the colors of the trashed card for the turn. Then, if this Digimon has 2 or more colors, <Draw 2>. (Draw 2 cards from your deck.)"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 6,
 		"dp": 7000,
 		"level": 5,
@@ -1429,9 +1363,6 @@
 		"form": "Ultimate",
 		"types": [
 			"Mysterious Beast"
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 7,
 		"dp": 9000,
@@ -1515,9 +1446,6 @@
 		"effects": [
 			"When you would play this card from your hand, you may delete 1 of your purple [Cherubimon] to reduce this card's play cost by 8.[On Play][When Digivolving] For each Tamer you have in play, activate the effect below.・1 of your opponent's Digimon gets <Security Attack -2> until the end of your opponent's next turn. (This Digimon checks 2 fewer security cards.)"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 11,
 		"dp": 12000,
 		"level": 6,
@@ -1559,9 +1487,6 @@
 		"effects": [
 			"[When Attacking] You may trash the top card of your security stack to gain 2 memory.[Your Turn][Once Per Turn] When one of your other Digimon digivolves, you may unsuspend it."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 12,
 		"dp": 11000,
 		"level": 6,
@@ -1598,9 +1523,6 @@
 		"types": [
 			"Mutant"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 2,
 		"dp": 3000,
 		"level": 3,
@@ -1632,9 +1554,6 @@
 		],
 		"effects": [
 			"[On Play] You may reveal the top 5 cards of your deck. Add 1 card with [Gargomon] or [Rapidmon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 3,
 		"dp": 2000,
@@ -1700,9 +1619,6 @@
 		"effects": [
 			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Digivolving] 1 of your opponent's Digimon with <Blocker> can't attack or block until the end of your opponent's next turn."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 4,
 		"dp": 4000,
 		"level": 4,
@@ -1734,9 +1650,6 @@
 		],
 		"effects": [
 			"[Main] You may suspend this Digimon to reveal the top 3 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 4,
 		"dp": 3000,
@@ -1806,9 +1719,6 @@
 		"effects": [
 			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Attacking] 1 of your opponent's suspended Digimon gets -3000 DP for the turn."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 5,
 		"dp": 5000,
 		"level": 4,
@@ -1837,9 +1747,6 @@
 		"form": "Champion",
 		"types": [
 			"Beast"
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 5,
 		"dp": 5000,
@@ -1872,9 +1779,6 @@
 		],
 		"effects": [
 			"<Armor Purge> (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion.)[When Digivolving] Suspend 1 of your opponent's level 4 or lower Digimon."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 5,
 		"dp": 5000,
@@ -1975,9 +1879,6 @@
 		"types": [
 			"Dinosaur"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 10,
 		"dp": 13000,
 		"level": 6,
@@ -2018,9 +1919,6 @@
 		"effects": [
 			"[Opponent's Turn] While all of your Digimon are suspended, your opponent can't use Option cards.[Your Turn] When this Digimon becomes unsuspended during your unsuspend phase, trash the top card of your opponent's security stack."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 12,
 		"dp": 12000,
 		"level": 6,
@@ -2052,9 +1950,6 @@
 		],
 		"effects": [
 			"[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Greymon] in its name and 1 card with [Dragonkin] in its traits among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 3,
 		"dp": 2000,
@@ -2094,9 +1989,6 @@
 		],
 		"effects": [
 			"[All Turns] Players can't ignore digivolution requirements."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 3,
 		"dp": 3000,
@@ -2167,9 +2059,6 @@
 		"effects": [
 			"The name of this card/Digimon is also treated as [Mamemon]."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 4,
 		"dp": 6000,
 		"level": 4,
@@ -2201,9 +2090,6 @@
 		],
 		"effects": [
 			"The name of this card/Digimon is also treated as [SkullKnightmon] and [DeadlyAxemon].[When Digivolving] This Digimon gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon) and <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) until the end of your opponent's next turn."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 4,
 		"dp": 5000,
@@ -2316,9 +2202,6 @@
 		"effects": [
 			"[When Digivolving] You may return up to 4 Digimon cards with [Mamemon] in their names from your hand and/or trash to the top of your deck in any order. If you return 3 or more cards with this effect, <De-Digivolve 1> 1 of your opponent's Digimon. (Trash 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards.)"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 6,
 		"dp": 7000,
 		"level": 5,
@@ -2430,9 +2313,6 @@
 		"effects": [
 			"[When Digivolving] You may reveal the top 3 cards of your deck. For each of your opponent's Digimon, you may play 1 Digimon card with [Mamemon] in its name and a memory cost of 10 or less among the revealed cards without paying its memory cost. Trash the remaining cards.[All Turns] While you have another Digimon with [Mamemon] in its name in play, this Digimon gains <Security Attack +1>. (This Digimon checks 1 additional security card.)"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 11,
 		"dp": 11000,
 		"level": 6,
@@ -2503,9 +2383,6 @@
 		"effects": [
 			"[When Digivolving] If this Digimon has a red digivolution card, choose any number of your opponent's Digimon. If this Digimon has a black digivolution card, choose any number of your opponent's Tamers. The chosen cards' play costs must add up to 6 or less. Delete the chosen cards.[All Turns][Once Per Turn] When an opponent's Digimon is deleted, unsuspend this Digimon."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 12,
 		"dp": 12000,
 		"level": 6,
@@ -2545,9 +2422,6 @@
 		"effects": [
 			"[All Turns] Players can't reduce play costs."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 3,
 		"dp": 3000,
 		"level": 3,
@@ -2580,9 +2454,6 @@
 		"effects": [
 			"[On Play] Reveal the top 3 cards of your deck. Add 1 Tamer card among them to your hand, and trash 1 purple Digimon card among them. Place the remaining cards at the bottom of your deck in any order."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 3,
 		"dp": 2000,
 		"level": 3,
@@ -2611,9 +2482,6 @@
 		"form": "Rookie",
 		"types": [
 			"Vegetation"
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 3,
 		"dp": 4000,
@@ -2718,9 +2586,6 @@
 		"effects": [
 			"<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.)"
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 5,
 		"dp": 4000,
 		"level": 4,
@@ -2791,9 +2656,6 @@
 		"form": "Ultimate",
 		"types": [
 			"Wizard"
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 6,
 		"dp": 7000,
@@ -2940,9 +2802,6 @@
 		"effects": [
 			"[When Digivolving] If this Digimon has a purple card in its digivolution cards, delete 1 of your opponent's level 4 or lower Digimon. If this Digimon has a yellow card in its digivolution cards, <Recovery +1 (Deck)>. (Place the top card of your deck on top of your security stack.)[On Deletion] You may play 1 purple or yellow level 4 or lower Digimon card from your trash without paying its memory cost."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 12,
 		"dp": 12000,
 		"level": 6,
@@ -2983,9 +2842,6 @@
 		"effects": [
 			"[On Play] If there are 5 or more cards with [Myotismon] in their names in your trash, delete 1 of your opponent's unsuspended Digimon and trash the top card of your opponent's security stack.[When Digivolving] Trash the top 5 cards of your deck. Then, if there's a card with [Myotismon] in its name in your trash, gain 1 memory."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 13,
 		"dp": 12000,
 		"level": 6,
@@ -3018,9 +2874,6 @@
 		],
 		"effects": [
 			"[When Digivolving] You may place 1 level 5 or lower Digimon card from your trash under this Digimon as its bottom digivolution card. Then, up to 4 of your opponent's Digimon get -1000 DP for each of this Digimon's colors until the end of your opponent's next turn.[Your Turn] This Digimon is treated as also having the colors of its digivolution cards. While this Digimon has 4 or more colors, it gets +4000 DP."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 8,
 		"dp": 8000,
@@ -3582,9 +3435,6 @@
 		"effects": [
 			"[When Digivolving] Trash the top 2 cards of your deck for each of your opponent's Digimon in play. If you trash 4 or more cards with this effect, you may play 1 level 5 or lower purple Digimon card from your trash without paying its memory cost.[When Attacking][Once Per Turn] For every 10 cards in your trash, trash the top 3 cards of your opponent's deck, and this Digimon gets +3000 DP for the turn."
 		],
-		"inheritedEffects": [
-			"－"
-		],
 		"playCost": 12,
 		"dp": 11000,
 		"level": 6,
@@ -3617,9 +3467,6 @@
 		],
 		"effects": [
 			"When one of your Digimon would digivolve into this card in your hand, you may return 1 white level 7 Digimon card from your trash to the bottom of your deck to reduce the digivolution cost by 4.[When Digivolving][When Attacking] You may return 1 2-color card from this Digimon's digivolution cards to the bottom of its owner's deck to trash all of the digivolution cards of 1 of your opponent's Digimon. Then, return all of your opponent's Digimon with no digivolution cards to the bottom of their owners' decks in any order."
-		],
-		"inheritedEffects": [
-			"－"
 		],
 		"playCost": 15,
 		"dp": 16000,

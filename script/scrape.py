@@ -1,5 +1,6 @@
 import argparse
 from concurrent.futures import ThreadPoolExecutor
+import html
 from itertools import groupby
 import json
 import os
@@ -75,15 +76,19 @@ def norm_effects(effects):
         return []
 
     effects = effects.strip()
-    if not effects or effects == '-':
+    if not effects or effects in ['-', '\u2015', '\uff0d']:
         return []
 
     reps = [
-        ('&lt;', '<'),
-        ('&gt;', '>'),
+        ('\u2001E', '\' '),
+        ('\u2019', '\''),
+        ('\u201c', '"'),
+        ('\u201c', '"'),
+        ('\u7ab6\u51b1', '\''),
         ('\r\n', ''),
     ]
 
+    effects = html.unescape(effects)
     for a, b in reps:
         effects = effects.replace(a, b)
 
