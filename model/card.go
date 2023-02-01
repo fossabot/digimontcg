@@ -4,8 +4,6 @@ import (
 	"encoding/json"
 )
 
-type Effect string
-
 type DigivolveCost struct {
 	Cost json.Number   `json:"cost,omitempty"`
 	From DigivolveFrom `json:"from,omitempty"`
@@ -55,9 +53,9 @@ type Card struct {
 	Form                        string             `json:"form,omitempty"`
 	Attributes                  []string           `json:"attributes,omitempty"`
 	Types                       []string           `json:"types,omitempty"`
-	Effects                     []Effect           `json:"effects,omitempty"`
-	InheritedEffects            []Effect           `json:"inheritedEffects,omitempty"`
-	SecurityEffects             []Effect           `json:"securityEffects,omitempty"`
+	Effects                     []string           `json:"effects,omitempty"`
+	InheritedEffects            []string           `json:"inheritedEffects,omitempty"`
+	SecurityEffects             []string           `json:"securityEffects,omitempty"`
 	Cost                        json.Number        `json:"cost,omitempty"`
 	PlayCost                    json.Number        `json:"playCost,omitempty"`
 	DP                          json.Number        `json:"dp,omitempty"`

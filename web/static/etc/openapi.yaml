@@ -45,6 +45,41 @@ paths:
           in: query
           schema:
             type: string
+        - name: type
+          description: Search by card type
+          in: query
+          schema:
+            type: string
+        - name: color
+          description: Search by card color
+          in: query
+          schema:
+            type: string
+        - name: trait
+          description: Search by card trait
+          in: query
+          schema:
+            type: string
+        - name: effect
+          description: Search by card effect
+          in: query
+          schema:
+            type: string
+        - name: level
+          description: Search by digimon level
+          in: query
+          schema:
+            type: integer
+        - name: cost
+          description: Search by card cost
+          in: query
+          schema:
+            type: integer
+        - name: dp
+          description: Search by digimon DP
+          in: query
+          schema:
+            type: integer
         - name: sort
           description: Sort results by a specific field
           in: query
