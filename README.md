@@ -1,4 +1,6 @@
 # digimontcg
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftheandrew168%2Fdigimontcg.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftheandrew168%2Fdigimontcg?ref=badge_shield)
+
 They are the champions
 
 ## Setup
@@ -23,3 +25,7 @@ Unit and integration tests can be ran after starting the aforementioned services
 ```
 make test
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftheandrew168%2Fdigimontcg.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftheandrew168%2Fdigimontcg?ref=badge_large)
